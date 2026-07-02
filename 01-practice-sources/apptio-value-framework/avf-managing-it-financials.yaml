@@ -1,0 +1,74 @@
+# Apptio Value Framework (AVF) — capturado manualmente por Armando Donado desde
+# https://community.ibm.com/community/user/apptiocommunity/apptio-value-framework
+# (sitio con acceso autenticado y robots.txt restrictivo; contenido transcrito, no scrapeado)
+# STATUS: en construccion, se ira ampliando solution area por solution area.
+
+solution_areas:
+  - id: managing-it-financials
+    label: "Managing IT Financials"
+    problem_statement: >
+      Many organizations struggle to track their IT spending due to a lack of understanding of
+      how labor (both internal and external), vendor relationships, assets, and investments
+      impact the cost of technology services. This lack of visibility often leads to the use of
+      multiple spreadsheets by different user groups, poor communication, and continuous
+      underestimation or overestimation of effort and budget. As a result, organizations tend to
+      react to IT spending issues, rather than proactively managing them. This, in turn, leads to
+      sub-optimal IT service delivery that isn't aligned with strategic business needs,
+      potentially resulting in unsustainable IT costs.
+    apptio_solution: >
+      Apptio Costing Standard Financials provides the platform to capture IT spend at a detailed
+      level while enabling both summarized and detail views for both IT decision makers and end
+      users. Additionally, the use of a consistent taxonomy in comparing cost to both the
+      original budget and the latest forecasts is a critical component of what Apptio Costing
+      Standard Financials bring to the table. The ability for all personas to view the same
+      data, in a consistent way, every month, ensures trust in the reporting while providing
+      actionable insights, and trend tracking. Hence, users have confidence in the decisions
+      required to fund the needs of the business in an agile way to deliver IT services at the
+      right place, right time, at the right price, and in line with the organization's strategic
+      needs. The ability to analyze this data and get insights empowers IT leaders to make key
+      decisions that will ensure IT services are delivered in an optimized manner and at a
+      sustainable cost.
+    mapped_product: apptio-costing-standard
+    maturity_categories:
+      - category: "Understand IT spend"
+        maturity_level: foundational
+        description: >
+          Ensure all relevant IT personnel understand how they are investing in delivering of
+          IT services to the business units and end users.
+        use_cases:
+          - id: U1028
+            text: "View financial reports to get a high-level understanding of what is being spent and where"
+            usage_count_note: "9 (contador de uso mostrado en la UI, significado exacto por confirmar)"
+            kpis:
+              - {id: K1128, type: customer_specific, label: "% split of actual spend by account group/cost pool", definition: "This is the actual IT spend categorized by account group or cost pool", measure: "Overall IT spend, Percentage of IT spend attributed to account group or cost pool", reports: ["Customer Specific Report"]}
+              - {id: K1129, type: customer_specific, label: "strategic vs non-strategic spend", definition: "This is the actual IT spend split into Strategic vs non-strategic spend", measure: "Overall IT spend, Percentage of IT spend attributed to Strategic Spend, Percentage of IT spend attributed to non-Strategic spend", reports: ["Customer Specific Report"]}
+              - {id: K1130, type: customer_specific, label: "% capital expenditure vs % operational expenditure", definition: "This is the actual IT expenditure split into capital vs operational expenditure", measure: "Overall IT expenditure, Percentage of IT spend attributed to Capex, Percentage of IT spend attributed to Opex", reports: ["Customer Specific Report"]}
+              - {id: K1131, type: predefined, label: "annual trends in actual IT spend", definition: "This is the annual view of actual IT spend trends", measure: "Annual IT spend, Number of years trend is being observed", reports: ["Financial Review - Spend Analysis"]}
+              - {id: K1132, type: predefined, label: "annual trends in IT budget", definition: "This is the annual view of actual IT budget trends", measure: "Annual IT budget, Number of years budget is being observed", reports: ["Financial Review - FY Outlook"]}
+          - id: U1029
+            text: "Access financial results in a consistent way every month using a common taxonomy"
+            usage_count_note: "4"
+            kpis:
+              - {id: K1133, type: predefined, label: "Spend by cost center, account code, cost pools and resource towers", definition: "This is the overall IT Spend split by cost center, account code, cost pools and resource towers", measure: "Overall IT spend, IT Spend for each cost center, IT Spend for each account code, IT Spend for each cost pool and IT Spend for each resource tower", reports: ["Financial Analysis - Tower report instead of financials"]}
+          - id: U1030
+            text: "Collate and review details of IT spend to gain insight on IT usage and spend by groups of users across services, vendors and applications in order to drive cost optimization"
+            usage_count_note: "3"
+            kpis:
+              # STATUS: KPI IDs y definiciones completas pendientes -- solo capturados los labels
+              # visibles en el listado de use case; falta la vista de detalle (como la que si
+              # tenemos para K1128-K1133) para cada uno de estos.
+              - {id: null, type: customer_specific, label: "Usage by IT leader's vs end users, standard monthly reporting (# of configured and used reports as well as downloaded reports)", definition: null, measure: null, reports: []}
+              - {id: null, type: customer_specific, label: "# of datalink downloads per month", definition: null, measure: null, reports: []}
+              - {id: null, type: customer_specific, label: "% spend split by IT service", definition: null, measure: null, reports: []}
+              - {id: null, type: predefined, label: "% breakdown of spend by service or vendor", definition: null, measure: null, reports: []}
+              - {id: null, type: customer_specific, label: "% breakdown of spend by labor resource type", definition: null, measure: null, reports: []}
+              - {id: null, type: customer_specific, label: "IT spending per employee, per user, and per device/app", definition: null, measure: null, reports: []}
+              - {id: null, type: predefined, label: "month on month IT budget trend", definition: null, measure: null, reports: []}
+      - category: "Manage IT spend"
+        maturity_level: foundational
+        description: null  # STATUS: pendiente, aun no capturado
+        use_cases: []
+      - category: "Optimize IT spend"
+        maturity_level: intermediate
+        description: null  # STATUS: pendiente, aun no capturado
+        use_cases: []
