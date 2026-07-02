@@ -107,8 +107,7 @@ products:
       modelado subyacente (incluye Datalink) que viene incluida dentro de las ediciones
       "Standard" de varios productos Apptio.
     bundled_within:
-      confirmed: [apptio-costing-standard, apptio-billing-standard]
-      to_confirm: [apptio-planning]
+      confirmed: [apptio-costing-standard, apptio-billing-standard, apptio-planning]
     key_constraint: >
       Las ediciones "Essentials" (Costing Essentials, Billing Essentials) NO incluyen acceso
       a TBM Studio para el cliente -- ver key_constraint en esas entradas.
@@ -116,3 +115,16 @@ products:
       Al conversar con un cliente sobre TBM Studio, la pregunta relevante no es "¿quieres
       comprar TBM Studio?" sino "¿tu edicion (Standard) ya lo incluye, o necesitas migrar
       desde Essentials para tener acceso?"
+  - id: apptio-planning
+    display_name: "IBM Apptio Planning"
+    vendor: "IBM (ex-Apptio)"
+    practices: [tbm]
+    doc_source: SSKZJE8
+    tier: full
+    positioning: >
+      Producto de planeacion, presupuesto y forecast de TI dentro de la suite Apptio.
+      Incluye TBM Studio como plataforma de modelado subyacente (confirmado).
+    key_constraint: null
+    upgrade_path: null
+    mutually_exclusive_with: []
+    includes_platform: [apptio-tbm-studio]
