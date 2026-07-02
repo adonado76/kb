@@ -1,0 +1,53 @@
+---
+source_system: "apptio-tbm-studio"
+practice: "tbm"
+language: "en"
+doc_type: "studio"
+title: "GetReportName function"
+breadcrumb:
+  - "TBM Studio"
+  - "Reference"
+  - "Formulas and functions"
+source_path: "studio/formulas-and-functions/functions/getreportname.html"
+images: []
+capability_ids: []
+last_updated: "2026-06-18"
+summary: ""
+---
+# GetReportName function
+
+**Applies to**: TBM Studio 12.0 and later
+
+Use this function to dynamically get the name of the report that you are using.
+
+## Where to use
+
+This function can be used in:
+
+- Dynamic text
+
+Use to dynamically get the name of the report that you are using.
+
+For example, you can combine with `evalWiki()` to define a standard header in a
+data set and use the GetReportName function to get the name of the current report.
+
+## Syntax
+
+`GetReportName()`
+
+## Arguments
+
+There are no arguments.
+
+## Return type
+
+Text
+
+## Example
+
+`GetReportName()`
+
+See also:
+
+1. [GetReportPath](getreportpath.htm "(Opens in a new tab or window)")
+2. [EvalWiki](evalwiki.htm "(Opens in a new tab or window)")

@@ -1,0 +1,32 @@
+---
+source_system: "apptio-tbm-studio"
+practice: "tbm"
+language: "en"
+doc_type: "studio"
+title: "Driver Configuration Options"
+breadcrumb:
+  - "TBM Studio"
+  - "Reference"
+  - "Model Studio Reference"
+  - "Drivers"
+source_path: "studio/new-uc/reference/model-studio-reference/driver-config-option.html"
+images: []
+capability_ids: []
+last_updated: "2026-06-18"
+summary: ""
+---
+# Driver Configuration Options
+
+**Complete Driver Parameters**
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| **Parameter** | **Required** | **Values** | **Description** |
+| Add To (Metrics) | Yes | Cost, Budget, Forecast, Custom | Which metrics receive this driver’s value |
+| Using (Type) | Yes | Column, Metric, Formula | How the value is determined |
+| Column | Conditional | Column names from table | Required when Using = Column |
+| Metric | Conditional | Available metrics | Required when Using = Metric |
+| Formula | Conditional | Valid formula expression | Required when Using = Formula |
+| Notes | No | Free text | Documentation for maintainability |
+
+**Parent topic:** [Drivers](../../../../studio/new-uc/reference/model-studio-reference/drivers.html)

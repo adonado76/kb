@@ -1,0 +1,56 @@
+---
+source_system: "apptio-tbm-studio"
+practice: "tbm"
+language: "en"
+doc_type: "studio"
+title: "Rand function"
+breadcrumb:
+  - "TBM Studio"
+  - "Reference"
+  - "Formulas and functions"
+source_path: "studio/formulas-and-functions/functions/rand.html"
+images: []
+capability_ids: []
+last_updated: "2026-06-18"
+summary: ""
+---
+# Rand function
+
+Generates a random decimal number between 0.0 (inclusive) and 1.0
+(exclusive).
+
+## Syntax
+
+```
+Rand()
+```
+
+## Parameters
+
+None
+
+## Behavior
+
+Each time the function is evaluated, it produces a new pseudo-random number. Returns a
+floating-point number greater than or equal to 0.0 and less than 1.0.
+
+## Return type
+
+Number
+
+## Example
+
+`Rand()`
+
+Some possible return values include:
+
+- 0.354
+- 0.515
+- 0.034
+
+`Rand() * 100`: Generates a random percentage between 0 and 100.
+
+Note:
+
+Because this function returns a different result each time it is recalculated, results
+may vary across evaluations.

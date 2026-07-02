@@ -1,0 +1,408 @@
+---
+source_system: "cloudability-premium"
+practice: "finops"
+language: "en"
+doc_type: "admin"
+title: "Configure GitHub Actions for Terraform Community"
+breadcrumb:
+  - "Cloudability Premium"
+  - "Governance"
+  - "Setup Cloudability Governance"
+source_path: "admin/governance-configure-github-actions-for-terraform-community.html"
+images: []
+capability_ids: []
+last_updated: "2026-06-29"
+summary: ""
+---
+# Configure GitHub Actions for Terraform Community
+
+For users leveraging Terraform Community, [Cloudability Governance GitHub Action](https://github.com/IBM/ibm-cloudability-governance/blob/main/README.md "(Opens in a new tab or window)") is triggered as part of the
+CI/CD workflow for pull requests. This integration enables Cloudability Governance to provide
+cost-related insights directly within the PR via comments and GitHub check runs.
+
+Please refer to this page to get the latest information/updates: [https://GitHub.com/IBM/ibm-cloudability-governance/blob/main/README.md](https://github.com/IBM/ibm-cloudability-governance/blob/main/README.md "(Opens in a new tab or window)")
+
+**Prerequisite:** Ensure that you have installed IBM Cloudability GitHub app before proceeding
+with your GitHub Actions configuration.
+
+**Inputs required for Governance GitHub Actions:**
+
+1. **Output of the terraform plan for the change in PR** - Run terraform plan for the changes in
+   PR. Customers can configure this in GitHub action based on how on their terraform code is organized
+   and configured.
+
+You can find in this link [https://GitHub.com/IBM/ibm-cloudability-governance](https://github.com/IBM/ibm-cloudability-governance "(Opens in a new tab or window)") examples to
+update GitHub Actions for repositories that contains IaC code for one deployment or multiple
+ones.
+
+The example uses [aws-actions/configure-aws-credentials@v4.1.0](https://github.com/aws-actions/configure-aws-credentials "(Opens in a new tab or window)") GitHub action to
+fetch AWS credentials to be able to run terraform plan. GitHub variables/secrets can be used to
+store the ARN of the AWS\_ROLE to be used here. Customers can also choose to achieve this through
+other ways as well.
+
+1. **Example where a repo contains IaC code for only one deployment:**
+
+   ```
+   name: Demo Pipeline 
+
+   run-name: Deployment 
+
+   on: 
+
+     pull_request: 
+
+       types: [opened, reopened, synchronize] 
+
+       paths: 
+
+       - '**.tf' 
+
+       - 'usage.yaml' 
+
+       - '!README.md' 
+
+        
+
+   jobs: 
+
+     terraform: 
+
+       runs-on: ubuntu-latest 
+
+       permissions: 
+
+         id-token: write 
+
+         contents: read 
+
+       defaults: 
+
+        run: 
+
+          shell: bash 
+
+          # Can change to specific directory here where Terraform files are present 
+
+          working-directory: ./ 
+
+       steps: 
+
+         - name: Checkout repository 
+
+           uses: actions/checkout@v4 
+
+        
+
+         - name: Setup AWS credentials 
+
+           uses: aws-actions/configure-aws-credentials@v4.1.0 
+
+           with: 
+
+             aws-region: us-west-2 
+
+             role-to-assume: ${{ secrets.AWS_ROLE }} 
+
+             role-session-name: ${{ GitHub.run_id }} 
+
+        
+
+         - name: Setup Terraform with specified version on the runner 
+
+           uses: hashicorp/setup-terraform@v3 
+
+           with: 
+
+             terraform_version: 1.10.5 
+
+             terraform_wrapper: false 
+
+        
+
+         - name: Terraform init 
+
+           id: init 
+
+           run: terraform init 
+
+        
+
+         - name: Terraform plan 
+
+           id: plan 
+
+           run: | 
+
+             terraform plan -lock=false -input=false -out=tfplan 
+
+             terraform show -json tfplan > tfplan.json 
+
+           continue-on-error: false 
+
+        
+
+         - name: Redact secrets from tfplan 
+
+           run: | 
+
+             sed -i 's/"password":"[^"]*"/"password":""/g' tfplan.json 
+
+             sed -i 's/"secret_string":"{[^}]*}"/"secret_string":""/g' tfplan.json
+   ```
+2. **Frontdoor API Keys** - Frontdoor token is needed to invoke Governance actions. Below GitHub
+   action should be able to fetch Frontdoor token using the provided API keys.
+
+   Can set the following
+   variables as GitHub variables/secret
+
+   - FD\_URL (example: [https://frontdoor.apptio.com](https://frontdoor.apptio.com/ "(Opens in a new tab or window)"))
+   - FD\_KEY (Generate API key and Secret for a Frontdoor user with role “Cloudability Governance
+     Automation User”)
+   - FD\_SECRET (Generate API key and Secret for a Frontdoor user with role “Cloudability Governance
+     Automation User”)
+
+   ```
+    - name: Get Frontdoor token 
+
+           uses: cloudability/costguard-GitHub-action/actions/frontdoor/login@main 
+
+           with: 
+
+             fd-url: ${{ secrets.FD_URL }} 
+
+             fd-public-key: ${{ secrets.FD_KEY }} 
+
+             fd-secret-key: ${{ secrets.FD_SECRET }}
+   ```
+3. **Metadata** – The metadata associated with a pull-request and Cloudability Governance is
+   required to capture Governance configuration for customers organization.
+   - **Get GitHub PR metadata** - Call [GitHub API](https://docs.github.com/en/rest/pulls/pulls?apiVersion=2022-11-28#get-a-pull-request "(Opens in a new tab or window)") to fetch metadata related to the PR from
+     GitHub
+
+     ```
+       - name: Get GitHub PR metadata 
+
+             uses: ibm/ibm-cloudability-governance/actions/GitHub-info@v0.1.0 
+
+             with: 
+
+               GitHub-token: ${{ secrets.GitHub_TOKEN }} 
+
+               pr-number: ${{ GitHub.event.pull_request.number }}
+     ```
+   - **Run Cloudability Governance Metadata Retrieval** - Fetch metadata related to Governance
+     configuration (project, deployment, pull request, GitHub app installations) from Cloudability
+
+     ```
+     - name: Run Cloudability Governance Metadata Retrieval 
+
+             uses: ibm/ibm-cloudability-governance/actions/metadata@v0.1.0 
+
+             with: 
+
+               cloudability-host: ${{ vars.CLOUDABILITY_HOST }} 
+
+               fd-env-id: ${{ secrets.FD_ENV_ID }}
+     ```
+   - Download tfplan (optional) - If terraform plan is uploaded as artifact in a separate job
+   - This step requires the Frontdoor Environment Id for customers Cloudability organization and the
+     Cloudability url host. They can be set as GitHub repository secrets or variables.
+     - FD\_ENV\_ID (Frontdoor Environment Id)
+     - CLOUDABILITY\_HOST (example: [https://api.cloudability.com](https://api.cloudability.com/ "(Opens in a new tab or window)"))
+4. **Governance** – The next steps allow you to get insights on cost estimation, policy
+   evaluation, alternative recommendations
+
+   For these three steps, the input needed is
+   “provider-accounts” map. It is a mapping from terraform provider key to cloud vendor (AWS) account
+   id. This is needed to fetch the pricing information from the correct cloud vendor (AWS) account id.
+   The provider key can either be “\*” which indicates that it’s the default account for all providers,
+   or the exactly provider config key shown in the configuration.provider\_config map in a terraform
+   plan json. For example, if a provider with local name “aws\_usw2” is defined in a module called
+   “database” and the root terraform module is calling the “database” module, the provider key will be
+   module.database:aws\_usw2.
+
+   **Example for a deployment to a single cloud vendor account (use \*
+   for key in provider-accounts map)**
+
+   ```
+      - name: Run Cloudability Cost Estimation 
+
+           uses: ibm/ibm-cloudability-governance/actions/cost-estimation@v0.1.0 
+
+           with: 
+
+             GitHub-token: ${{ secrets.GitHub_TOKEN }} 
+
+             pr-number: ${{ GitHub.event.pull_request.number }} 
+
+             cloudability-host: ${{ secrets.CLOUDABILITY_HOST }} 
+
+             fd-env-id: ${{ secrets.FD_ENV_ID }} 
+
+             deployment-name: "demo" 
+
+             provider-accounts: | 
+
+               { 
+
+                 "*": { 
+
+                   "account_id": "${{ secrets.AWS_ACCOUNT_ID }}",  
+
+                   "vendor": "aws" 
+
+                 } 
+
+               } 
+
+             tf-plan: "tfplan.json" 
+
+             resource-usage: "usage.json" 
+
+    
+
+         - name: Run Cloudability Governance Policy Evaluation 
+
+           uses: ibm/ibm-cloudability-governance/actions/policy-evaluation@v0.1.0 
+
+           with: 
+
+             GitHub-token: ${{ secrets.GitHub_TOKEN }} 
+
+             pr-number: ${{ GitHub.event.pull_request.number }} 
+
+             cloudability-host: ${{ secrets.CLOUDABILITY_HOST }} 
+
+             fd-env-id: ${{ secrets.FD_ENV_ID }} 
+
+             deployment-name: "demo" 
+
+             provider-accounts: | 
+
+               { 
+
+                 "*": { 
+
+                   "account_id": "${{ secrets.AWS_ACCOUNT_ID }}",  
+
+                   "vendor": "aws" 
+
+                 } 
+
+               } 
+
+             tf-plan: "tfplan.json" 
+
+             resource-usage: "usage.json" 
+
+    
+
+         - name: Run Cloudability Recommendation 
+
+           uses: ibm/ibm-cloudability-governance/actions/recommendation@v0.1.0 
+
+           with: 
+
+             GitHub-token: ${{ secrets.GitHub_TOKEN }} 
+
+             pr-number: ${{ GitHub.event.pull_request.number }} 
+
+             cloudability-host: ${{ secrets.CLOUDABILITY_HOST }} 
+
+             fd-env-id: ${{ secrets.FD_ENV_ID }} 
+
+             deployment-name: "demo" 
+
+             provider-accounts: | 
+
+               { 
+
+                 "*": { 
+
+                   "account_id": "${{ secrets.AWS_ACCOUNT_ID }}",  
+
+                   "vendor": "aws" 
+
+                 } 
+
+               } 
+
+             tf-plan: "tfplan.json" 
+
+             resource-usage: "usage.json"
+   ```
+
+   Alternatively, this is the setup for a scenario
+   with a specific account alias.
+
+   ```
+         - name: Run Cloudability Cost Estimation 
+
+           uses: ibm/ibm-cloudability-governance/actions/cost-estimation@v0.1.0 
+
+           with: 
+
+             GitHub-token: ${{ secrets.GitHub_TOKEN }} 
+
+             pr-number: ${{ GitHub.event.pull_request.number }} 
+
+             cloudability-host: ${{ secrets.CLOUDABILITY_HOST }} 
+
+             fd-env-id: ${{ secrets.FD_ENV_ID }} 
+
+             deployment-name: "demo" 
+
+             provider-accounts: | 
+
+               { 
+
+                 "module.database:aws_usw2": { 
+
+                   "account_id": "${{ secrets.AWS_ACCOUNT_ID }}",  
+
+                   "vendor": "aws" 
+
+                 }, 
+
+                 "*": { 
+
+                   "account_id": "${{ secrets.SECOND_AWS_ACCOUNT_ID }}",  
+
+                   "vendor": "aws" 
+
+                 } 
+
+               } 
+
+             tf-plan: "tfplan.json" 
+
+             resource-usage: "usage.json" 
+
+             pr-number: ${{ GitHub.event.pull_request.number }} 
+
+             cloudability-host: ${{ secrets.CLOUDABILITY_HOST }} 
+
+             fd-env-id: ${{ secrets.FD_ENV_ID }} 
+
+             deployment-name: "demo" 
+
+             provider-accounts: | 
+
+               { 
+
+                 "module.database:aws_usw2": { 
+
+                   "account_id": "${{ secrets.AWS_ACCOUNT_ID }}",  
+
+                   "vendor": "aws" 
+
+                 } 
+
+               } 
+
+             tf-plan: "tfplan.json" 
+
+             resource-usage: "usage.json"
+   ```
+
+**Parent topic:** [Setup Cloudability Governance](../admin/governance-setup-cldy-governance.html)

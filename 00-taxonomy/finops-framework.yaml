@@ -1,0 +1,23 @@
+# STATUS: DRAFT / PILOTO
+# Este archivo NO es todavia una captura completa del FinOps Framework de FinOps Foundation.
+# Contiene solo la estructura minima necesaria para probar el pipeline end-to-end (normalizacion ->
+# crosswalk -> capability brief) con un caso real: Rate Optimization / Rightsizing en Cloudability Premium.
+# Proximo paso: completar los dominios y capacidades restantes desde finops.org (Inform, Optimize, Operate;
+# Personas; niveles de madurez Crawl/Walk/Run) antes de usar esto como fuente de verdad para RFPs.
+
+framework: FinOps Framework
+source: FinOps Foundation
+version_note: "Pendiente de fijar version exacta (revisar finops.org antes de publicar)"
+
+domains:
+  - id: finops.optimize
+    label: Optimize
+    description: >
+      Fase del ciclo FinOps enfocada en identificar y ejecutar oportunidades de ahorro
+      y eficiencia sobre el gasto de nube ya visible.
+    capabilities:
+      - id: finops.optimize.rate-optimization
+        label: Rate Optimization
+        description: >
+          Reducir el costo unitario de los recursos de nube mediante rightsizing,
+          instancias reservadas, savings plans y negociacion de tarifas.

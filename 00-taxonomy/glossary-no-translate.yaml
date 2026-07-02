@@ -1,0 +1,17 @@
+# Terminos que se mantienen en ingles dentro de entregables en español/portugues.
+# Se inyecta como instruccion fija en cualquier paso de traduccion/generacion con IA.
+no_translate:
+  - TBM
+  - FinOps
+  - showback
+  - chargeback
+  - rightsizing
+  - MSU
+  - zIIP
+  - TCO
+  - Cost Pool
+  - IT Tower
+  - RFP
+  - RFx
+  - dashboard
+  - cost basis

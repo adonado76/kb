@@ -1,0 +1,103 @@
+---
+source_system: "apptio-planning"
+practice: "tbm"
+language: "es"
+doc_type: "it-planning"
+title: "Informe de análisis de grupos de costes ( v104 y posteriores)"
+breadcrumb: []
+source_path: "it-planning/reports-itfmf-ctv104/itfmf-ct_costpoolanalysis104.html"
+images:
+  - "resources/images/it_planning_images/itfmf-ct_images/itfmf-ct_costpoolanalysis_breakout.jpg"
+  - "resources/images/it_planning_images/itfmf-ct_images/itfmf-ct_costpoolanalysis_details.jpg"
+  - "resources/images/it_planning_images/itfmf-ct_images/itfmf-ct_costpoolanalysis_details2.jpg"
+  - "resources/images/it_planning_images/itfmf-ct_images/itfmf-ct_costpoolanalysis_overview.jpg"
+capability_ids: []
+last_updated: "2026-06-23"
+summary: ""
+---
+# Informe de análisis de grupos de costes ( v104 y posteriores)
+
+◆ Se aplica a: Planning y Costing
+Standard en TBM Studio 12.3 y posteriores, con Plantilla v104 y posteriores
+
+El informe **de análisis de grupos de costos** agrega sus gastos financieros en categorías estándar (conocidas como grupos de costos), según lo define el Consejo TBM. El informe desglosa además el gasto del pool de costes por gastos operativos ( OpEx ) y gastos de capital ( CapEx ), así como costes fijos y variables.
+
+## Visualizar el informe
+
+Navegue hasta **Costing Standard** > **Finanzas de TI**. Se abre el informe **de revisión financiera**.
+
+En la pestaña de recopilación de informes (elemento 1, más abajo), seleccione **Análisis del pool de costes**.
+
+![imagen](../../../../../03-media/apptio-planning/resources/images/it_planning_images/itfmf-ct_images/itfmf-ct_costpoolanalysis_overview.jpg)
+
+**(1) Recogida de informes**
+
+Cada uno de los informes de esta colección proporciona los detalles financieros que necesita para revisar sus desviaciones de gastos y la precisión de sus previsiones:
+
+- [Informe de revisión financiera ( v107 )](itfmf-ct_financialreview107.html "◆ Se aplica a: Planificación y Cálculo de Costes Estándar en TBM Studio 12.3 y posteriores, con Plantilla v107 y posteriores")
+- [Análisis financiero - Informe CapEx ( v107 )](itfmf-ct_financialreviewcapexv107.html)
+- [Informe de análisis financiero ( v104 )](itfmf-ct_financialanalysis104.html "◆ Se aplica a: Planificación y Cálculo de Costes Estándar en TBM Studio 12.3 y posteriores, con Plantilla v104 y posteriores")
+- Análisis de grupos de costes (descrito en este artículo)
+
+**(2) Cortadoras**
+
+Utilice los cortadores locales y globales para refinar los datos de su informe. Los separadores de este informe le permiten ver sus datos de costes por región, grupo de cuentas y responsabilidad organizativa, incluido el centro de costes, el propietario del centro de costes y el propietario (por ejemplo, CIO -1)).
+
+Las siguientes funciones pueden utilizar los divisores de este informe para obtener una vista más personalizada:
+
+- **Controlador financiero de TI o CIO.** Sin necesidad de configurar ningún cortador, puede ver el resumen de los gastos de cada grupo de costes en toda la organización. Puede desglosar los grupos de costes, los propietarios de los centros de costes y las cuentas individuales.
+- **Propietario del centro de costes o CIO -1.** Establezca los divisores **Centro de costes** o **Propietario del centro de costes** para filtrar sus áreas de responsabilidad.
+- **Analista financiero.** Establezca el rebanador **del centro de costes** para las áreas a las que presta asistencia, o establezca un grupo de cuentas específico para permitir un análisis detallado de los gastos por categorías en toda la organización.
+
+**(3) Gastos fijos y variables OpEx por grupo de costes**
+
+Utilice esta vista para comprender la agilidad financiera del gasto en TI y dónde existen oportunidades para influir en el coste en el ejercicio fiscal en curso.
+
+- **Fijo y Variable** muestra un gráfico de la OpEx por pool de costes (pestaña por defecto).
+- **Detalles** muestra una hoja de cálculo de la OpEx por pool de costes desglosado por variable fija. Despliegue cualquier elemento de la columna **Pool** haciendo clic en la flecha situada a la izquierda del elemento.
+
+  ![imagen](../../../../../03-media/apptio-planning/resources/images/it_planning_images/itfmf-ct_images/itfmf-ct_costpoolanalysis_details.jpg)
+- La **tendencia** muestra los datos fijos y variables de OpEx a lo largo del tiempo.
+
+**Preguntas contestadas** :
+
+- Si baja la demanda o el consumo, ¿tengo flexibilidad para reducir el gasto?
+- ¿Dónde puedo plantearme cambios de aprovisionamiento que creen una estructura de costes más variable?
+- ¿Qué agilidad financiera conviene a nuestra empresa en este momento? ¿Debo fijar un objetivo variable porcentual?
+- ¿Qué parte de mis gastos es fija y qué parte variable?
+- ¿Qué impulsa la relación entre gastos fijos y variables?
+
+**(4) OpEx y CapEx Gastos por grupo de costes**
+
+Utilice esta vista para comprender los gastos del conjunto de costes desglosados por OpEx y CapEx:
+
+- **OpEx y CapEx** - muestra un gráfico de OpEx y CapEx por pool de costes (pestaña por defecto).
+- **Detalles** : muestra una hoja de cálculo de OpEx y CapEx por grupo de costes. Despliegue cualquier elemento de la columna **Pool de costes** haciendo clic en la flecha situada a la izquierda del elemento.
+
+  ![imagen](../../../../../03-media/apptio-planning/resources/images/it_planning_images/itfmf-ct_images/itfmf-ct_costpoolanalysis_details2.jpg)
+- **La tendencia** muestra los gastos de OpEx y CapEx a lo largo del tiempo.
+
+**Preguntas contestadas** :
+
+- Qué porcentaje de mi gasto corresponde a CapEx frente a. OpEx?
+- ¿Cómo varía la capitalización en función del conjunto de costes?
+- ¿Dónde se capitaliza la mayor parte de mi gasto?
+- ¿Cómo varía mi gasto en CapEx a lo largo del año fiscal? ¿Hay un pico de fin de año (gástalo o piérdelo)?
+
+**(5) Resumen por grupos de costes**
+
+Utilice esta tabla para ver todos los grupos de costes con sus costes fijos y variables, y los gastos de CapEx y OpEx. Puede consultar detalles adicionales, como el subgrupo de costes y el nombre de la cuenta.
+
+Haga clic en cualquier fila de la columna **Pool** de costes para visualizar el informe **Desglose del pool de costes**, donde podrá ver las cuentas que componen el pool o subpool de costes que haya seleccionado.
+
+![imagen](../../../../../03-media/apptio-planning/resources/images/it_planning_images/itfmf-ct_images/itfmf-ct_costpoolanalysis_breakout.jpg)
+
+A continuación, haga clic en un código de cuenta para ver los detalles de la transacción desde su fuente financiera de registro (como su CG).
+
+![imagen](../../resources/images/it%20planning_images/itfmf-ct_images/itfmf-ct_costpoolanalysis_transactiondetails.png)
+
+**Preguntas contestadas** :
+
+- ¿Qué cuentas se incluyen en las categorías del fondo de costes?
+- ¿Cuál es la variación presupuestaria en esas cuentas?
+- ¿Qué transacciones se produjeron en el período actual para una cuenta?

@@ -1,0 +1,39 @@
+# STATUS: DRAFT / PILOTO - dos capacidades pobladas como prueba de concepto del pipeline
+# (una de FinOps/Cloudability, una de TBM/Apptio Costing Standard).
+mappings:
+  - capability_id: finops.optimize.rate-optimization
+    products:
+      - product_id: cloudability-premium
+        feature: Rightsizing dashboard
+        how_it_helps: >
+          Cloudability Premium expone recomendaciones de rightsizing e idle/terminate
+          por recurso (AWS EC2, RDS, EBS, Lambda; Azure Compute, Disks, SQL, Blob Storage;
+          GCE, GCP Cloud Storage; OCI VMs), calculadas sobre uso historico real y permite
+          elegir base de costo On-Demand o Effective para conservar el impacto de RIs/SPs.
+        source_docs:
+          - path: 02-product-docs/cloudability-premium/en/product/rightsizing-for-aws-ec2.md
+            language: en
+          - path: 02-product-docs/cloudability-premium/en/product/get-recommendations-for-scaling-your-cloud-resources-with-rightsizing.md
+            language: en
+          - path: 02-product-docs/cloudability-premium/en/product/rightsizing-for-azure-compute.md
+            language: en
+
+  - tbm_taxonomy_ref:
+      layer: solutions
+      type: delivery
+      category: strategy_planning
+      name: "Technology Business Management"
+      description: "Solutions supporting business-aligned technology decisions, including cost transparency, financial management, and value optimization."
+    products:
+      - product_id: apptio-costing-standard
+        feature: "Cost Transparency workbench (Labor Mapping)"
+        how_it_helps: >
+          Apptio Costing Standard's Labor Workbench lets finance, cost center owners, and
+          resource managers enter and maintain labor data to enrich HR-sourced information
+          and map labor costs to IT Resource Towers (applications, products, and/or services)
+          -- the exact TBM Cost Pool -> Resource Tower allocation the taxonomy defines,
+          made operational as a guided data-entry workflow rather than a spreadsheet exercise.
+        source_docs:
+          - path: 02-product-docs/apptio-costing-standard/en/cost-transparency/workbench/cs-labor-mapping.md
+            language: en
+

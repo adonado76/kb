@@ -1,0 +1,235 @@
+# TBM Taxonomy — Version 5.0.1 (July 17, 2025)
+# Fuente: TBM Council, "TBM Taxonomy Version 5.0.1" whitepaper (01-practice-sources/tbm-council/)
+# Estructura: 4 capas -> Technology Cost Pools, Technology Resource Towers, Technology Solutions, Technology Consumers
+# STATUS: completo para Cost Pools y Resource Towers. Solutions layer resumido a nivel Type/Category
+# (los "Name" de detalle de cada categoria estan en el whitepaper original, no todos transcritos aqui
+# para mantener el archivo manejable; agregar bajo demanda cuando una capacidad especifica lo requiera).
+
+framework: TBM Taxonomy
+source: TBM Council
+version: "5.0.1"
+version_date: "2025-07-17"
+previous_major_version: "4.1 (2023-11-04)"
+supersedes_note: >
+  v5.0.1 es la actualizacion mas significativa desde v4.0. Remueve Applications de la capa de
+  Solutions (ahora se modela en Technology Resource Towers, no como Solution consumida por el
+  negocio), agrega Cost Pool "Cloud Services" y unifica "Staffing", moderniza Towers (Application,
+  Data, Smart Devices, separa Security de Risk & Compliance), agrega tipos de Solution para AI y
+  Sustainability, y expande la capa de Consumers a value streams/productos/portafolios.
+  Ver 00-taxonomy/tbm-taxonomy-v4-to-v5-crosswalk.yaml (pendiente de crear) para migracion.
+
+layers:
+
+  # ============================================================
+  # CAPA 1: TECHNOLOGY COST POOLS (Finance View)
+  # ============================================================
+  cost_pools:
+    description: >
+      Categorias financieras estandarizadas que organizan el gasto tecnologico por naturaleza u
+      origen. Punto de entrada de datos desde el General Ledger hacia el modelo TBM. Distinguen
+      OpEx de CapEx.
+    pools:
+      - id: staffing
+        label: Staffing
+        sub_pools:
+          - {id: internal_labor, label: Internal Labor, opex: true}
+          - {id: staff_augmentation, label: Staff Augmentation, opex: true}
+          - {id: other_operating, label: Other Operating, opex: true}
+          - {id: internal_labor_capital, label: Internal Labor Capital, opex: false}
+          - {id: staff_augmentation_capital, label: Staff Augmentation Capital, opex: false}
+      - id: outside_services
+        label: Outside Services
+        sub_pools:
+          - {id: consulting, label: Consulting, opex: true}
+          - {id: managed_services, label: Managed Services, opex: true}
+          - {id: other_operating, label: Other Operating, opex: true}
+          - {id: capital, label: Capital, opex: false}
+      - id: cloud_services
+        label: Cloud Services
+        note: "Nuevo en v5.0.1. Publico/privado/hibrido, IaaS y PaaS. Excluye SaaS (va en Software & SaaS)."
+        sub_pools:
+          - {id: cloud_service_provider, label: Cloud Service Provider, opex: true}
+          - {id: other_operating, label: Other Operating, opex: true}
+          - {id: capital, label: Capital, opex: false}
+      - id: hardware
+        label: Hardware
+        sub_pools:
+          - {id: lease, label: Lease, opex: true}
+          - {id: maintenance_support, label: Maintenance & Support, opex: true}
+          - {id: depreciation_amortization, label: Depreciation & Amortization, opex: true}
+          - {id: managed_services, label: Managed Services, opex: true}
+          - {id: other_operating, label: Other Operating, opex: true}
+          - {id: capital, label: Capital, opex: false}
+      - id: software_saas
+        label: Software & SaaS
+        sub_pools:
+          - {id: licensing, label: Licensing, opex: true}
+          - {id: maintenance_support, label: Maintenance & Support, opex: true}
+          - {id: depreciation_amortization, label: Depreciation & Amortization, opex: true}
+          - {id: saas, label: SaaS, opex: true}
+          - {id: other_operating, label: Other Operating, opex: true}
+          - {id: capital, label: Capital, opex: false}
+      - id: data_center_facilities
+        label: Data Center Facilities
+        sub_pools:
+          - {id: lease, label: Lease, opex: true}
+          - {id: maintenance_support, label: Maintenance & Support, opex: true}
+          - {id: depreciation_amortization, label: Depreciation & Amortization, opex: true}
+          - {id: managed_services, label: Managed Services, opex: true}
+          - {id: other_operating, label: Other Operating, opex: true}
+          - {id: capital, label: Capital, opex: false}
+      - id: telecom
+        label: Telecom
+        sub_pools:
+          - {id: lease, label: Lease, opex: true}
+          - {id: maintenance_support, label: Maintenance & Support, opex: true}
+          - {id: depreciation_amortization, label: Depreciation & Amortization, opex: true}
+          - {id: managed_services, label: Managed Services, opex: true}
+          - {id: other_operating, label: Other Operating, opex: true}
+          - {id: capital, label: Capital, opex: false}
+      - id: misc_costs
+        label: Misc Costs
+        sub_pools:
+          - {id: managed_services, label: Managed Services, opex: true}
+          - {id: other_operating, label: Other Operating, opex: true}
+          - {id: capital, label: Capital, opex: false}
+      - id: cross_charges
+        label: Cross Charges
+        sub_pools:
+          - {id: by_internal_department, label: By Internal Department, opex: true}
+
+  # ============================================================
+  # CAPA 2: TECHNOLOGY RESOURCE TOWERS (Tech View)
+  # ============================================================
+  resource_towers:
+    description: >
+      Clasificacion estandar de funciones/dominios tecnologicos que consumen recursos financieros
+      y operativos. Se agrupan en 4 dominios de organizacion (Infrastructure, Application,
+      Operations, Field & Office); estos dominios son solo para agrupar, no una capa formal.
+    domains:
+      - id: infrastructure
+        label: Infrastructure
+        towers:
+          - id: data_center
+            label: Data Center
+            sub_towers: [Enterprise Data Center, Other Facilities]
+          - id: storage
+            label: Storage
+            sub_towers: [Online Storage, Offline Storage, Mainframe Online Storage, Mainframe Offline Storage, AI Storage]
+          - id: compute
+            label: Compute
+            sub_towers: [Servers, Converged Infrastructure, High Performance Compute, Mainframe, AI Compute, Quantum, Serverless, Auto-Scalers]
+          - id: network
+            label: Network
+            sub_towers: [LAN, WAN, Voice & Collaboration, AI Network, Network Management]
+      - id: application
+        label: Application
+        towers:
+          - id: application
+            label: Application
+            sub_towers: [Development, Support & Operations, Licensing, Middleware, Mainframe Middleware, Container Orchestration, Blockchain & Tokenization, AI Models]
+          - id: data
+            label: Data
+            sub_towers: [Data Operations, Data Management, Mainframe Database, Database]
+      - id: operations
+        label: Operations
+        towers:
+          - id: delivery
+            label: Delivery
+            sub_towers: [Service Management, Client Management, Operations Center, Tech Portfolio & Project Management, Central Print]
+          - id: tech_management
+            label: Tech Management
+            sub_towers: [Tech Management & Strategy, Tech Finance, Enterprise Architecture, Tech Vendor Management, Tech Human Capital Management]
+          - id: security
+            label: Security
+            note: "Excluye Risk Management y Compliance (ver tower Risk & Compliance)."
+            sub_towers: [Digital Security, Identity & Access Governance]
+          - id: risk_compliance
+            label: Risk & Compliance
+            sub_towers: [Regulatory & Audit, Risk Management, Disaster Recovery]
+      - id: field_office
+        label: Field & Office
+        towers:
+          - id: smart_devices
+            label: Smart Devices
+            sub_towers: [Intelligent Devices, Industrial & Control Systems]
+          - id: end_user
+            label: End User
+            sub_towers: [Workspace, Mobile Devices, Network Printers, Conferencing & AV, Help Desk, Deskside Support]
+
+  # ============================================================
+  # CAPA 3: TECHNOLOGY SOLUTIONS (Solution/Consumer View)
+  # ============================================================
+  # Nota importante v5.0.1: "Applications" fue removido de esta capa; las aplicaciones se
+  # modelan ahora en el Resource Tower "Application" (capa 2), no como Solution consumida
+  # directamente por el negocio. Una entidad no puede ser Application y Solution a la vez.
+  solutions:
+    description: >
+      Lo que la organizacion de Tecnologia entrega a sus stakeholders (productos digitales,
+      servicios, capacidades de negocio). Jerarquia de 4 niveles: Type > Category > Name > Offering
+      (Offering es definido libremente por cada organizacion).
+    types:
+      - id: workplace
+        label: Workplace
+        categories: [Client Computing, Communication & Collaboration, Connectivity]
+      - id: business
+        label: Business
+        categories: [Product Management, Sales & Marketing, Manufacturing & Delivery, Customer Service]
+        note: "Alternativa: 'Industry specific solutions to win, serve and retain customers' via extensiones sectoriales (ver TBM-Banking_Extension_V2.md)."
+      - id: shared_corporate
+        label: Shared & Corporate
+        categories: [Finance, Workforce, Vendor & Procurement, Risk, Audit & Compliance, Legal, Property & Facility, Corporate Communications, Health Safety Security & Environmental, Sustainability & ESG]
+      - id: delivery
+        label: Delivery
+        categories: [Strategy & Planning, Development, Operations, Support, Security & Compliance, Enabling Platforms]
+      - id: infrastructure
+        label: Infrastructure
+        categories: [Compute, Data Center, Data, Network, Storage]
+      - id: artificial_intelligence
+        label: Artificial Intelligence
+        categories: [Agentic, Generative, Interpretive, Predictive, Prescriptive]
+    product_vs_service:
+      product: {purpose: "Deliver external/customer-facing value", orientation: "Market/outcome-based", governance: "Agile, product managers", consumption: "End users/clients", lifecycle: "Product lifecycle stages"}
+      service: {purpose: "Provide internal/shared capabilities", orientation: "Process/capability-based", governance: "Stable, service owners", consumption: "Internal teams/systems", lifecycle: "Service catalog lifecycle"}
+
+  # ============================================================
+  # CAPA 4: TECHNOLOGY CONSUMERS (Consumer View)
+  # ============================================================
+  consumers:
+    description: >
+      No dirige asignaciones; depende de las 3 capas anteriores para exponer costo/consumo/
+      desempeño atribuible a stakeholders especificos. Habilita showback, chargeback y planeacion
+      de inversion ligada a impacto de negocio.
+    entities:
+      - {id: business_functions_capabilities, label: "Business Functions & Capabilities", desc: "Unidades organizacionales formales (Finanzas, RRHH, Marketing, Ventas, Lineas de negocio)."}
+      - {id: business_value_streams, label: "Business Value Streams", desc: "Flujos de trabajo cross-funcionales que entregan valor (ej. Customer Onboarding, Claims Processing)."}
+      - {id: partners_internal_consumers, label: "Partners & Internal Consumers", desc: "Usuarios internos o socios que consumen servicios/productos tecnologicos directamente."}
+      - {id: external_consumers, label: "External Consumers", desc: "Individuos/organizaciones fuera de la empresa que consumen productos/servicios tecnologicos."}
+
+# ============================================================
+# VIEWS (perspectivas habilitadas segun que capas se implementen)
+# ============================================================
+views:
+  - {id: finance_view, requires: [cost_pools], stakeholders: ["CFO", "Controllers", "Technology Finance", "Departmental Budget Owners"]}
+  - {id: technology_view, requires: [cost_pools, resource_towers], stakeholders: ["CIO", "CTO", "Infrastructure/Application Owners", "Delivery Leads"]}
+  - {id: consumer_view, requires: [cost_pools, resource_towers, solutions, consumers], stakeholders: ["CPO", "Product Owners", "Service Owners"]}
+
+# ============================================================
+# REGLAS DE IMPLEMENTACION Y EXTENSION (resumen operativo)
+# ============================================================
+implementation_rules:
+  allowed:
+    - "Omitir objetos que no aplican al entorno (ej. Mainframe si no se opera uno)."
+    - "Aplicar un Sub-Tower a partes alternativas del estado tecnologico (ej. Servers puede ser fisico, VM privada, o EC2 en AWS)."
+    - "Usar Sub-Tower Elements o Tags (opcionales) para mayor granularidad sin alterar la estructura estandar."
+    - "Adoptar solo la profundidad de modelado acorde a la madurez de la organizacion."
+    - "Combinar elementos de distintas versiones de la taxonomia durante una migracion por fases (ej. Cost Pools v4.1 + Solutions v5.0)."
+  forbidden:
+    - "Dividir un elemento estandar en multiples objetos nuevos (usar Tags en su lugar)."
+    - "Combinar multiples objetos no relacionados en uno custom (rompe comparabilidad/benchmarking)."
+    - "Repropositar objetos con definiciones alternas o naming interno distinto (usar Tags)."
+  extensions:
+    where: "Mas comun en la capa de Solutions, donde varian mas los terminos de negocio."
+    must_be: "Aditivas (no sustitutivas), respetar la estructura de 4 capas, no redefinir elementos existentes."
+    examples: ["Clinical Systems (healthcare)", "Plant Operations (manufacturing)", "Loan Servicing (financial services)"]
+    reference: "TBM Council publica extensiones formales por industria/vertical; ver TBM-Banking_Extension_V2.md en 01-practice-sources/tbm-council/ para el caso bancario ya disponible en esta KB."
