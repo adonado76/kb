@@ -37,3 +37,82 @@ mappings:
           - path: 02-product-docs/apptio-costing-standard/en/cost-transparency/workbench/cs-labor-mapping.md
             language: en
 
+  - tbm_taxonomy_ref:
+      layer: "cost_pools + resource_towers"
+      concept: "Cost Pool to Resource Tower allocation (data-entry/mapping workflow)"
+      description: >
+        El paso operativo central del modelo TBM: llevar el gasto clasificado en Cost Pools
+        (Staffing, Outside Services, Hardware, Software & SaaS, etc.) hacia los Technology
+        Resource Towers (Compute, Storage, Network, Application, Data...) mediante reglas de
+        asignacion. Es la actividad de "modelado" que todo TBM Model requiere, sin importar el
+        nivel de madurez de la organizacion.
+    products:
+      - product_id: apptio-costing-essentials
+        feature: "Cost Management Workbench (Labor/Vendor/Financial/Fixed Asset/Organization/Solution/Technology Service/Contracts Mapping)"
+        how_it_helps: >
+          Costing Essentials operacionaliza el mapeo de Cost Pool a Tower como workflows
+          guiados por tipo de dato -- separando labor, vendor spend, activos fijos, y contratos
+          en pantallas dedicadas -- en vez de un ejercicio de hoja de calculo. Cada mapeo tiene
+          su reporte de revision correspondiente para validar calidad antes de publicar.
+        source_docs:
+          - {path: "02-product-docs/apptio-costing-essentials/en/apptio-cost-management/workbench/labor-mapping.md", language: en}
+          - {path: "02-product-docs/apptio-costing-essentials/en/apptio-cost-management/workbench/vendor-mapping.md", language: en}
+          - {path: "02-product-docs/apptio-costing-essentials/en/apptio-cost-management/workbench/financial-mapping.md", language: en}
+          - {path: "02-product-docs/apptio-costing-essentials/en/apptio-cost-management/workbench/fixed-asset-mapping.md", language: en}
+          - {path: "02-product-docs/apptio-costing-essentials/en/apptio-cost-management/out_of_the_box_reports/labor-review.md", language: en}
+          - {path: "02-product-docs/apptio-costing-essentials/en/apptio-cost-management/out_of_the_box_reports/vendor-review.md", language: en}
+      - product_id: apptio-benchmarking
+        feature: "IT Benchmarking configuration (Map the cost pools / towers / sub-towers)"
+        how_it_helps: >
+          Antes de poder comparar contra pares de industria, Benchmarking exige que el gasto
+          y los recursos esten alineados a la misma taxonomia estandar -- por eso su
+          configuracion incluye pasos explicitos de mapeo de cost pools, towers y sub-towers,
+          que son literalmente los nombres de capas de la TBM Taxonomy v5.0.1.
+        source_docs:
+          - {path: "02-product-docs/apptio-benchmarking/en/it-benchmarking/configuration/map-cost-pools.md", language: en}
+          - {path: "02-product-docs/apptio-benchmarking/en/it-benchmarking/configuration/map-towers.md", language: en}
+          - {path: "02-product-docs/apptio-benchmarking/en/it-benchmarking/configuration/map-sub-towers.md", language: en}
+
+  - tbm_taxonomy_ref:
+      layer: "outcomes / views"
+      concept: "Benchmarking (comparar desempeño y costos contra pares usando la taxonomia estandar)"
+      description: >
+        El TBM Model, una vez aplica la taxonomia, permite "comparar performance y costos
+        usando benchmarks y normas de pares" (Conceptual TBM Model, whitepaper v5.0.1). Es una
+        de las 3 capacidades explicitas que habilita tener datos estructurados en la taxonomia.
+    products:
+      - product_id: apptio-benchmarking
+        feature: "Industry / Infrastructure / OpEx Benchmarking"
+        how_it_helps: >
+          Apptio Benchmarking entrega esta capacidad como producto dedicado: compara el gasto
+          de OpEx y la infraestructura de la organizacion contra bases de datos de pares por
+          sector industrial, usando exactamente la clasificacion de Cost Pools y Towers de la
+          taxonomia TBM como eje de comparacion -- no una taxonomia propia del producto.
+        source_docs:
+          - {path: "02-product-docs/apptio-benchmarking/en/it-benchmarking/industry_benchmarking.md", language: en}
+          - {path: "02-product-docs/apptio-benchmarking/en/it-benchmarking/infrastructure_benchmarking.md", language: en}
+          - {path: "02-product-docs/apptio-benchmarking/en/it-benchmarking/opex_benchmarking.md", language: en}
+
+  - tbm_taxonomy_ref:
+      layer: solutions
+      type: shared_corporate
+      category: finance
+      concept: "Showback / Chargeback (asignar y comunicar el costo de TI a los consumidores del negocio)"
+      description: >
+        Conecta la capa de Technology Solutions con la de Technology Consumers: una vez el
+        costo esta asignado a un Solution, se factura o se muestra (showback) al consumidor
+        de negocio que lo origino, cerrando el ciclo de transparencia de TBM.
+    products:
+      - product_id: apptio-billing
+        feature: "Bill of IT (BOIT): Cost model allocations, Simple service showback, Chargeback with journals, Transfer pricing"
+        how_it_helps: >
+          Apptio Billing (BOIT) es el producto que ejecuta especificamente este ultimo tramo
+          del modelo TBM -- define el modelo de costo por servicio (Price x Quantity), genera
+          showback simple para unidades de negocio que no requieren factura formal, y soporta
+          chargeback real via journals contables para las que si, incluyendo vistas de
+          transfer pricing entre entidades legales.
+        source_docs:
+          - {path: "02-product-docs/apptio-billing/en/boit/define-cost-model1.md", language: en}
+          - {path: "02-product-docs/apptio-billing/en/boit/billing/admin-ops/ao-simple-service.md", language: en}
+          - {path: "02-product-docs/apptio-billing/en/boit/billing/admin-ops/ao-chargeback-journal.md", language: en}
+          - {path: "02-product-docs/apptio-billing/en/boit/transfer-pricing-report.md", language: en}
