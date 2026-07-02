@@ -55,3 +55,64 @@ products:
       Un mismo cliente NO puede tener licencias activas de Essentials y Standard
       simultaneamente -- son ediciones excluyentes entre si de un mismo producto base, no
       productos complementarios que se combinen en una misma cuenta.
+  - id: apptio-billing-essentials
+    display_name: "IBM Apptio Billing Essentials"
+    vendor: "IBM (ex-Apptio)"
+    practices: [tbm]
+    doc_source: SSV8ML
+    tier: entry
+    positioning: >
+      Edicion de entrada de Apptio Billing (BOIT), con el mismo patron de adopcion por
+      etapas que Costing Essentials.
+    key_constraint: >
+      [Confirmar con Armando el detalle operativo exacto -- se asume, por paralelismo con
+      Costing Essentials, que restringe el modelado self-service, pero esto no se ha
+      verificado documentalmente para Billing todavia.]
+    upgrade_path:
+      upgrades_to: apptio-billing-standard
+    mutually_exclusive_with: [apptio-billing-standard]
+    doc_scope_note: >
+      IMPORTANTE: en esta base de conocimiento, los documentos de Billing Essentials y
+      Billing Standard NO estan separados en carpetas distintas -- ambos viven juntos bajo
+      02-product-docs/apptio-billing/ (un solo doc_source SSV8ML). Al citar documentos para
+      RFPs o briefs, verificar en el titulo/breadcrumb si el contenido es especifico de
+      Essentials o de Standard antes de atribuirlo a una edicion en particular.
+
+  - id: apptio-billing-standard
+    display_name: "IBM Apptio Billing Standard"
+    vendor: "IBM (ex-Apptio)"
+    practices: [tbm]
+    doc_source: SSV8ML
+    tier: full
+    positioning: >
+      Superset funcional de Billing Essentials, con el mismo patron de Costing
+      Standard/Essentials: acceso completo, sin restriccion de alcance.
+    key_constraint: null
+    upgrade_path:
+      can_be_purchased_directly: true
+    mutually_exclusive_with: [apptio-billing-essentials]
+    doc_scope_note: >
+      Ver nota identica en apptio-billing-essentials -- documentacion compartida en la
+      misma carpeta fuente.
+    includes_platform: [apptio-tbm-studio]
+
+  - id: apptio-tbm-studio
+    display_name: "IBM Apptio TBM Studio"
+    vendor: "IBM (ex-Apptio)"
+    practices: [tbm]
+    doc_source: SSWRJM
+    tier: platform
+    positioning: >
+      No es un producto que se vende de forma independiente -- es la plataforma de
+      modelado subyacente (incluye Datalink) que viene incluida dentro de las ediciones
+      "Standard" de varios productos Apptio.
+    bundled_within:
+      confirmed: [apptio-costing-standard, apptio-billing-standard]
+      to_confirm: [apptio-planning]
+    key_constraint: >
+      Las ediciones "Essentials" (Costing Essentials, Billing Essentials) NO incluyen acceso
+      a TBM Studio para el cliente -- ver key_constraint en esas entradas.
+    sales_note: >
+      Al conversar con un cliente sobre TBM Studio, la pregunta relevante no es "¿quieres
+      comprar TBM Studio?" sino "¿tu edicion (Standard) ya lo incluye, o necesitas migrar
+      desde Essentials para tener acceso?"
