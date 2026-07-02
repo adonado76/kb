@@ -1,0 +1,57 @@
+# Registro de productos IBM ingeridos en la base de conocimiento, con sus relaciones
+# comerciales (ediciones, exclusividad mutua, rutas de upgrade). Informacion critica para
+# RFPs, para no proponer combinaciones de producto que el cliente no puede comprar juntas.
+
+products:
+  - id: apptio-costing-essentials
+    display_name: "IBM Apptio Costing Essentials"
+    vendor: "IBM (ex-Apptio)"
+    practices: [tbm]
+    doc_source: SSU3U2H
+    tier: entry
+    positioning: >
+      Solucion de costeo "prescriptiva" (plantillas pre-configuradas), pensada para clientes
+      mas pequeños o menos complejos que quieren adoptar TBM por etapas. Fuente: "It is a
+      prescriptive costing solution authored in R12, tailored for smaller and less complex
+      customers" (Costing Essentials GA release notes, July 2024).
+    key_constraint: >
+      NO incluye acceso self-service a TBM Studio ni a Datalink para el cliente. El modelado
+      y las allocations se entregan via el servicio TAS (Turnkey Admin Services) -- una
+      persona de IBM que configura y mantiene un alcance acotado, no una plataforma de
+      modelado libre. Fuente: "It is implemented through CS Delivery for initial
+      configuration and TAS for ongoing support" (idem).
+      [Nota: el detalle de que TAS cubre tipicamente 3-5 servicios de TI, y la explicacion
+      operativa de por que esto restringe el alcance del cliente, es conocimiento de campo de
+      Armando Donado (IBM Consulting) -- no esta documentado literalmente en el manual
+      tecnico. Se consigna aqui porque es informacion critica para no sobre-vender el alcance
+      de Essentials en una propuesta.]
+    upgrade_path:
+      upgrades_to: apptio-costing-standard
+      note: >
+        "It is an upgradeable framework that supports future components, extending
+        functionality to Costing Standard" (idem). La migracion es un evento formal de
+        upgrade, no una simple activacion de licencia.
+    mutually_exclusive_with: [apptio-costing-standard]
+
+  - id: apptio-costing-standard
+    display_name: "IBM Apptio Costing Standard"
+    vendor: "IBM (ex-Apptio)"
+    practices: [tbm]
+    doc_source: SSI71A
+    tier: full
+    positioning: >
+      Superset funcional completo de Costing Essentials. Incluye acceso full a TBM Studio y
+      Datalink, sin restriccion de alcance en el modelado de servicios de TI ni en la
+      construccion de allocations.
+    key_constraint: null
+    upgrade_path:
+      can_be_purchased_directly: true
+      note: >
+        Un cliente puede adquirir Costing Standard directamente, sin haber tenido antes
+        Costing Essentials -- Essentials no es un prerequisito, es una alternativa para
+        clientes que prefieren adoptar TBM de forma incremental por etapas.
+    mutually_exclusive_with: [apptio-costing-essentials]
+    sales_note: >
+      Un mismo cliente NO puede tener licencias activas de Essentials y Standard
+      simultaneamente -- son ediciones excluyentes entre si de un mismo producto base, no
+      productos complementarios que se combinen en una misma cuenta.
