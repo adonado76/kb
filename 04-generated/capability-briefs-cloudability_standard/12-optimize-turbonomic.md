@@ -14,6 +14,9 @@ last_updated: "2026-07-09"
 
 ## El concepto
 
+**Aclaracion de empaquetamiento importante, a comunicar explicitamente en cualquier conversacion de alcance**: IBM Turbonomic NO es una capacidad incluida en el empaquetamiento o licencia de IBM Cloudability Standard. Es un producto separado del portafolio IBM, con su propia licencia, instalacion e infraestructura. Lo que Cloudability Standard ofrece es una **integracion** -- la capacidad de conectar una instancia de Turbonomic ya desplegada (adquirida por separado) y visualizar sus acciones de optimizacion directamente dentro de la interfaz de Cloudability, sin necesitar que el usuario cambie de herramienta para verlas. Un cliente que no tenga ya IBM Turbonomic licenciado no obtiene esta funcionalidad simplemente por tener Cloudability Standard.
+
+
 Rightsizing (Capítulo 10) genera sus propias recomendaciones basadas en datos históricos de utilización. Turbonomic aporta un enfoque complementario y en tiempo real: un modelo de **Application Resource Management (ARM)** que corre continuamente, representando el entorno completo como una cadena de suministro de compradores y vendedores de recursos, anticipando riesgos antes de que ocurran, no solo reaccionando a patrones ya observados.
 
 ## Cómo lo resuelve IBM Cloudability Standard
