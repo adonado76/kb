@@ -1,0 +1,43 @@
+---
+source_system: "apptio-cloudability-standard"
+practice: "tbm"
+language: "en"
+doc_type: "cloudability-standard"
+title: "Forecast"
+breadcrumb:
+  - "Plan"
+  - "Budgets and Forecasts"
+  - "Forecast"
+source_path: "SSVCLNQ/product/bf-forecast.html"
+images:
+  - "03-media/apptio-cloudability-standard/forecast-homepage.jpg"
+  - "03-media/apptio-cloudability-standard/forecast-details.jpg"
+capability_ids: []
+last_updated: "2026-07-09"
+summary: ""
+---
+# Forecast
+
+This feature allows you to see historical spending patterns and inspect the underlying changes that are driving your forecasted spend so that you can understand what is expected to change. It also helps you to create additional budgets.
+
+Use Case
+
+You might use the six-month trend to create a reasonable stretch goal budget for your team which is less than the plan from your finance team. With Cloudability, it's easy to share this budget with your team, receive updates on your progress, and see Plan vs. Actual reporting on your progress to date.
+
+Customize Forecast Dashboard
+
+Navigate to Plan > Forecast
+
+Select Details button to see the forecast details.
+
+You can perform the following actions:
+
+- Modify the view by selecting appropriate values for any of the parameters, like cost basis, forecast model, and so on.
+- Export tabular data, either via the UI or the API, to a financial management tool of your choice.
+- Save the forecast as a budget.
+
+FAQ
+
+Why am I seeing a message about "missing cost data" for this month?
+
+AWS typically sends updated billing files every four hours. Occasionally, particularly in the first and last few days of the month, it can take longer. We'll show you your estimate based on the most recent data, but when we haven't received a billing file from Amazon for a given month, we'll show an incomplete data banner.
