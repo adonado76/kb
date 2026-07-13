@@ -1,5 +1,5 @@
 ---
-tbm_concept: "How-To: Build Cost Models (fundamentos del modelo, creación de asignaciones, y modelado avanzado en Model Studio)"
+concept: "How-To: Build Cost Models (fundamentos del modelo, creación de asignaciones, y modelado avanzado en Model Studio)"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Reference: Data Studio — referencia técnica completa de tablas, pasos de transformación, Published Tables, DataLink, interfaz de workspace, operaciones de tabla, manejo de errores y parseo de Excel"
+concept: "Reference: Data Studio — referencia técnica completa de tablas, pasos de transformación, Published Tables, DataLink, interfaz de workspace, operaciones de tabla, manejo de errores y parseo de Excel"
 practice: tbm
 language: en
 doc_type: capability_brief

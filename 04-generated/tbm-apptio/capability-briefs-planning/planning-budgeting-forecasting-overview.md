@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Apptio Planning — collaborative budgeting, forecasting, and investment planning"
+concept: "Apptio Planning — collaborative budgeting, forecasting, and investment planning"
 practice: tbm
 language: en
 doc_type: capability_brief

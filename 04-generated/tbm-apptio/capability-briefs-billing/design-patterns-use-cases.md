@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Design Patterns and Use Cases (7 escenarios concretos: showback PxQ, chargeback, investigación de spike, vista de nube, proyecto, entidad legal, y comparación plan/actual/price)"
+concept: "Design Patterns and Use Cases (7 escenarios concretos: showback PxQ, chargeback, investigación de spike, vista de nube, proyecto, entidad legal, y comparación plan/actual/price)"
 practice: tbm
 language: en
 doc_type: capability_brief

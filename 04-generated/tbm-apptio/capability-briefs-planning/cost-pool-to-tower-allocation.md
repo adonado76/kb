@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Cost Pool to Resource Tower allocation"
+concept: "Cost Pool to Resource Tower allocation"
 practice: tbm
 language: en
 doc_type: capability_brief

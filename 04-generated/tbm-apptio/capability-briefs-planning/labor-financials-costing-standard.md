@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Labor Financials (Workforce cost, mix, and allocation)"
+concept: "Labor Financials (Workforce cost, mix, and allocation)"
 practice: tbm
 language: en
 doc_type: capability_brief

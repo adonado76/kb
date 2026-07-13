@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Cost Sharing (showback/chargeback con cuatro estrategias de asignación, incluyendo telemetry-based, exclusiva de Standard/Premium)"
+concept: "Cost Sharing (showback/chargeback con cuatro estrategias de asignación, incluyendo telemetry-based, exclusiva de Standard/Premium)"
 practice: finops
 language: en
 doc_type: capability_brief

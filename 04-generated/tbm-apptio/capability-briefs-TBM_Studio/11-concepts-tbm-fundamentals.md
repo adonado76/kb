@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Concepts: TBM Fundamentals — la disciplina TBM, su taxonomía de cuatro capas, casos de uso estándar, metodologías de asignación, y el modelo de madurez de cuatro niveles"
+concept: "Concepts: TBM Fundamentals — la disciplina TBM, su taxonomía de cuatro capas, casos de uso estándar, metodologías de asignación, y el modelo de madurez de cuatro niveles"
 practice: tbm
 language: en
 doc_type: capability_brief

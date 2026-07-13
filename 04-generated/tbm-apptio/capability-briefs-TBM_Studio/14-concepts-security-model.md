@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Concepts: Security Model — arquitectura de seguridad en capas (autenticación, RBAC, RLS, permisos de componente), mejores prácticas, y seguridad a través del ciclo de vida"
+concept: "Concepts: Security Model — arquitectura de seguridad en capas (autenticación, RBAC, RLS, permisos de componente), mejores prácticas, y seguridad a través del ciclo de vida"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Data Quality Reports (versión previa — diagnóstico de completitud/consistencia del dato antes de confiar en cualquier reporte de costo)"
+concept: "Data Quality Reports (versión previa — diagnóstico de completitud/consistencia del dato antes de confiar en cualquier reporte de costo)"
 practice: tbm
 language: en
 doc_type: capability_brief

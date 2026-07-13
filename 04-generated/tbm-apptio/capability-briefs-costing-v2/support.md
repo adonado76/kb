@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Support Resources (canales oficiales de soporte, capacitación y comunidad para Apptio Costing Standard)"
+concept: "Support Resources (canales oficiales de soporte, capacitación y comunidad para Apptio Costing Standard)"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Integración Vendor Insights con Coupa (procurement automatizado hacia el ciclo completo de PO/factura/contrato ya documentado en Vendor Insights)"
+concept: "Integración Vendor Insights con Coupa (procurement automatizado hacia el ciclo completo de PO/factura/contrato ya documentado en Vendor Insights)"
 practice: tbm
 language: en
 doc_type: capability_brief

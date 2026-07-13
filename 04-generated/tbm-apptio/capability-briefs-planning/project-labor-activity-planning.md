@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Project Labor Activity Planning (effort allocation, cross-charging, capacity analysis)"
+concept: "Project Labor Activity Planning (effort allocation, cross-charging, capacity analysis)"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Previous Version Layouts — IT Infrastructure & Operations (benchmarking histórico de eficiencia operativa, gestión de nube reservada/potencial ahorro/calidad de tagging)"
+concept: "Previous Version Layouts — IT Infrastructure & Operations (benchmarking histórico de eficiencia operativa, gestión de nube reservada/potencial ahorro/calidad de tagging)"
 practice: tbm
 language: en
 doc_type: capability_brief

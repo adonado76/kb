@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Concepts: Data Architecture — el pipeline de tres etapas, tipos de tabla, versionado por período de tiempo, y frescura/validación de datos"
+concept: "Concepts: Data Architecture — el pipeline de tres etapas, tipos de tabla, versionado por período de tiempo, y frescura/validación de datos"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Accountability for Service Value (Service Portfolio Matrix: business value x cost/performance/alignment)"
+concept: "Accountability for Service Value (Service Portfolio Matrix: business value x cost/performance/alignment)"
 practice: tbm
 language: en
 doc_type: capability_brief

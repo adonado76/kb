@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Intelligent Forecasting — automated time-series forecasting"
+concept: "Intelligent Forecasting — automated time-series forecasting"
 practice: tbm
 language: en
 doc_type: capability_brief

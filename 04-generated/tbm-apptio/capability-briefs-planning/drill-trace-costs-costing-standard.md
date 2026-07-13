@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Drill and Trace of Costs (model traceability)"
+concept: "Drill and Trace of Costs (model traceability)"
 practice: tbm
 language: en
 doc_type: capability_brief

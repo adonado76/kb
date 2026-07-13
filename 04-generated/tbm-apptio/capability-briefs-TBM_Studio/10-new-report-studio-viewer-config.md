@@ -1,5 +1,5 @@
 ---
-tbm_concept: "IBM Apptio Report Studio (New) — Report Viewer, Saved Views, configuración/migración desde reportes clásicos, y evolución reciente de release notes"
+concept: "IBM Apptio Report Studio (New) — Report Viewer, Saved Views, configuración/migración desde reportes clásicos, y evolución reciente de release notes"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Data Center TCO"
+concept: "Data Center TCO"
 practice: tbm
 language: en
 doc_type: capability_brief

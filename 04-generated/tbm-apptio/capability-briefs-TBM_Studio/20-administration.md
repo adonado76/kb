@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Administration (proyecto, multi-moneda, usuarios, seguridad/cumplimiento, performance, precisión numérica, y build/deployment desde la perspectiva del administrador)"
+concept: "Administration (proyecto, multi-moneda, usuarios, seguridad/cumplimiento, performance, precisión numérica, y build/deployment desde la perspectiva del administrador)"
 practice: tbm
 language: en
 doc_type: capability_brief

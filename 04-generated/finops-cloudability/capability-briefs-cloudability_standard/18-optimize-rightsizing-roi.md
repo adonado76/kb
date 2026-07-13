@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Optimize — Rightsizing ROI (cierre del ciclo de oportunidad a ejecución vía tickets manuales o políticas automatizadas, con integración Jira/ServiceNow bidireccional)"
+concept: "Optimize — Rightsizing ROI (cierre del ciclo de oportunidad a ejecución vía tickets manuales o políticas automatizadas, con integración Jira/ServiceNow bidireccional)"
 practice: finops
 language: en
 doc_type: capability_brief

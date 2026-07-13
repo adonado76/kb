@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Storage Resource Tower capacity and cost efficiency"
+concept: "Storage Resource Tower capacity and cost efficiency"
 practice: tbm
 language: en
 doc_type: capability_brief

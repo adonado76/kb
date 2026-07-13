@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Running the Billing Cycle (operación recurrente: planeación anual, ciclo mensual, validación, distribución de facturas, journals contables)"
+concept: "Running the Billing Cycle (operación recurrente: planeación anual, ciclo mensual, validación, distribución de facturas, journals contables)"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Quickstart (acceso, prerequisitos, primeros 60 minutos, y criterio para pasar a configuración detallada)"
+concept: "Quickstart (acceso, prerequisitos, primeros 60 minutos, y criterio para pasar a configuración detallada)"
 practice: tbm
 language: en
 doc_type: capability_brief

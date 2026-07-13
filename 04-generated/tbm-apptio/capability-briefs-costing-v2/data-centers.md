@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Data Centers (TCO unificado de instalaciones, capacidad power/cooling/espacio, alcance explícitamente limitado a facility)"
+concept: "Data Centers (TCO unificado de instalaciones, capacidad power/cooling/espacio, alcance explícitamente limitado a facility)"
 practice: tbm
 language: en
 doc_type: capability_brief

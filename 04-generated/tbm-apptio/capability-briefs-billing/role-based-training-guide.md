@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Role-Based Training Guide (objetivos y alcance de capacitación, rutas de onboarding por rol, formatos y cadencia)"
+concept: "Role-Based Training Guide (objetivos y alcance de capacitación, rutas de onboarding por rol, formatos y cadencia)"
 practice: tbm
 language: en
 doc_type: capability_brief

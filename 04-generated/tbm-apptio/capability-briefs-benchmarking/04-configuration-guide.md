@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Configuration Guide (arquitectura de datos, responsabilidades, alineación de taxonomía, perfil organizacional, datos de costo/infraestructura, peer groups, y gobierno de configuración)"
+concept: "Configuration Guide (arquitectura de datos, responsabilidades, alineación de taxonomía, perfil organizacional, datos de costo/infraestructura, peer groups, y gobierno de configuración)"
 practice: tbm
 language: en
 doc_type: capability_brief

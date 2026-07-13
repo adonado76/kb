@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Cloudability API (catálogo de referencia de los 62 documentos de endpoints REST — V3 — para automatizar consumo, configuración y gestión programática de Cloudability)"
+concept: "Cloudability API (catálogo de referencia de los 62 documentos de endpoints REST — V3 — para automatizar consumo, configuración y gestión programática de Cloudability)"
 practice: finops
 language: en
 doc_type: capability_brief

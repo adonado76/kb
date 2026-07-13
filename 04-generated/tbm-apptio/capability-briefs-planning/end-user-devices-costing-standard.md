@@ -1,5 +1,5 @@
 ---
-tbm_concept: "End User Devices TCO and fleet management"
+concept: "End User Devices TCO and fleet management"
 practice: tbm
 language: en
 doc_type: capability_brief

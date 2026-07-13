@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Business Metrics (métricas evaluadas al momento de la ingesta, que aumentan la data de facturación con data propia del cliente)"
+concept: "Business Metrics (métricas evaluadas al momento de la ingesta, que aumentan la data de facturación con data propia del cliente)"
 practice: finops
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Report Walkthrough - Financial (recorrido guiado de habilitación a través de los reportes financieros ya documentados, para onboarding de usuarios finales)"
+concept: "Report Walkthrough - Financial (recorrido guiado de habilitación a través de los reportes financieros ya documentados, para onboarding de usuarios finales)"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Labor Planning (headcount, fully burdened cost allocation, compensation modeling, confidentiality controls)"
+concept: "Labor Planning (headcount, fully burdened cost allocation, compensation modeling, confidentiality controls)"
 practice: tbm
 language: en
 doc_type: capability_brief

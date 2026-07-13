@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Resource Towers (vista funcional del gasto de TI por torre/sub-torre, distinta de Cost Pool)"
+concept: "Resource Towers (vista funcional del gasto de TI por torre/sub-torre, distinta de Cost Pool)"
 practice: tbm
 language: en
 doc_type: capability_brief

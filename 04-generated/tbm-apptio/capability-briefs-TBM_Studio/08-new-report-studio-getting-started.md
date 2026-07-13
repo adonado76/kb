@@ -1,5 +1,5 @@
 ---
-tbm_concept: "IBM Apptio Report Studio (New) — Getting Started, Quick Start, Core Concepts y Working with Reports de la interfaz de reporte moderna"
+concept: "IBM Apptio Report Studio (New) — Getting Started, Quick Start, Core Concepts y Working with Reports de la interfaz de reporte moderna"
 practice: tbm
 language: en
 doc_type: capability_brief

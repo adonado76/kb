@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Technology Business Model Archetype: Expense Center"
+concept: "Technology Business Model Archetype: Expense Center"
 practice: tbm
 language: en
 doc_type: capability_brief

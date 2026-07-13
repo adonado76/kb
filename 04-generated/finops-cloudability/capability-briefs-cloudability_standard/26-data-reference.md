@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Data Reference (catálogo de dimensiones y métricas de costo/utilización, las seis variantes de métrica de costo, y diferencias entre la interfaz de reporte y las exportaciones CSV)"
+concept: "Data Reference (catálogo de dimensiones y métricas de costo/utilización, las seis variantes de métrica de costo, y diferencias entre la interfaz de reporte y las exportaciones CSV)"
 practice: finops
 language: en
 doc_type: capability_brief

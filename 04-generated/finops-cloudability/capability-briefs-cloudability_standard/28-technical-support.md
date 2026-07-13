@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Technical Support (canal de soporte, performance/outages, descuentos personalizados y EDP, y solicitudes de refetch/reprocess de datos)"
+concept: "Technical Support (canal de soporte, performance/outages, descuentos personalizados y EDP, y solicitudes de refetch/reprocess de datos)"
 practice: finops
 language: en
 doc_type: capability_brief

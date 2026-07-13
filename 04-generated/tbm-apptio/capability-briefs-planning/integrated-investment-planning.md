@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Integrated Investment Planning (IIP) — project/portfolio investment TCO"
+concept: "Integrated Investment Planning (IIP) — project/portfolio investment TCO"
 practice: tbm
 language: en
 doc_type: capability_brief

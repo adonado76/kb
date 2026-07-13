@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Insights (Resource Inventory con métricas de utilización, TrueCost/Tag Explorer, Container Cost Allocation con Advanced Containers/Kubecost, Anomaly Detection, Scorecards, sostenibilidad de nube, y métricas de uso de GenAI)"
+concept: "Insights (Resource Inventory con métricas de utilización, TrueCost/Tag Explorer, Container Cost Allocation con Advanced Containers/Kubecost, Anomaly Detection, Scorecards, sostenibilidad de nube, y métricas de uso de GenAI)"
 practice: finops
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Working with Plans (ciclo de vida completo: crear, editar forecast/presupuesto, y analizar desempeño con cinco reportes de varianza)"
+concept: "Working with Plans (ciclo de vida completo: crear, editar forecast/presupuesto, y analizar desempeño con cinco reportes de varianza)"
 practice: finops
 language: en
 doc_type: capability_brief

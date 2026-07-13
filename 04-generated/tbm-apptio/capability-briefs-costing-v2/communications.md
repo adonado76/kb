@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Communications (asignación de costo de circuitos, voz y cargos de uso hacia consumidores)"
+concept: "Communications (asignación de costo de circuitos, voz y cargos de uso hacia consumidores)"
 practice: tbm
 language: en
 doc_type: capability_brief

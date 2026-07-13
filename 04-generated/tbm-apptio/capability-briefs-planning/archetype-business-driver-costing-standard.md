@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Technology Business Model Archetype: Business Driver"
+concept: "Technology Business Model Archetype: Business Driver"
 practice: tbm
 language: en
 doc_type: capability_brief

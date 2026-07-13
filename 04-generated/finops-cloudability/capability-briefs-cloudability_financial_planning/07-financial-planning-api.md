@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Cloudability Financial Planning API (autenticación, endpoints de Plan/Dimension/Budget/Import-Export/Alerts/User, y la distinción crítica entre identidades CFP y Cloudability)"
+concept: "Cloudability Financial Planning API (autenticación, endpoints de Plan/Dimension/Budget/Import-Export/Alerts/User, y la distinción crítica entre identidades CFP y Cloudability)"
 practice: finops
 language: en
 doc_type: capability_brief

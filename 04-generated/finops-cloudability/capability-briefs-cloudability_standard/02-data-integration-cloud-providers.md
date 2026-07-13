@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Data Integration — Cloud Providers (conexión segura con AWS, Azure, GCP, Oracle Cloud e IBM Cloud como fuente primaria de datos de costo y consumo)"
+concept: "Data Integration — Cloud Providers (conexión segura con AWS, Azure, GCP, Oracle Cloud e IBM Cloud como fuente primaria de datos de costo y consumo)"
 practice: finops
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Calculated Metrics (métricas evaluadas al momento de la consulta, sobre datos ya agregados, con validación estricta de expresión)"
+concept: "Calculated Metrics (métricas evaluadas al momento de la consulta, sobre datos ya agregados, con validación estricta de expresión)"
 practice: finops
 language: en
 doc_type: capability_brief

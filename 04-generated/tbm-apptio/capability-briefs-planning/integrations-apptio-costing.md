@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Integration with Apptio Costing Standard (reference data, actuals, plan publishing — legacy CTI and modern ADM paths)"
+concept: "Integration with Apptio Costing Standard (reference data, actuals, plan publishing — legacy CTI and modern ADM paths)"
 practice: tbm
 language: en
 doc_type: capability_brief

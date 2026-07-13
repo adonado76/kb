@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Business Unit (consolidación de costo por unidad de negocio, asignación directa vs. indirecta)"
+concept: "Business Unit (consolidación de costo por unidad de negocio, asignación directa vs. indirecta)"
 practice: tbm
 language: en
 doc_type: capability_brief

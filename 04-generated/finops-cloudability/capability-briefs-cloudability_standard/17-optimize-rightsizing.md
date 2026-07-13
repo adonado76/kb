@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Optimize — Rightsizing (recomendaciones de dimensionamiento por tipo de recurso a través de cuatro proveedores de nube, Autoscale Action, preferencias globales, y snoozing)"
+concept: "Optimize — Rightsizing (recomendaciones de dimensionamiento por tipo de recurso a través de cuatro proveedores de nube, Autoscale Action, preferencias globales, y snoozing)"
 practice: finops
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Report Walkthrough - Infrastructure (recorrido guiado de habilitación por reportes de infraestructura, más la Planning Integration Collection que conecta con Apptio Planning)"
+concept: "Report Walkthrough - Infrastructure (recorrido guiado de habilitación por reportes de infraestructura, más la Planning Integration Collection que conecta con Apptio Planning)"
 practice: tbm
 language: en
 doc_type: capability_brief

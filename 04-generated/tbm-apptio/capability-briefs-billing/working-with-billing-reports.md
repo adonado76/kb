@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Working with Billing Reports (dónde viven los reportes, diferencias Essentials/Standard, tareas comunes de uso)"
+concept: "Working with Billing Reports (dónde viven los reportes, diferencias Essentials/Standard, tareas comunes de uso)"
 practice: tbm
 language: en
 doc_type: capability_brief

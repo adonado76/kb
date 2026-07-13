@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Applications (TCO de aplicación, portafolio, análisis de infraestructura subyacente, ciclo de vida)"
+concept: "Applications (TCO de aplicación, portafolio, análisis de infraestructura subyacente, ciclo de vida)"
 practice: tbm
 language: en
 doc_type: capability_brief

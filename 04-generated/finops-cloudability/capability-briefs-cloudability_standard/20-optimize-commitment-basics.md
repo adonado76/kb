@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Optimize — Understanding Commitment Management Basics (terminología de costo estandarizada, KPIs de ahorro/riesgo, mecánica de precios negociados, y estructura de cuenta por proveedor)"
+concept: "Optimize — Understanding Commitment Management Basics (terminología de costo estandarizada, KPIs de ahorro/riesgo, mecánica de precios negociados, y estructura de cuenta por proveedor)"
 practice: finops
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Unit Costing (cross-cutting metric, not a standalone solution page)"
+concept: "Unit Costing (cross-cutting metric, not a standalone solution page)"
 practice: tbm
 language: en
 doc_type: capability_brief

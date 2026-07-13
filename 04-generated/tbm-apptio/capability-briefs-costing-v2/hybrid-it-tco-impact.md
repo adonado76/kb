@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Hybrid IT TCO Impact (comparación defendible del TCO antes/después de una migración de aplicación entre on-prem, nube privada y pública)"
+concept: "Hybrid IT TCO Impact (comparación defendible del TCO antes/después de una migración de aplicación entre on-prem, nube privada y pública)"
 practice: tbm
 language: en
 doc_type: capability_brief

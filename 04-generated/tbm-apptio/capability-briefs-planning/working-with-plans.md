@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Plan Data Operations (baseline adjustment, comparison, targets, layouts, bulk I/O, multi-currency, external data, reference data refresh, actuals updates)"
+concept: "Plan Data Operations (baseline adjustment, comparison, targets, layouts, bulk I/O, multi-currency, external data, reference data refresh, actuals updates)"
 practice: tbm
 language: en
 doc_type: capability_brief

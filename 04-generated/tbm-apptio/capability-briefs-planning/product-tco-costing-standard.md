@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Product Total Cost of Ownership (TCO)"
+concept: "Product Total Cost of Ownership (TCO)"
 practice: tbm
 language: en
 doc_type: capability_brief

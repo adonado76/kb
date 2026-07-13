@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Plan (presupuestos y forecasting inteligente de gasto de nube, y planeación de arquitectura de workload)"
+concept: "Plan (presupuestos y forecasting inteligente de gasto de nube, y planeación de arquitectura de workload)"
 practice: finops
 language: en
 doc_type: capability_brief

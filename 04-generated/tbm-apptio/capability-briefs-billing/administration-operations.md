@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Administration and Operations (patrones de diseño organizacional: showback simple, chargeback, catálogo de servicio, nube, proyecto, entidad legal, y cómo combinarlos)"
+concept: "Administration and Operations (patrones de diseño organizacional: showback simple, chargeback, catálogo de servicio, nube, proyecto, entidad legal, y cómo combinarlos)"
 practice: tbm
 language: en
 doc_type: capability_brief

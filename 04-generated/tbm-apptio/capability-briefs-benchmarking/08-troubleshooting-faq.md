@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Troubleshooting & FAQ (diagnóstico por síntoma de acceso/datos/valores/peer group/integración, y reglas de alcance detalladas para comparaciones like-for-like)"
+concept: "Troubleshooting & FAQ (diagnóstico por síntoma de acceso/datos/valores/peer group/integración, y reglas de alcance detalladas para comparaciones like-for-like)"
 practice: tbm
 language: en
 doc_type: capability_brief

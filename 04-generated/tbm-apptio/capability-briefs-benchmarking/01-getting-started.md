@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Getting Started (qué es Benchmarking, tipos de benchmark, fuentes de datos, roles y glosario fundacional)"
+concept: "Getting Started (qué es Benchmarking, tipos de benchmark, fuentes de datos, roles y glosario fundacional)"
 practice: tbm
 language: en
 doc_type: capability_brief

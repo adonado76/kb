@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Concepts: Build and Deployment Lifecycle — los tres ambientes, el proceso de build/cálculo, promoción a producción, rollback, y branches/hotfixes"
+concept: "Concepts: Build and Deployment Lifecycle — los tres ambientes, el proceso de build/cálculo, promoción a producción, rollback, y branches/hotfixes"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Vendor & Vendor Insights (visibilidad de gasto con proveedores, y ciclo completo de contratos/PO/facturas/ARC-RRC)"
+concept: "Vendor & Vendor Insights (visibilidad de gasto con proveedores, y ciclo completo de contratos/PO/facturas/ARC-RRC)"
 practice: tbm
 language: en
 doc_type: capability_brief

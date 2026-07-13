@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Application Total Cost of Ownership (TCO)"
+concept: "Application Total Cost of Ownership (TCO)"
 practice: tbm
 language: en
 doc_type: capability_brief

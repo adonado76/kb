@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Getting Started (posicionamiento de Financial Planning, diferencia frente a Budgets/Forecasts clásico, acceso, y primeros pasos por rol)"
+concept: "Getting Started (posicionamiento de Financial Planning, diferencia frente a Budgets/Forecasts clásico, acceso, y primeros pasos por rol)"
 practice: finops
 language: en
 doc_type: capability_brief

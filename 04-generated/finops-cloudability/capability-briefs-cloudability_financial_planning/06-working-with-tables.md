@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Working with Tables (el control de tabla unificado usado en todo el producto: agrupación, columnas, ordenamiento, y agrupación de períodos de tiempo)"
+concept: "Working with Tables (el control de tabla unificado usado en todo el producto: agrupación, columnas, ordenamiento, y agrupación de períodos de tiempo)"
 practice: finops
 language: en
 doc_type: capability_brief

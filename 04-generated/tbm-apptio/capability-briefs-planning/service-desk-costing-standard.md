@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Service Desk Resource Tower cost and performance"
+concept: "Service Desk Resource Tower cost and performance"
 practice: tbm
 language: en
 doc_type: capability_brief

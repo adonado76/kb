@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Troubleshooting and Support — diagnóstico de problemas comunes por estudio, recomendaciones de configuración/agrupación numérica/recursos no usados, y canales de soporte"
+concept: "Troubleshooting and Support — diagnóstico de problemas comunes por estudio, recomendaciones de configuración/agrupación numérica/recursos no usados, y canales de soporte"
 practice: tbm
 language: en
 doc_type: capability_brief

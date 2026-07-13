@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Services (TCO de servicio de negocio totalmente cargado, portafolio, showback/chargeback)"
+concept: "Services (TCO de servicio de negocio totalmente cargado, portafolio, showback/chargeback)"
 practice: tbm
 language: en
 doc_type: capability_brief

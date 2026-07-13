@@ -1,5 +1,5 @@
 ---
-tbm_concept: "How-To: Create Reports (fundamentos de reporte, personalización, y reporting avanzado en Report Studio clásico)"
+concept: "How-To: Create Reports (fundamentos de reporte, personalización, y reporting avanzado en Report Studio clásico)"
 practice: tbm
 language: en
 doc_type: capability_brief

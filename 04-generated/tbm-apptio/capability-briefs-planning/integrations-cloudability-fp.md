@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Integration with Cloudability Financial Planning (CFP) — cloud budget/forecast consolidation"
+concept: "Integration with Cloudability Financial Planning (CFP) — cloud budget/forecast consolidation"
 practice: tbm
 language: en
 doc_type: capability_brief

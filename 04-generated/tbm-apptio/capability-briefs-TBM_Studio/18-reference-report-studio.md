@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Reference: Report Studio — catálogo exhaustivo de referencia técnica para todos los componentes, propiedades, layout, master reports, colecciones y permisos del Report Studio clásico"
+concept: "Reference: Report Studio — catálogo exhaustivo de referencia técnica para todos los componentes, propiedades, layout, master reports, colecciones y permisos del Report Studio clásico"
 practice: tbm
 language: en
 doc_type: capability_brief

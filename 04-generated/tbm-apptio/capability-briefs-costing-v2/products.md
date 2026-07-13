@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Products (TCO de producto, gobernanza de ciclo de vida producto, jerarquías de portafolio personalizables)"
+concept: "Products (TCO de producto, gobernanza de ciclo de vida producto, jerarquías de portafolio personalizables)"
 practice: tbm
 language: en
 doc_type: capability_brief

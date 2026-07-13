@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Go-Live Playbook (qué significa go-live para Billing, checklist de preparación, ensayo, cutover, hypercare, fallback, responsabilidades y runbook de steady-state)"
+concept: "Go-Live Playbook (qué significa go-live para Billing, checklist de preparación, ensayo, cutover, hypercare, fallback, responsabilidades y runbook de steady-state)"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Configuration (el flujo completo de puesta en marcha de un proyecto de Costing Standard, desde su creación hasta la carga y validación del primer modelo de costo)"
+concept: "Configuration (el flujo completo de puesta en marcha de un proyecto de Costing Standard, desde su creación hasta la carga y validación del primer modelo de costo)"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Getting Started (conceptos clave, terminología y navegación de Apptio Costing Standard)"
+concept: "Getting Started (conceptos clave, terminología y navegación de Apptio Costing Standard)"
 practice: tbm
 language: en
 doc_type: capability_brief

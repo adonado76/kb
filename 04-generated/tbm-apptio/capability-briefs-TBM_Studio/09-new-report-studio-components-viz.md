@@ -1,5 +1,5 @@
 ---
-tbm_concept: "IBM Apptio Report Studio (New) — Components (controles interactivos) y Visualizations (tablas, KPIs, gráficos) de la interfaz de reporte moderna"
+concept: "IBM Apptio Report Studio (New) — Components (controles interactivos) y Visualizations (tablas, KPIs, gráficos) de la interfaz de reporte moderna"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Business Value Streams — general framework"
+concept: "Business Value Streams — general framework"
 practice: tbm
 language: en
 doc_type: capability_brief

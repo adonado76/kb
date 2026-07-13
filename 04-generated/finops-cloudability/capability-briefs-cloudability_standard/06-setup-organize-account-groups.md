@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Account Groups (agrupación de cuentas/subscripciones/proyectos en dimensiones tipo key/value, gestionable vía UI o API v3)"
+concept: "Account Groups (agrupación de cuentas/subscripciones/proyectos en dimensiones tipo key/value, gestionable vía UI o API v3)"
 practice: finops
 language: en
 doc_type: capability_brief

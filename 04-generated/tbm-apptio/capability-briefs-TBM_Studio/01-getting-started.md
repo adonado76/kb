@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Getting Started (posicionamiento de TBM Studio, los tres estudios integrados, seis conceptos fundacionales, y el asistente de IA Conversational Insights)"
+concept: "Getting Started (posicionamiento de TBM Studio, los tres estudios integrados, seis conceptos fundacionales, y el asistente de IA Conversational Insights)"
 practice: tbm
 language: en
 doc_type: capability_brief

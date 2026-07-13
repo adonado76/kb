@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Report NX Walkthrough (recorrido guiado de habilitación en la interfaz New Report Studio, espejo de RW-01/02/03 pero en la experiencia nueva)"
+concept: "Report NX Walkthrough (recorrido guiado de habilitación en la interfaz New Report Studio, espejo de RW-01/02/03 pero en la experiencia nueva)"
 practice: tbm
 language: en
 doc_type: capability_brief

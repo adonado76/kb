@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Concepts: Model Architecture — objetos del modelo, métricas modeladas vs. calculadas, el motor de asignación con sus cinco tipos, orden de procesamiento, y trazabilidad/validación"
+concept: "Concepts: Model Architecture — objetos del modelo, métricas modeladas vs. calculadas, el motor de asignación con sus cinco tipos, orden de procesamiento, y trazabilidad/validación"
 practice: tbm
 language: en
 doc_type: capability_brief

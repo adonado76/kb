@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Solution Architecture and Dependencies (relación Billing-Costing, arquitectura de cada edición, front-end/endpoints, y dependencias consolidadas)"
+concept: "Solution Architecture and Dependencies (relación Billing-Costing, arquitectura de cada edición, front-end/endpoints, y dependencias consolidadas)"
 practice: tbm
 language: en
 doc_type: capability_brief

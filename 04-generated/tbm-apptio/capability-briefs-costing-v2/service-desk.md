@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Service Desk (costo por ticket, MTTR, dos niveles de madurez analítica)"
+concept: "Service Desk (costo por ticket, MTTR, dos niveles de madurez analítica)"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Tag & Label Mapping (normalización de tags/labels de facturación por vendor, con reglas de precedencia y formatos exactos)"
+concept: "Tag & Label Mapping (normalización de tags/labels de facturación por vendor, con reglas de precedencia y formatos exactos)"
 practice: finops
 language: en
 doc_type: capability_brief

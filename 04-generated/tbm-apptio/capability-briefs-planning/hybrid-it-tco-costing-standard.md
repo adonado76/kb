@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Hybrid IT TCO Impact"
+concept: "Hybrid IT TCO Impact"
 practice: tbm
 language: en
 doc_type: capability_brief

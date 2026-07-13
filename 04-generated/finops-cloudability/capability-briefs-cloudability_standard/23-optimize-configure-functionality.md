@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Optimize — Configure Optimization Functionality (credenciales requeridas por proveedor para habilitar recomendaciones de compromiso en AWS y Azure)"
+concept: "Optimize — Configure Optimization Functionality (credenciales requeridas por proveedor para habilitar recomendaciones de compromiso en AWS y Azure)"
 practice: finops
 language: en
 doc_type: capability_brief

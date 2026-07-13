@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Operations & Governance (modelo operativo y RACI, cadencias estándar, workflows core, políticas de cambio, validación de calidad de datos, adopción, KPIs, e integración con el programa TBM)"
+concept: "Operations & Governance (modelo operativo y RACI, cadencias estándar, workflows core, políticas de cambio, validación de calidad de datos, adopción, KPIs, e integración con el programa TBM)"
 practice: tbm
 language: en
 doc_type: capability_brief

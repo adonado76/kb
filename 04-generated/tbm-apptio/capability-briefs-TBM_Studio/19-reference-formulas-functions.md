@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Reference: Formulas and Functions — sintaxis del lenguaje de fórmulas de TBM Studio y catálogo de ~120 funciones agrupadas por tipo"
+concept: "Reference: Formulas and Functions — sintaxis del lenguaje de fórmulas de TBM Studio y catálogo de ~120 funciones agrupadas por tipo"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Fixed Assets (depreciación, ciclo de vida de activos capitalizados, tracking de valor remanente)"
+concept: "Fixed Assets (depreciación, ciclo de vida de activos capitalizados, tracking de valor remanente)"
 practice: tbm
 language: en
 doc_type: capability_brief

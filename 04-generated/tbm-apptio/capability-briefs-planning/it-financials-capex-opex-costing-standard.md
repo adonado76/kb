@@ -1,5 +1,5 @@
 ---
-tbm_concept: "IT Financials — CapEx & OpEx consolidated visibility"
+concept: "IT Financials — CapEx & OpEx consolidated visibility"
 practice: tbm
 language: en
 doc_type: capability_brief

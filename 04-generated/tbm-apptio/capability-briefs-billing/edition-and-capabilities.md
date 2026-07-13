@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Edition and Capabilities (matriz formal de comparación Essentials vs. Standard, y cómo diseñar pensando en la edición elegida)"
+concept: "Edition and Capabilities (matriz formal de comparación Essentials vs. Standard, y cómo diseñar pensando en la edición elegida)"
 practice: tbm
 language: en
 doc_type: capability_brief

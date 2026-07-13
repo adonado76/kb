@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Learning Paths (Role-Based) — rutas de capacitación estructuradas en tres niveles (Foundation/Essential/Advanced) para cuatro roles distintos"
+concept: "Learning Paths (Role-Based) — rutas de capacitación estructuradas en tres niveles (Foundation/Essential/Advanced) para cuatro roles distintos"
 practice: tbm
 language: en
 doc_type: capability_brief

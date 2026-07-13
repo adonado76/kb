@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Optimize — Guide to Advanced Commitment Functionality (modales de transparencia de KPI, diferencias de facturación entre Savings Plans y Reserved Instances, y el programa Spend CUD de GCP)"
+concept: "Optimize — Guide to Advanced Commitment Functionality (modales de transparencia de KPI, diferencias de facturación entre Savings Plans y Reserved Instances, y el programa Spend CUD de GCP)"
 practice: finops
 language: en
 doc_type: capability_brief

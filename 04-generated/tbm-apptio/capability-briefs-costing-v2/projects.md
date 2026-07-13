@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Projects (inversión de TI, alineación Run/Grow/Transform, riesgo de portafolio)"
+concept: "Projects (inversión de TI, alineación Run/Grow/Transform, riesgo de portafolio)"
 practice: tbm
 language: en
 doc_type: capability_brief

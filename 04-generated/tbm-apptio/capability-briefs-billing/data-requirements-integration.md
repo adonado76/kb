@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Data Requirements and Integration (fundamentos de datos compartidos, requisitos por edición, calidad, calendarios, FX, mecanismos de integración)"
+concept: "Data Requirements and Integration (fundamentos de datos compartidos, requisitos por edición, calidad, calendarios, FX, mecanismos de integración)"
 practice: tbm
 language: en
 doc_type: capability_brief

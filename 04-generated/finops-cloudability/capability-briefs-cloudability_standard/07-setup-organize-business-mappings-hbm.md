@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Business Mappings (motor de reglas para crear Business Dimensions vía statements) y Hierarchical Business Mappings (jerarquías de rollup a escala)"
+concept: "Business Mappings (motor de reglas para crear Business Dimensions vía statements) y Hierarchical Business Mappings (jerarquías de rollup a escala)"
 practice: finops
 language: en
 doc_type: capability_brief

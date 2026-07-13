@@ -1,5 +1,5 @@
 ---
-tbm_concept: "How-To: Manage Users and Permissions (roles por defecto, roles personalizados, y tres capas de control de acceso)"
+concept: "How-To: Manage Users and Permissions (roles por defecto, roles personalizados, y tres capas de control de acceso)"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Technology Business Model Archetype: Value Partner"
+concept: "Technology Business Model Archetype: Value Partner"
 practice: tbm
 language: en
 doc_type: capability_brief

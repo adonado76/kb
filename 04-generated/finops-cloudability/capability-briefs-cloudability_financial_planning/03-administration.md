@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Administration (control de acceso vía Enhanced Access Administration, roles disponibles, y soporte multi-moneda)"
+concept: "Administration (control de acceso vía Enhanced Access Administration, roles disponibles, y soporte multi-moneda)"
 practice: finops
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "How-To: Integrate and Extend (autenticación y operaciones vía API, y extensión de lógica de negocio vía ApptioScript)"
+concept: "How-To: Integrate and Extend (autenticación y operaciones vía API, y extensión de lógica de negocio vía ApptioScript)"
 practice: tbm
 language: en
 doc_type: capability_brief

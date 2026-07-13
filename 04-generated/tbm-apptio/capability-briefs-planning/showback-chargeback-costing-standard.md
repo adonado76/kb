@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Showback / Chargeback — cost transparency and allocation basis"
+concept: "Showback / Chargeback — cost transparency and allocation basis"
 practice: tbm
 language: en
 doc_type: capability_brief

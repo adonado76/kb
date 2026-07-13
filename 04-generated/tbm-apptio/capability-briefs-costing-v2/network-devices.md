@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Network Devices (costo de LAN/WAN/Voz, asignación a consumidores de infraestructura)"
+concept: "Network Devices (costo de LAN/WAN/Voz, asignación a consumidores de infraestructura)"
 practice: tbm
 language: en
 doc_type: capability_brief

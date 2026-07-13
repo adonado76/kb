@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Workforce & Time Tracking (composición de labor, headcount, costo de labor por rol/ubicación, asignación por tiempo reportado)"
+concept: "Workforce & Time Tracking (composición de labor, headcount, costo de labor por rol/ubicación, asignación por tiempo reportado)"
 practice: tbm
 language: en
 doc_type: capability_brief

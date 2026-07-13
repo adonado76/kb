@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Contract Planning (vendor obligation modeling, amortization, extensions, VAT)"
+concept: "Contract Planning (vendor obligation modeling, amortization, extensions, VAT)"
 practice: tbm
 language: en
 doc_type: capability_brief

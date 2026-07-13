@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Public Cloud spend visibility and optimization"
+concept: "Public Cloud spend visibility and optimization"
 practice: tbm
 language: en
 doc_type: capability_brief

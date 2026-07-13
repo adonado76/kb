@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Compute Resource Tower TCO and utilization"
+concept: "Compute Resource Tower TCO and utilization"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "End User (TCO de dispositivos de usuario final; dos soluciones arquitectónicamente independientes, no en capas)"
+concept: "End User (TCO de dispositivos de usuario final; dos soluciones arquitectónicamente independientes, no en capas)"
 practice: tbm
 language: en
 doc_type: capability_brief

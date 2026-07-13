@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Data Reprocess (refresh retrospectivo self-service de data histórica tras cambios de taxonomía, con límite de Month-units)"
+concept: "Data Reprocess (refresh retrospectivo self-service de data histórica tras cambios de taxonomía, con límite de Month-units)"
 practice: finops
 language: en
 doc_type: capability_brief

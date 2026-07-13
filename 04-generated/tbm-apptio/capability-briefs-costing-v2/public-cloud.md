@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Public Cloud (dos soluciones — Integrated vs. IT Finance —, TCO de nube, Reserved Instances, mapeo ATUM, tagging para showback)"
+concept: "Public Cloud (dos soluciones — Integrated vs. IT Finance —, TCO de nube, Reserved Instances, mapeo ATUM, tagging para showback)"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Environments and Release Management (ambientes In Development/Staging/Production, ciclo de check-out/check-in/build, y flujo específico por edición)"
+concept: "Environments and Release Management (ambientes In Development/Staging/Production, ciclo de check-out/check-in/build, y flujo específico por edición)"
 practice: tbm
 language: en
 doc_type: capability_brief

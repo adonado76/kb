@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Variance Analysis (forecast-to-baseline comparison, thresholded exception review, audit trail)"
+concept: "Variance Analysis (forecast-to-baseline comparison, thresholded exception review, audit trail)"
 practice: tbm
 language: en
 doc_type: capability_brief

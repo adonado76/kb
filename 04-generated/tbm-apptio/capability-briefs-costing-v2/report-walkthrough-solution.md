@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Report Walkthrough - Solution (recorrido guiado de habilitación por reportes de Applications/Services, más Cost Take-Out y Public Cloud for IT Finance)"
+concept: "Report Walkthrough - Solution (recorrido guiado de habilitación por reportes de Applications/Services, más Cost Take-Out y Public Cloud for IT Finance)"
 practice: tbm
 language: en
 doc_type: capability_brief

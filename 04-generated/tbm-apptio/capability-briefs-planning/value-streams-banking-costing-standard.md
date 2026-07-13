@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Value Streams — Banking / Wealth Management"
+concept: "Value Streams — Banking / Wealth Management"
 practice: tbm
 language: en
 doc_type: capability_brief

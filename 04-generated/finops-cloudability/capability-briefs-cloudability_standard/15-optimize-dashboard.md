@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Optimize — Optimization Dashboard (centro de comando de oportunidades de ahorro, con el score COIN como métrica de contextualización)"
+concept: "Optimize — Optimization Dashboard (centro de comando de oportunidades de ahorro, con el score COIN como métrica de contextualización)"
 practice: finops
 language: en
 doc_type: capability_brief

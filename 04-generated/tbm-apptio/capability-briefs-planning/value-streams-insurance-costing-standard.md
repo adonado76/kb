@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Value Streams — Insurance"
+concept: "Value Streams — Insurance"
 practice: tbm
 language: en
 doc_type: capability_brief

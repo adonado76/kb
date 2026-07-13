@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Advanced Topics (análisis y optimización de tarifa unitaria, patrones de nube, vistas de proyecto, transfer pricing, y plan vs. actual vs. price)"
+concept: "Advanced Topics (análisis y optimización de tarifa unitaria, patrones de nube, vistas de proyecto, transfer pricing, y plan vs. actual vs. price)"
 practice: tbm
 language: en
 doc_type: capability_brief

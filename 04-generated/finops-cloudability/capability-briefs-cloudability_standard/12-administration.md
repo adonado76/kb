@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Administration (credenciales de vendor, roles y permisos, usuarios/grupos con sincronización Entra ID, Views jerárquicas, y multi-moneda)"
+concept: "Administration (credenciales de vendor, roles y permisos, usuarios/grupos con sincronización Entra ID, Views jerárquicas, y multi-moneda)"
 practice: finops
 language: en
 doc_type: capability_brief

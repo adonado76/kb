@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Vendor Management — early-adoption value"
+concept: "Vendor Management — early-adoption value"
 practice: tbm
 language: en
 doc_type: capability_brief

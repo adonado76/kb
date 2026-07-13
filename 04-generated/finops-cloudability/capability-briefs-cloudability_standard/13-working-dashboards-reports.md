@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Working with Dashboards and Reports (dashboards personalizables con 7 tipos de widget, reportes con más de 70 plantillas preconfiguradas, el pipeline de datos de costo, y reconciliación de facturas)"
+concept: "Working with Dashboards and Reports (dashboards personalizables con 7 tipos de widget, reportes con más de 70 plantillas preconfiguradas, el pipeline de datos de costo, y reconciliación de facturas)"
 practice: finops
 language: en
 doc_type: capability_brief

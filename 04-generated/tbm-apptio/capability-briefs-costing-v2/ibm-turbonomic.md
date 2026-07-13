@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Integración con IBM Turbonomic (recomendaciones de optimización de infraestructura en tiempo real, enriqueciendo el TCO retrospectivo con acción prospectiva)"
+concept: "Integración con IBM Turbonomic (recomendaciones de optimización de infraestructura en tiempo real, enriqueciendo el TCO retrospectivo con acción prospectiva)"
 practice: tbm
 language: en
 doc_type: capability_brief

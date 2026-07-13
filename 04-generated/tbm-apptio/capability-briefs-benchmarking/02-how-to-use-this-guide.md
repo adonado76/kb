@@ -1,5 +1,5 @@
 ---
-tbm_concept: "How to Use This Guide (audiencias, mapa de secciones, ruta por persona, checklist de implementación)"
+concept: "How to Use This Guide (audiencias, mapa de secciones, ruta por persona, checklist de implementación)"
 practice: tbm
 language: en
 doc_type: capability_brief

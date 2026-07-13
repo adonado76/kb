@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Optimize — Guide to Commitment Management (alineación organizacional, portfolio histórico, recomendaciones de compra, preferencias, y alertas de compromisos de nube)"
+concept: "Optimize — Guide to Commitment Management (alineación organizacional, portfolio histórico, recomendaciones de compra, preferencias, y alertas de compromisos de nube)"
 practice: finops
 language: en
 doc_type: capability_brief

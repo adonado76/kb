@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Approval Workflows & Collaboration (governance routing, versioning, audit trail, threaded review)"
+concept: "Approval Workflows & Collaboration (governance routing, versioning, audit trail, threaded review)"
 practice: tbm
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Data Integration — Other Sources (integraciones más allá de la factura de nube: observabilidad, ITSM, bases de datos, notificaciones, identidad, y Kubernetes)"
+concept: "Data Integration — Other Sources (integraciones más allá de la factura de nube: observabilidad, ITSM, bases de datos, notificaciones, identidad, y Kubernetes)"
 practice: finops
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Compute (TCO híbrido de servidores físicos/virtuales/nube, utilización, dos niveles de madurez analítica)"
+concept: "Compute (TCO híbrido de servidores físicos/virtuales/nube, utilización, dos niveles de madurez analítica)"
 practice: tbm
 language: en
 doc_type: capability_brief

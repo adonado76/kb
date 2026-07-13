@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Administration (roles y permisos de usuario, modelo de upgrade de Costing Standard, gestión del impacto de personalizaciones)"
+concept: "Administration (roles y permisos de usuario, modelo de upgrade de Costing Standard, gestión del impacto de personalizaciones)"
 practice: tbm
 language: en
 doc_type: capability_brief

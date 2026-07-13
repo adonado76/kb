@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Getting Started (posicionamiento de Billing, ediciones, conceptos fundacionales, roles y permisos)"
+concept: "Getting Started (posicionamiento de Billing, ediciones, conceptos fundacionales, roles y permisos)"
 practice: tbm
 language: en
 doc_type: capability_brief

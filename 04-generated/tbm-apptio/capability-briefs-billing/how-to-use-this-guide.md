@@ -1,5 +1,5 @@
 ---
-tbm_concept: "How to Use This Guide (navegación de la documentación por persona, notas de edición, checklist de implementación)"
+concept: "How to Use This Guide (navegación de la documentación por persona, notas de edición, checklist de implementación)"
 practice: tbm
 language: en
 doc_type: capability_brief

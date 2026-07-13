@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Configuring Billing Standard (implementación con modelo de dominio propio, ambientes In Development/Staging/Production, y lógica de precio/varianza)"
+concept: "Configuring Billing Standard (implementación con modelo de dominio propio, ambientes In Development/Staging/Production, y lógica de precio/varianza)"
 practice: tbm
 language: en
 doc_type: capability_brief

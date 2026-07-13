@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Working with Plan Dimensions (los dos tipos de dimensión de plan, y su configuración centralizada por administradores)"
+concept: "Working with Plan Dimensions (los dos tipos de dimensión de plan, y su configuración centralizada por administradores)"
 practice: finops
 language: en
 doc_type: capability_brief

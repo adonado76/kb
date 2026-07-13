@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Optimize — Turbonomic (visibilidad de acciones de Application Resource Management directamente dentro de Cloudability, con inversiones necesarias vs. ahorros potenciales)"
+concept: "Optimize — Turbonomic (visibilidad de acciones de Application Resource Management directamente dentro de Cloudability, con inversiones necesarias vs. ahorros potenciales)"
 practice: finops
 language: en
 doc_type: capability_brief

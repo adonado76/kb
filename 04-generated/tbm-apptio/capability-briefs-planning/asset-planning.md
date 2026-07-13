@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Asset Planning (CapEx acquisition, depreciation methods, CapEx-to-OpEx transition)"
+concept: "Asset Planning (CapEx acquisition, depreciation methods, CapEx-to-OpEx transition)"
 practice: tbm
 language: en
 doc_type: capability_brief

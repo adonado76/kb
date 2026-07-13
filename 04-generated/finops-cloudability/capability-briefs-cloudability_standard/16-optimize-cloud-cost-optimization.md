@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Optimize — Cloud Cost Optimization in Cloudability (el marco conceptual de Rate Optimization, y cómo los compromisos de descuento varían entre proveedores de nube)"
+concept: "Optimize — Cloud Cost Optimization in Cloudability (el marco conceptual de Rate Optimization, y cómo los compromisos de descuento varían entre proveedores de nube)"
 practice: finops
 language: en
 doc_type: capability_brief

@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Governance (aplicación proactiva de políticas FinOps directamente en el flujo de trabajo de desarrollo, vía integración con GitHub/Terraform)"
+concept: "Governance (aplicación proactiva de políticas FinOps directamente en el flujo de trabajo de desarrollo, vía integración con GitHub/Terraform)"
 practice: finops
 language: en
 doc_type: capability_brief

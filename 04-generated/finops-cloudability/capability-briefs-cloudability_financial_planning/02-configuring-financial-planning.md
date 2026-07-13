@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Configuring Cloudability Financial Planning (relación con Views, consideraciones de dimensión, y el rol central de la dimensión de cost ownership)"
+concept: "Configuring Cloudability Financial Planning (relación con Views, consideraciones de dimensión, y el rol central de la dimensión de cost ownership)"
 practice: finops
 language: en
 doc_type: capability_brief

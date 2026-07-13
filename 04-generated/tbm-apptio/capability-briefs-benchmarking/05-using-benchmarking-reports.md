@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Using Benchmarking Reports (tipos de reporte, elementos comunes de las vistas, escenarios de uso, y cómo hablar de limitaciones)"
+concept: "Using Benchmarking Reports (tipos de reporte, elementos comunes de las vistas, escenarios de uso, y cómo hablar de limitaciones)"
 practice: tbm
 language: en
 doc_type: capability_brief

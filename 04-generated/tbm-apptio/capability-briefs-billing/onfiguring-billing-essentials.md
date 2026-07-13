@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Configuring Billing Essentials (secuencia completa de implementación: alcance, componentes, datos, tarifas, cálculo, go-live)"
+concept: "Configuring Billing Essentials (secuencia completa de implementación: alcance, componentes, datos, tarifas, cálculo, go-live)"
 practice: tbm
 language: en
 doc_type: capability_brief

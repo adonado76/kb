@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Project spend alignment and investment classification"
+concept: "Project spend alignment and investment classification"
 practice: tbm
 language: en
 doc_type: capability_brief

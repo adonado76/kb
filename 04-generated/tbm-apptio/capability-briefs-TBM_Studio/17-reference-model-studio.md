@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Reference: Model Studio — referencia técnica completa de objetos del modelo, drivers, asignaciones, métricas, diagramas Sankey y reportes de modelo"
+concept: "Reference: Model Studio — referencia técnica completa de objetos del modelo, drivers, asignaciones, métricas, diagramas Sankey y reportes de modelo"
 practice: tbm
 language: en
 doc_type: capability_brief

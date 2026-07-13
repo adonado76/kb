@@ -1,5 +1,5 @@
 ---
-tbm_concept: "How-To: Work with Data (importación, transformación, captura manual, seguridad y exportación de datos en Data Studio)"
+concept: "How-To: Work with Data (importación, transformación, captura manual, seguridad y exportación de datos en Data Studio)"
 practice: tbm
 language: en
 doc_type: capability_brief

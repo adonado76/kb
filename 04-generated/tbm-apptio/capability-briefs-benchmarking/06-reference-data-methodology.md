@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Data & Methodology Reference (fuentes de datos, cobertura y límites, normalización, métodos estadísticos de peer group, arquetipos, guías de interpretación, y FAQ de metodología)"
+concept: "Data & Methodology Reference (fuentes de datos, cobertura y límites, normalización, métodos estadísticos de peer group, arquetipos, guías de interpretación, y FAQ de metodología)"
 practice: tbm
 language: en
 doc_type: capability_brief

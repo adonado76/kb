@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Network Devices and Communications Resource Towers"
+concept: "Network Devices and Communications Resource Towers"
 practice: tbm
 language: en
 doc_type: capability_brief

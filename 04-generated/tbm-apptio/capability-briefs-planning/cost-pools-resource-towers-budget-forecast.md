@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Cost Pools & Resource Towers — IT Financials transparency, budget/forecast variance"
+concept: "Cost Pools & Resource Towers — IT Financials transparency, budget/forecast variance"
 practice: tbm
 language: en
 doc_type: capability_brief

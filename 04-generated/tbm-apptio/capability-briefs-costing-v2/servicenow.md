@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Integración con ServiceNow (sincronización de CMDB, tickets y catálogo de servicios hacia el modelo de costo)"
+concept: "Integración con ServiceNow (sincronización de CMDB, tickets y catálogo de servicios hacia el modelo de costo)"
 practice: tbm
 language: en
 doc_type: capability_brief

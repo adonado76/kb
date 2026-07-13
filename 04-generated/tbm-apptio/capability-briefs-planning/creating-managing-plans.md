@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Plan Creation & Lifecycle Management"
+concept: "Plan Creation & Lifecycle Management"
 practice: tbm
 language: en
 doc_type: capability_brief

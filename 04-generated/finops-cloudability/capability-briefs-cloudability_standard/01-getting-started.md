@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Getting Started (posicionamiento del producto, mapa completo de capacidades por sección de menú, acceso vía Apex, y rutas de primeros pasos diferenciadas por rol)"
+concept: "Getting Started (posicionamiento del producto, mapa completo de capacidades por sección de menú, acceso vía Apex, y rutas de primeros pasos diferenciadas por rol)"
 practice: finops
 language: en
 doc_type: capability_brief

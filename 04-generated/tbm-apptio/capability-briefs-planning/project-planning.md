@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Project / Integrated Investment Planning (IIP) — Build vs. Run TCO, project governance and access"
+concept: "Project / Integrated Investment Planning (IIP) — Build vs. Run TCO, project governance and access"
 practice: tbm
 language: en
 doc_type: capability_brief

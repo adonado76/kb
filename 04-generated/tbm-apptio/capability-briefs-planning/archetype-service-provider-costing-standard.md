@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Technology Business Model Archetype: Service Provider"
+concept: "Technology Business Model Archetype: Service Provider"
 practice: tbm
 language: en
 doc_type: capability_brief

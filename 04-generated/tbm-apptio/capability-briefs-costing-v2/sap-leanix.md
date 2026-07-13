@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Integración con SAP LeanIX (arquitectura empresarial y portafolio de aplicaciones enriqueciendo el TCO con contexto estratégico)"
+concept: "Integración con SAP LeanIX (arquitectura empresarial y portafolio de aplicaciones enriqueciendo el TCO con contexto estratégico)"
 practice: tbm
 language: en
 doc_type: capability_brief

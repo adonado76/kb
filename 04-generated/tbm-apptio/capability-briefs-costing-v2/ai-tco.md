@@ -1,5 +1,5 @@
 ---
-tbm_concept: "AI TCO (costeo de modelos y plataformas de IA — dos arquitecturas de origen de dato, marco de madurez Crawl-Walk-Run)"
+concept: "AI TCO (costeo de modelos y plataformas de IA — dos arquitecturas de origen de dato, marco de madurez Crawl-Walk-Run)"
 practice: tbm
 language: en
 doc_type: capability_brief

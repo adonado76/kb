@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Setting up Time Zone Preferences (zona horaria de la organización, resúmenes de gasto por correo, y métrica de costo por defecto por módulo)"
+concept: "Setting up Time Zone Preferences (zona horaria de la organización, resúmenes de gasto por correo, y métrica de costo por defecto por módulo)"
 practice: finops
 language: en
 doc_type: capability_brief

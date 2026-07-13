@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Troubleshooting (diagnóstico y resolución de problemas comunes en Billing Essentials y Billing Standard)"
+concept: "Troubleshooting (diagnóstico y resolución de problemas comunes en Billing Essentials y Billing Standard)"
 practice: tbm
 language: en
 doc_type: capability_brief

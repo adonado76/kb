@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Mainframe TCO (costeo defendible por MSU/zIIP, showback/chargeback, benchmarking de industria)"
+concept: "Mainframe TCO (costeo defendible por MSU/zIIP, showback/chargeback, benchmarking de industria)"
 practice: tbm
 language: en
 doc_type: capability_brief

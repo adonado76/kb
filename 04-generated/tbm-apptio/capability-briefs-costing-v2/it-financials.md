@@ -1,5 +1,5 @@
 ---
-tbm_concept: "IT Financials (visibilidad consolidada de gasto OpEx/CapEx, análisis de variación presupuestal, cost pools)"
+concept: "IT Financials (visibilidad consolidada de gasto OpEx/CapEx, análisis de variación presupuestal, cost pools)"
 practice: tbm
 language: en
 doc_type: capability_brief

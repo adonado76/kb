@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Mainframe TCO, consumption, and NX Reports"
+concept: "Mainframe TCO, consumption, and NX Reports"
 practice: tbm
 language: en
 doc_type: capability_brief

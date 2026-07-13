@@ -1,5 +1,5 @@
 ---
-tbm_concept: "Storage (TCO de almacenamiento, dos niveles de madurez analítica, capacidad direccionable vs. usada)"
+concept: "Storage (TCO de almacenamiento, dos niveles de madurez analítica, capacidad direccionable vs. usada)"
 practice: tbm
 language: en
 doc_type: capability_brief
