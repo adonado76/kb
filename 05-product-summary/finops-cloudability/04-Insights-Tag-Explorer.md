@@ -22,8 +22,6 @@ last_updated: "2026-07-13"
   - 03-media/apptio-cloudability-standard/tag_explorer_service.jpg
   - 03-media/apptio-cloudability-standard/tag_explorer_untaggable.jpg
 
-## Identify tagged and untagged spend with Tag Explorer
-
 With Tag Explorer , we make it easy to see which tags your organization is currently using. For example, if you know your company uses the Team tag to allocate spending but can't remember if the values for the team should be lowercase, camel-case, spaces, abbreviated, etc., Tag Explorer is here to help.
 
 The scenario

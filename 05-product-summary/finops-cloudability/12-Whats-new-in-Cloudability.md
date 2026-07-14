@@ -41,8 +41,6 @@ last_updated: "2026-07-13"
   - 03-media/apptio-cloudability-standard/kubernetes-label.jpg
   - 03-media/apptio-cloudability-standard/usagefamilyremapping.jpg
 
-## Cloudability : What's new in 2023
-
 ### Resource Inventory Support for Views Created with Account Groups - December 28, 2023
 
 With this release, AWS and Azure Resource Inventory would support Views that are created using Account Groups in Cloudability. You can now filter the Resource Inventory data based on the Views that are created using any combination of Tag Dimensions , Account Groups , and Vendor filters.
@@ -1012,8 +1010,6 @@ Load Balancer: The previous Load Balancer Usage was very granular. This value no
   - 03-media/apptio-cloudability-standard/wp_json2.jpg
   - 03-media/apptio-cloudability-standard/wp_json3.jpg
   - 03-media/apptio-cloudability-standard/oci-credentialing-namespace.jpg
-
-## Cloudability Standard: What's new in 2025
 
 ### Enhancements to User Management UI and Default View - December 19, 2025
 
@@ -2002,8 +1998,6 @@ Earlier, Workload Planning only supported Azure Reservations as the default comm
   - 03-media/apptio-cloudability-standard/wp2.jpg
   - 03-media/apptio-cloudability-standard/workload-planning-oci-1.jpg
 
-## Cloudability: What's new in 2024
-
 ### Statistical Filtering of Resource Inventory UI – 25 December, 2024
 
 With this release, we introduced a new option in the Resource Inventory UI (both AWS and Azure) which allows you to choose and display a subset of Resource Inventory data. From the inventory data generated for a specific service and time period, you can now choose to display a subset of that data, whether it is the top x number or the top x percentage of resources based on your preferred cost or utilization metric.
@@ -2974,8 +2968,6 @@ You are required to provide Cloudability with access to your custom pricing data
 - **source_path:** SSVCLNQ/release-notes-standard/whats-new.html
 - **original_file:** cloudability-whats-new-in.md
 - **images:** []
-
-## What's new in Cloudability
 
 ### Cloudability Governance Adds Azure Support – July 1, 2026
 

@@ -19,8 +19,6 @@ last_updated: "2026-07-13"
 - **images:**
   - 03-media/apptio-cloudability-standard/turbonomic.png
 
-## Turbonomic
-
 ### Overview
 
 Turbonomic is an Application Resource Management (ARM) solution, with an application-driven approach that continuously analyzes applications' resource needs and generates fully automatable actions to ensure applications always get what they need to perform. It runs 24/7/365 and scales with any complex environments. To perform Application Resource Management, Turbonomic represents your environment holistically as a supply chain of resource buyers and sellers , all working together to meet application demand. By empowering buyers (such as VMs) with a budget to seek the resources that applications need to perform, and sellers (such as hosts) to price their available CPU, memory, storage, and other resources based on utilization in real time, Turbonomic keeps your applications in an optimal state.

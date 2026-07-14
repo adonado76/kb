@@ -21,8 +21,6 @@ last_updated: "2026-07-13"
   - 03-media/apptio-cloudability-standard/rightsizing_roi_2.png
   - 03-media/apptio-cloudability-standard/rightsizing_roi_3.png
 
-## Rightsizing ROI
-
 Rightsizing ROI lets you track rightsizing recommendations from opportunity to completion and report on the impact of your rightsizing efforts. You can create tickets manually or via automated policies which allow you to track those recommendations, review open and closed opportunities, comment on those opportunities, and report on savings delivered as a result.
 
 Rightsizing ROI lets you can configure policies to automatically create issues and requests while tracking recommendations. You can also use it to visualize actual savings from actioning these resource optimization recommendations.

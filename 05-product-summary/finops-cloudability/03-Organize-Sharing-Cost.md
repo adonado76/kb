@@ -20,8 +20,6 @@ last_updated: "2026-07-13"
   - 03-media/apptio-cloudability-standard/cost-sharing-4.jpg
   - 03-media/apptio-cloudability-standard/cost-sharing-6.jpg
 
-## Sharing Cost in Cloudability
-
 ### Introduction
 
 Sharing costs helps organizations manage spend across showback and chargeback exercises in a more efficient manner. By sharing line items across Cloudability, they are able to save cost.
@@ -200,8 +198,6 @@ Step-by-step Configuration
 - **original_file:** cloudability-cost-sharing-telemetry-consumption-based-allocations.md
 - **images:** []
 
-## Cost Sharing -Telemetry and Consumption Based Allocations
-
 Overview
 
 Telemetry Based Allocations enables you to distribute shared costs across your cloud environment using actual usage metrics from your systems. By uploading telemetry data, you can create more accurate and data-driven allocation rules within Cost Sharing.
@@ -283,8 +279,6 @@ Follow the best practices in Telemetry as below:
   - 03-media/apptio-cloudability-standard/costsharing11.png
   - 03-media/apptio-cloudability-standard/costsharing12.png
   - 03-media/apptio-cloudability-standard/costsharing13.png
-
-## Cost Sharing for Reports and Dashboards
 
 ### Overview
 

@@ -21,8 +21,6 @@ last_updated: "2026-07-13"
   - 03-media/apptio-cloudability-standard/using_the_cost_mceclip1.jpg
   - 03-media/apptio-cloudability-standard/using_the_cost_mceclip2.jpg
 
-## Budgets and Forecasts
-
 Budgets and Forecasts helps you understand and predict your cloud spends by:
 
 - Creating forecasts based on historical spending patterns.
@@ -86,8 +84,6 @@ Cloudability reports the extraordinary credits (ex. Billing error correction) as
   - 03-media/apptio-cloudability-standard/budgets-homepage.jpg
   - 03-media/apptio-cloudability-standard/new-budget.jpg
 
-## Budgets
-
 Budgets are scoped at the View level, making it simple to track Business Units independently. They are also tied to a particular cost basis. Most customers will start with Cash. If your organization buys a lot of partial or all-upfront RIs, you can use Amortized to have a better indication if your spending is trending differently. If you have Custom Pricing calibrated in Cloudability , you might prefer Adjusted or Adjusted Amortized.
 
 Use Case
@@ -128,8 +124,6 @@ Follow these steps to set up the Email Notification for budget alerts:
 - **images:**
   - 03-media/apptio-cloudability-standard/current-motnh-homepage.jpg
 
-## Current Month
-
 The parameters Service Name and Usage Family are used to identify Spending Drivers, making it easy for technical and business users to understand what is driving any changes. You can view your Spending Drivers in terms of the largest spend as well as the largest change relative to the previous month. However, in the online application, the miscellaneous Spending Drivers are grouped under Other .
 
 Use Case
@@ -159,8 +153,6 @@ You can perform the following actions:
 - **images:**
   - 03-media/apptio-cloudability-standard/forecast-homepage.jpg
   - 03-media/apptio-cloudability-standard/forecast-details.jpg
-
-## Forecast
 
 This feature allows you to see historical spending patterns and inspect the underlying changes that are driving your forecasted spend so that you can understand what is expected to change. It also helps you to create additional budgets.
 
@@ -200,8 +192,6 @@ AWS typically sends updated billing files every four hours. Occasionally, partic
   - 03-media/apptio-cloudability-standard/efp-model-settings.jpg
   - 03-media/apptio-cloudability-standard/efp-settings.jpg
   - 03-media/apptio-cloudability-standard/efp-save-budget.jpg
-
-## Enhanced Forecast
 
 Use the Enhanced Forecast page to generate and analyze cloud spend forecasts. It uses Intelligent Forecasting to generate forecasts from historical actuals and provides flexible controls for analyzing results by spend driver. You can compare forecast models, review model accuracy, and adjust model selection for individual forecast line items. This helps improve forecast accuracy, makes the forecast easier to understand, and gives you more control when needed.
 
@@ -336,8 +326,6 @@ Use the Budget selector to apply an existing budget to the forecast summary. Whe
 - **source_path:** SSVCLNQ/product/intelligent-forecasting.html
 - **original_file:** forecast-intelligent-forecasting.md
 - **images:** []
-
-## Intelligent Forecasting
 
 ### Overview
 

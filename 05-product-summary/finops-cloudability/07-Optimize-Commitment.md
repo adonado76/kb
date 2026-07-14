@@ -18,8 +18,6 @@ last_updated: "2026-07-13"
 - **original_file:** optimize-guide-commitment-management.md
 - **images:** []
 
-## Guide to Commitment Management
-
 This section provides a comprehensive guide to managing cloud commitments effectively using Cloudability’s bespoke commitment functionality. From aligning cross-functional teams on commitment strategy to monitoring performance and configuring alerts, Cloudability empowers FinOps, finance, and engineering teams to make informed, collaborative decisions. Together with native reporting, FinOps and IT Finance professionals should have everything they need to take full advantage of commitment-based discounts.
 
 In this guide, you will learn how to interpret key metrics, navigate the commitment pages, Manager, Portfolio, Recommendations, and Preferences, while leveraging automated alerts to stay ahead of expiration dates and underutilization risk. Additionally, Cloudability’s recommendation engine, which supports preference configuration to surface target recommendations based on known business constraints, helps organizations build tailored financial plans. Finally, with this baseline knowledge, we will explore how our dynamic recommendation algorithm can be leveraged to perform what-if and sensitivity analysis to model a business case and execute on a holistic rate optimization strategy.
@@ -45,8 +43,6 @@ In this guide, you will learn how to interpret key metrics, navigate the commitm
 - **source_path:** SSVCLNQ/product/guide_to_commitment_management_faq.html
 - **original_file:** management-guide-commitment-faq.md
 - **images:** []
-
-## Guide to Commitment Management FAQ
 
 ### Commitment Manager
 
@@ -161,8 +157,6 @@ Values are rounded to the closest whole number.
   - 03-media/apptio-cloudability-standard/commit_manager_savings.jpg
   - 03-media/apptio-cloudability-standard/commit_manager_click_2_nav.jpg
 
-## Guide to Legacy Commitment Manager
-
 The Apptio Cloudability Commitment Manager helps you gain a global view of how committed spend instruments (e.g. Reserved Instances, Savings Plans) can help you optimize your cloud spend. This article outlines capabilities of the Commitment Manager and its capabilities to help leverage committed spend instruments as part of an overall cloud financial optimization strategy.
 
 Getting Started
@@ -261,8 +255,6 @@ Reference
 - **original_file:** management-setting-commitment-alerts.md
 - **images:** []
 
-## Setting Commitment Alerts
-
 ### Purpose
 
 Commitment Alerts reduce manual monitoring by notifying you when commitments are approaching expiration or when utilization falls below a threshold you define. This document explains how to configure, interpret, and act on alerts, plus vendor specific nuances.
@@ -341,8 +333,6 @@ Recommended actions:
 - **source_path:** SSVCLNQ/product/using_commitment_portfolio_to_understand_historical_performance.html
 - **original_file:** management-using-commitment-portfolio-understand-historical-performance.md
 - **images:** []
-
-## Using Commitment Portfolio to Understand Historical Performance
 
 ### Purpose
 
@@ -441,8 +431,6 @@ For GCP, the Portfolio supports two complementary perspectives, driven by how GC
 - **original_file:** management-using-commitment-preferences-build-business-case.md
 - **images:** []
 
-## Using Commitment Preferences to Build a Business Case
-
 ### Configuring Recommendation Usage Filters (GCP Support Only)
 
 To setup your organization, go to Settings and select Commitment Preferences . Here you will be able to configure up to 10 Cloudability dimensions to apply to your usage. Select dimensions from your configured Tags & Labels, Business Mappings, or Account Groups.
@@ -462,8 +450,6 @@ Dimensions are regularly checked for variability and will be added/removed from 
 - **source_path:** SSVCLNQ/product/using_commitment_recommendations_to_analyze_savings_opportunities.html
 - **original_file:** management-using-commitment-recommendations-analyze-savings-opportunities.md
 - **images:** []
-
-## Using Commitment Recommendations to Analyze Savings Opportunities
 
 ### Purpose
 
@@ -601,8 +587,6 @@ Taking AWS as an example, EC2 can be covered by EC2 Reserved Instances, EC2 Inst
 - **original_file:** gcm-using-commitment-manager-overview-align-organization-commitment-strategy.md
 - **images:** []
 
-## Using the Commitment Manager Overview to Align the Organization on Commitment Strategy
-
 ### Purpose
 
 The overview page is the orientation layer for Cloudability Commitments. It brings together current posture (historical performance) and future opportunity (modeled recommendations) into one cross-service, cross‑vendor view. From this landing page, teams can begin to align on a holistic understanding of the current impact rate optimization has on their portfolio, and where immediate opportunity might lie. The tailored chart and standardized KPIs directly align users before drilling into Portfolio or Recommendations. This document will provide instructions for how to use this page.
@@ -697,8 +681,6 @@ Interpretation: The KPI marked with the yellow annotation corresponds to actual 
 - **original_file:** optimize-understanding-commitment-management-basics-in-cloudability.md
 - **images:** []
 
-## Understanding Commitment Management Basics in Cloudability
-
 Summary
 
 Commitment Management Basics introduces the foundational concepts behind how Cloudability models, measures, and reports cloud commitment data. It provides a clear framework for interpreting key financial and operational metrics—such as cost, savings, utilization, and coverage—across cloud service providers. By standardizing terminology and aligning with FinOps best practices, Cloudability Commitments helps users make informed decisions about cloud spend, optimize pricing strategies, and manage commitment portfolios with confidence.
@@ -714,8 +696,6 @@ Whether navigating cost structures, evaluating performance indicators, or explor
 - **source_path:** SSVCLNQ/product/commitments_vendor_account_structure.html
 - **original_file:** cloudability-account-structure-by-vendor.md
 - **images:** []
-
-## Account Structure by Vendor
 
 ### Purpose
 
@@ -817,8 +797,6 @@ Account structure is crucial for proper function on Cloudability Commitments. En
 - **original_file:** cloudability-commitments-approach-cost.md
 - **images:** []
 
-## Cloudability Commitment’s Approach to Cost
-
 ### Purpose
 
 Crucial to understanding how to use these features, the purpose of this document is to explore cost definitions across Cloudability Commitments.
@@ -862,8 +840,6 @@ Remaining Cost — The cost remaining of a commitment from today, regardless of 
 - **source_path:** SSVCLNQ/product/commitments_key_performance_indicators.html
 - **original_file:** cloudability-commitment-key-performance-indicators.md
 - **images:** []
-
-## Commitment Key Performance Indicators
 
 ### Purpose
 
@@ -934,8 +910,6 @@ Importantly, commitment KPIs and meta data cannot often be derived across busine
 - **source_path:** SSVCLNQ/product/commitment_table_basics.html
 - **original_file:** cloudability-commitment-table-basics.md
 - **images:** []
-
-## Commitment Table Basics
 
 ### Purpose
 
@@ -1080,8 +1054,6 @@ With this foundational information, subsequent documentation will dive deeper in
 - **source_path:** SSVCLNQ/product/custom_pricing_factors_across_commitments.html
 - **original_file:** cloudability-how-negotiated-pricing-factors-across-commitments.md
 - **images:** []
-
-## How Negotiated Pricing Factors Across Commitments
 
 ### Purpose
 

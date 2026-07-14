@@ -18,8 +18,6 @@ last_updated: "2026-07-13"
 - **original_file:** setup-organize-your-cloud-spend.md
 - **images:** []
 
-## Organize Your Cloud Spend
-
 Native cloud billing data is inherently granular, provider-specific, and optimized for metering, not for business analysis. To make cloud costs meaningful for the various teams and personas within your FinOps practice, Cloudability provides a set of organize features that transform raw billing data into consistent, business-aligned views of spend.
 
 At a high level, these features help answer questions such as:
@@ -68,8 +66,6 @@ Business Metrics extend Cloudability’s standard cost metrics by allowing you t
   - 03-media/apptio-cloudability-standard/create_and_assign_account_groups_7.jpg
   - 03-media/apptio-cloudability-standard/am_sort_accounts.jpg
 
-## Account groups
-
 Accounts and Account Groups enable you to edit and group accounts that are accessed with Cloudability. They also function like tags for AWS accounts, Azure Subscriptions and GCP projects. They allow you to assign a key/value pair where Account Group is the key and Account Group Entry maps the value. For example, you might create an Account Group of Environment and use Account Group Entries to assign a value of "Production", "Staging" or "Development" to individual cloud accounts in Cloudability.
 
 Groups are used to categorize your accounts according to different variables. You can designate the key values for your groups; you might, for example, have groups called "Region, "Product," and "Department." This will allow you to categorize individual accounts according to which region, product, and department they're associated with.
@@ -111,8 +107,6 @@ Select Categorize accounts in the page header. This will navigate you to the Ven
   - 03-media/apptio-cloudability-standard/business_mappingmceclip4.jpg
   - 03-media/apptio-cloudability-standard/business_mappingmceclip6.jpg
   - 03-media/apptio-cloudability-standard/execution-flow.png
-
-## Business mapping
 
 ### What are Business Mappings?
 
@@ -530,8 +524,6 @@ Currently, users cannot be prevented from seeing a certain dimensions or metrics
 - **images:**
   - 03-media/apptio-cloudability-standard/business-mappings-new1.png
 
-## Business Metrics in Cloudability
-
 Overview
 
 Business Metrics allow you to organize your cloud infrastructure to match your business needs. These custom metrics enable you to create meaningful reports that align with your organization's specific financial and operational requirements.
@@ -809,8 +801,6 @@ For additional guidance on using Business Metrics effectively, please contact yo
   - 03-media/apptio-cloudability-standard/hier-business-mapping-create-upload-mapping.png
   - 03-media/apptio-cloudability-standard/hier-business-mapping-upload-rev.png
 
-## Organize data using hierarchical business mappings
-
 Hierarchical Business Mappings currently have a limit of 1000 Business Mappings rows.
 
 A Hierarchical Business Mapping is a specialized form of Business Mapping designed to create and maintain hierarchical data relationships between Business Dimensions (up to five). Business Dimensions are synthetic dimensions generated using business logic (Business Mapping statements) to map cloud- and vendor-specific tags to meaningful business concepts.
@@ -940,8 +930,6 @@ For more information, refer to Organize Views using Hierarchical Views.
   - 03-media/apptio-cloudability-standard/calculated-metric-delete-dropdown.png
   - 03-media/apptio-cloudability-standard/calculated-metric-delete-message.png
   - 03-media/apptio-cloudability-standard/calculated-metric-details-page.png
-
-## Calculated Metrics
 
 ### What are Calculated Metrics?
 
@@ -1267,8 +1255,6 @@ You can use Cloudability APIs to create, read, update, and delete Calculated Met
 - **source_path:** SSVCLNQ/admin/map-tags.html
 - **original_file:** spend-tag-label-mapping.md
 - **images:** []
-
-## Tag and Label Mapping
 
 Cloudability enables comprehensive cost allocation by ingesting and normalizing tags and labels from supported cloud providers, SaaS platforms, and container environments. This document describes the tag and label types supported by each vendor, how they are collected (billing data vs. APIs), required permissions, and key considerations such as formatting differences, precedence rules, and known limitations
 

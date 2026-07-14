@@ -19,8 +19,6 @@ last_updated: "2026-07-13"
 - **images:**
   - 03-media/apptio-cloudability-standard/Sustainability-Metrics.png
 
-## Cloud Sustainability Reporting
-
 Overview
 
 Using this feature Cloudability users will be able to view their Public cloud carbon footprint (Operational + Embodied) for the supported services.
@@ -144,8 +142,6 @@ No Additional permissions are required for using Sustainability reporting. Repor
 - **source_path:** SSVCLNQ/product/cloud_sustainability_methodology.html
 - **original_file:** reporting-cloud-sustainability-methodology.md
 - **images:** []
-
-## Cloud Sustainability Methodology
 
 Before diving into the methodology used to calculate carbon emissions, it’s important to first understand the two main types of emissions involved. Carbon footprints typically originate from two primary sources: operational emissions and embodied emissions.
 

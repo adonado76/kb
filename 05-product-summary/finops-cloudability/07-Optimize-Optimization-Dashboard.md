@@ -18,8 +18,6 @@ last_updated: "2026-07-13"
 - **original_file:** optimize-optimization-dashboard.md
 - **images:** []
 
-## Optimization Dashboard
-
 ### Optimization Hub
 
 The Optimization Dashboard provides a centralized view of all optimization-related initiative and insights. This optimization command center provides both

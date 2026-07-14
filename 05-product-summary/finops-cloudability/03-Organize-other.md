@@ -30,8 +30,6 @@ last_updated: "2026-07-13"
   - 03-media/apptio-cloudability-standard/dp7.jpg
   - 03-media/apptio-cloudability-standard/dp8.jpg
 
-## Data Reprocess
-
 Data Reprocess for Cloudability users
 
 Data Reprocess for Cloudability - Costing & Planning users

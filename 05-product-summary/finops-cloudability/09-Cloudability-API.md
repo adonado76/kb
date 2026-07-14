@@ -18,8 +18,6 @@ last_updated: "2026-07-13"
 - **original_file:** api-about-cloudability.md
 - **images:** []
 
-## About the Cloudability API
-
 About the Cloudability API
 
 The Cloudability API implementation is based on REST principles. You should find the interface to be predictable with use of resource-oriented URLs and reliance on standard HTTP features that are generally understood by off-the-shelf HTTP clients. For example the API relies on HTTP basic auth for authentication, HTTP verbs (methods such as GET,PUT...) for actions and standard HTTP response codes to indicate API errors or otherwise. By default all API responses are returned as JSON, but other formats such as CSV are available by setting the relevant HTTP media type.
@@ -54,8 +52,6 @@ Enable Access to the Cloudability API
 - **source_path:** SSVCLNQ/api-v3/account_group_entries.html
 - **original_file:** api-account-group-entries.md
 - **images:** []
-
-## Account Group Entries
 
 Manage Account Group Entries
 
@@ -193,8 +189,6 @@ This will return a HTTP 204 status with no content on successful delete.
 - **source_path:** SSVCLNQ/api-v3/account_groups_end_point.html
 - **original_file:** api-account-groups-end-point.md
 - **images:** []
-
-## Account Groups End Point
 
 Manage Account Groups
 
@@ -350,8 +344,6 @@ A successful deletion returns a 200OK status code with the deleted object in the
 - **original_file:** api-anomaly-detection-end-point.md
 - **images:**
   - 03-media/apptio-cloudability-standard/sout.gif
-
-## Anomaly Detection End Point
 
 ### Summary
 
@@ -612,8 +604,6 @@ Example Response
 - **original_file:** api-budgets-forecasting-end-points.md
 - **images:** []
 
-## Budgets & Forecasting End Points
-
 Summary
 
 The Budgets and Forecasting API can be used to retrieve forecasts of future spending as well as interact with budgets.
@@ -639,8 +629,6 @@ end point : /budget-subscriptions/ for all RESTful CRUD interactions related to 
 - **source_path:** SSVCLNQ/api-v3/budgets_and_budget_subscriptions.html
 - **original_file:** points-budgets-budget-subscriptions.md
 - **images:** []
-
-## Budgets and Budget Subscriptions
 
 The Budget Object
 
@@ -849,8 +837,6 @@ curl https://api.cloudability.com/v3/budget-subscriptions \\
 - **original_file:** points-estimates.md
 - **images:** []
 
-## Estimates
-
 Generating an Estimate
 
 Arguments
@@ -968,8 +954,6 @@ The estimate endpoint is limited to 10 requests per user per minute and 20 reque
 - **source_path:** SSVCLNQ/api-v3/forecasts.html
 - **original_file:** points-forecasts.md
 - **images:** []
-
-## Forecasts
 
 Generating a Forecast
 
@@ -1165,8 +1149,6 @@ curl "https://api.cloudability.com/v3/forecast?basis=cash&monthsForward=12&month
 - **source_path:** SSVCLNQ/api-v3/business_mappings_endpoint.html
 - **original_file:** api-business-mappings-end-point.md
 - **images:** []
-
-## Business Mappings End Point
 
 Summary
 
@@ -1523,8 +1505,6 @@ List Business Metric
 - **original_file:** point-business-mapping-expression-language.md
 - **images:** []
 
-## Business Mapping Expression Language
-
 Summary
 
 We have created a DSL especially so that you can to define the matchExpression and valueExpression fields in your mapping rules elegantly, and the syntax is pretty simple. If you’ve ever written code in Java, JavaScript, Ruby, Python, or any other popular programming language, the concepts of our expression language should be pretty familiar. Even if you haven't it's very straightforward to create these expressions and Cloudability will provide plenty of examples.
@@ -1775,8 +1755,6 @@ EXISTS BUSINESS_DIMENSION['Business Unit']
 - **original_file:** point-business-mapping-templates.md
 - **images:** []
 
-## Business Mapping Templates
-
 Business Mapping Dimensions
 
 Sample Mapping of a Business Dimension for Compliance
@@ -1933,8 +1911,6 @@ For example: create a surcharge (markup / upcharge) for all storage backups mana
 - **original_file:** point-common-dimension-keys.md
 - **images:** []
 
-## Common Dimension Keys
-
 This is a list of the most popular DIMENSION keys currently available to use in the expression language. The attribute names are the standard names you use when interacting with these dimensions through all of Cloudability 's API end points. It's worth drawing special attention to how account IDs and account names are handled. For the account/subscription where the expense occurred make sure you include the 'vendor_' prefix. If you don't it will be referring to the associated master payer.
 
 To manage rule changes between dates use the date API attribute. Note that even though we will accept date strings which include a time component we will always resolve these back to the day itself. i.e statements are evaluated at the day level and no-intra day logic applies.
@@ -1979,8 +1955,6 @@ To manage rule changes between dates use the date API attribute. Note that even 
 - **source_path:** SSVCLNQ/api-v3/multiple_rules_working_together.html
 - **original_file:** point-multiple-rules-working-together.md
 - **images:** []
-
-## Multiple Rules Working Together
 
 Most organization will have multiple Business Mappings, working together as a set. You can even have some Business Mappings that depend upon the output (the resultant Business Dimension or Business Metric) of other Business Mappings.
 
@@ -2120,8 +2094,6 @@ We can then take those results and further contextualize our Cloud spend by surf
 - **original_file:** point-structure-business-mapping.md
 - **images:** []
 
-## Structure of a Business Mapping
-
 The Structure of a Business Mapping
 
 The JSON payload that is used to define a Business Mapping is called a Mapping Rule. A basic Mapping Rule looks like this
@@ -2256,8 +2228,6 @@ The kind attribute represents the declaration that we are defining a Business Me
 - **source_path:** SSVCLNQ/api-v3/calculated_metrics_end_point.html
 - **original_file:** api-calculated-metrics-end-point.md
 - **images:** []
-
-## Calculated Metrics End Point
 
 Summary
 
@@ -2547,8 +2517,6 @@ Users can:
 - **source_path:** SSVCLNQ/api-v3/cloud-sustainability-api.html
 - **original_file:** api-cloud-sustainability-end-points.md
 - **images:** []
-
-## Cloud Sustainability End Points
 
 The Cloud sustainability API endpoint can be used to retrieve sustainability metrics.
 
@@ -3199,8 +3167,6 @@ Send feed
 - **original_file:** api-containers-end-points.md
 - **images:** []
 
-## Containers End Points
-
 With the Container Cost Allocation tool in Cloudability , you can get visibility into shared resource usage and cost by Kubernetes Clusters, Namespaces, Services, and Labels.
 
 With the public API, you can:
@@ -3233,8 +3199,6 @@ Containers End Points
 - **source_path:** SSVCLNQ/api-v3/clusters.html
 - **original_file:** points-clusters.md
 - **images:** []
-
-## Clusters
 
 Starting November 14th, this endpoint will require the parameter concise=true
 
@@ -3347,8 +3311,6 @@ curl "https://api.cloudability.com/v3/containers/v2/clusters?pretty=true&start=2
 - **source_path:** SSVCLNQ/api-v3/counts.html
 - **original_file:** points-counts.md
 - **images:** []
-
-## Counts
 
 This endpoint will be deprecated on November 14th, 2025, with most of its functionality now available through the Report API. We recommend migrating to the new API to avoid any disruption.
 
@@ -3503,8 +3465,6 @@ curl "https://api.cloudability.com/v3/containers/counts?pretty=true&start=2018-1
 - **original_file:** points-labels.md
 - **images:** []
 
-## Labels
-
 Summary:
 
 Get a list of Label Keys observed in a given timeframe for a filtered set of data.
@@ -3577,8 +3537,6 @@ curl "https://api.cloudability.com/v3/containers/labels?pretty=true&start=2018-1
 - **source_path:** SSVCLNQ/api-v3/provisioning.html
 - **original_file:** points-provisioning.md
 - **images:** []
-
-## Provisioning
 
 Summary
 
@@ -3701,8 +3659,6 @@ Note: clusterName is read-only once created and cannot be modified. Further, you
 - **source_path:** SSVCLNQ/product/report-api-documentation.html
 - **original_file:** points-report-api-documentation.md
 - **images:** []
-
-## Report API Documentation
 
 Summary
 
@@ -3978,8 +3934,6 @@ This response body is broken into the following section:
 - **original_file:** points-usage.md
 - **images:** []
 
-## Usage
-
 This endpoint will be deprecated on November 14th, 2025, with most of its functionality now available through the Report API. We recommend migrating to the new API to avoid any disruption.
 
 Summary
@@ -4094,8 +4048,6 @@ curl "https://api.cloudability.com/v3/containers/usage?pretty=true&start=2018-11
 - **source_path:** SSVCLNQ/api-v3/cost_reporting_endpoints.html
 - **original_file:** api-cost-reporting-end-point.md
 - **images:** []
-
-## Cost Reporting End Point
 
 The cost reporting endpoints are used to dynamically run cost reports and return detailed information about your organization’s cloud spend. These reports have the following features:
 
@@ -4668,8 +4620,6 @@ curl ‘https://api.cloudability.com/v3/reporting/cost/run?start_date=2022-02-01
 - **original_file:** api-cost-sharing-end-points.md
 - **images:** []
 
-## Cost Sharing End Points
-
 Summary
 
 Every organization has a bucket of cloud costs that needs to be shared across departments. Cloudability ’s Business Mapping can help you minimize the size of the shared costs bucket, the need to fully allocate shared costs remains. Cost Sharing allows you to create a bucket of shared costs, define allocation rules, allocate the shared costs based on the defined rules and then generate an exportable report. The Cost Sharing API end points can be used to set cost sharing (allocation or distribution) rules and retrieve the result. Learn more about Cost Sharing here.
@@ -4689,8 +4639,6 @@ Cost Sharing Result Report End Points: /reporting/cost-sharing
 - **source_path:** SSVCLNQ/api-v3/allocations-cost-sharing.html
 - **original_file:** points-cost-sharing-allocations.md
 - **images:** []
-
-## Cost Sharing Allocations
 
 Summary
 
@@ -5039,8 +4987,6 @@ Example Response
 - **original_file:** points-cost-sharing-result-report-end.md
 - **images:** []
 
-## Cost Sharing Result Report End Points
-
 Summary
 
 Retrieve the Cost Sharing's result report.
@@ -5211,8 +5157,6 @@ curl "https://api.cloudability.com/v3/internal/reporting/cost-sharing?endDate=20
 - **original_file:** points-cost-sharing-rule-setting-end.md
 - **images:** []
 
-## Cost Sharing Rule Setting End Points
-
 Summary
 
 Define a set of rules around how to allocate or distribute the shared costs.
@@ -5316,8 +5260,6 @@ curl -X "POST" "https://api.cloudability.com/v3/internal/cost-sharing/rules" \\
 - **source_path:** SSVCLNQ/api-v3/rules-cost-sharing.html
 - **original_file:** points-cost-sharing-rules.md
 - **images:** []
-
-## Cost Sharing Rules
 
 Summary
 
@@ -5871,8 +5813,6 @@ Example Response
 - **original_file:** points-cost-sharing-telemetry.md
 - **images:** []
 
-## Cost Sharing Telemetry
-
 Summary
 
 The Telemetry API manages usage-based metrics for cost allocation, enabling data-driven distribution based on actual resource consumption patterns.
@@ -6145,8 +6085,6 @@ Example Response
 - **original_file:** api-databricks-end-points.md
 - **images:** []
 
-## Databricks End Points
-
 Summary
 
 These end point are used to manage Databricks integration within Cloudability that support the creation, updating and deletion of Databricks credentials within Cloudability.
@@ -6404,8 +6342,6 @@ Example Response
 - **source_path:** SSVCLNQ/api-v3/datadog_public_api.html
 - **original_file:** api-datadog-end-points.md
 - **images:** []
-
-## Datadog End Points
 
 Summary
 
@@ -6692,8 +6628,6 @@ Example Response
 - **source_path:** SSVCLNQ/api-v3/focus_public_api.html
 - **original_file:** api-focus-ingress-end-points.md
 - **images:** []
-
-## FOCUS Ingress End Points
 
 Summary
 
@@ -7214,8 +7148,6 @@ Example Response for AWS
 - **original_file:** api-getting-started-cloudability-v3.md
 - **images:** []
 
-## Getting started with Cloudability API V3
-
 API Authentication
 
 Author note: Authentication for Cloudability Commercial, Essential, Standard and Premium
@@ -7430,8 +7362,6 @@ The documentation for each end point will include a number of examples which wil
 - **original_file:** api-governance-end-points.md
 - **images:** []
 
-## Governance End Points
-
 Summary
 
 Cloud costs are easier to control before resources are deployed than after they're running in production. Cloudability's Governance API integrates directly into your development workflow, enabling teams to estimate costs, enforce policies, and catch budget issues during the pull request stage—before they impact your cloud bill.
@@ -7460,8 +7390,6 @@ The Governance API is organized into the following categories:
 - **source_path:** SSVCLNQ/api-v3/cost_estimation_resource_recommendation.html
 - **original_file:** points-cost-estimation-resource-recommendation.md
 - **images:** []
-
-## Cost Estimation & Resource Recommendation
 
 These endpoints help you understand the cost impact of infrastructure changes before deployment.
 
@@ -7629,8 +7557,6 @@ Example Response
 - **source_path:** SSVCLNQ/api-v3/deployment_project_preferences_management.html
 - **original_file:** points-deployment-project-preferences-management.md
 - **images:** []
-
-## Deployment, Project, Preferences Management
 
 ### Deployments
 
@@ -7903,8 +7829,6 @@ Get Default Accounts
 - **original_file:** points-governance-set-up.md
 - **images:** []
 
-## Governance Set Up
-
 ### GitHub Integration
 
 Manage GitHub installations, repositories, and check runs for workflow integration.
@@ -8002,8 +7926,6 @@ Handle Callback
 - **source_path:** SSVCLNQ/api-v3/metrics_analytics.html
 - **original_file:** points-metrics-analytics.md
 - **images:** []
-
-## Metrics & Analytics
 
 Retrieve organizational metrics for adoption, compliance, and cost tracking.
 
@@ -8111,8 +8033,6 @@ Response (200 OK)
 - **source_path:** SSVCLNQ/api-v3/policy_management_evaluation.html
 - **original_file:** points-policy-management-evaluation.md
 - **images:** []
-
-## Policy Management & Evaluation
 
 ### Tagging & Resource Type policies
 
@@ -8452,8 +8372,6 @@ Note: The “Cost Guardrail” evaluation is done part of the Cost Estimation ch
 - **original_file:** points-pull-requests-tracking.md
 - **images:** []
 
-## Pull Requests Tracking
-
 Track infrastructure changes through pull requests with policy evaluations and cost impacts.
 
 List Pull Requests
@@ -8533,8 +8451,6 @@ Approve Pull Request
 - **source_path:** SSVCLNQ/api-v3/mongodb_public_api.html
 - **original_file:** api-mongodb-end-points.md
 - **images:** []
-
-## MongoDB End Points
 
 Summary
 
@@ -8729,8 +8645,6 @@ curl --X GET
 - **original_file:** api-pagerduty-end-points.md
 - **images:** []
 
-## PAGERDUTY End Points
-
 Summary
 
 Following are the list of public APIs specific to Pagerduty.
@@ -8862,8 +8776,6 @@ Curl -X DELETE
 - **source_path:** SSVCLNQ/api-v3/resource-inventory-public-api-endpoints.html
 - **original_file:** api-resource-inventory-public-end-points.md
 - **images:** []
-
-## Resource Inventory – Public API End Points
 
 Resource Inventory has the below public API endpoints:
 
@@ -9049,8 +8961,6 @@ Measures API:
 - **original_file:** api-ri-planner-end-point.md
 - **images:**
   - 03-media/apptio-cloudability-standard/ri_top_of_planner.jpg
-
-## RI Planner End Point
 
 Summary
 
@@ -9314,8 +9224,6 @@ curl "https://api.cloudability.com/v3/reservations/aws/recommendations/ec2?start
 - **original_file:** api-ri-portfolio-end-points.md
 - **images:** []
 
-## RI Portfolio End Points
-
 We have two RI Portfolio end points available. Our legacy offering gives a summary list of all existing reservations while our current end point gives a more detailed view including the overall utilization and savings associated with each individual RI.
 
 Note that the current end point requires the CUR file.
@@ -9329,8 +9237,6 @@ Note that the current end point requires the CUR file.
 - **source_path:** SSVCLNQ/api-v3/reservation_portfolio_endpoint.html
 - **original_file:** points-reservation-portfolio-end-point.md
 - **images:** []
-
-## Reservation Portfolio End Point
 
 Summary
 
@@ -10090,8 +9996,6 @@ curl "https://api.cloudability.com/v3/reservations/azure/portfolio/compute" \\
 - **original_file:** points-ri-portfolio-legacy-end-point.md
 - **images:** []
 
-## RI Portfolio Legacy End Point
-
 Summary
 
 The RI Portfolio end point can be used to retrieve a list of all your current and historical Reserved Instances (RIs). This Cloudability feature is especially handy as it aggregates RIs across all of your linked and master payer accounts for EC2, RDS, Redshift and Elasticache.
@@ -10244,8 +10148,6 @@ curl "https://api.cloudability.com/v3/reservations/aws/portfolio/ec2?filter=stat
 - **source_path:** SSVCLNQ/api-v3/rightsizing_end_points.html
 - **original_file:** api-rightsizing-end-points.md
 - **images:** []
-
-## Rightsizing End Points
 
 Summary
 
@@ -10717,8 +10619,6 @@ curl -X POST https://api.cloudability.com/v3/rightsizing/AWS/recommendations/EC2
 - **original_file:** api-rightsizing-roi-end-points.md
 - **images:** []
 
-## Rightsizing ROI End Points
-
 Last Updated: 2025-08-08
 
 Summary
@@ -10943,8 +10843,6 @@ Response Object
 - **original_file:** api-scorecards-end-point.md
 - **images:** []
 
-## Scorecards End Point
-
 Summary
 
 The Scorecards API end point can be used to retrieve your scorecard outlined in Scorecards KB .
@@ -11016,8 +10914,6 @@ curl "https://api.cloudability.com/v3/scorecards?dimension=category4&duration=te
 - **source_path:** SSVCLNQ/api-v3/snowflake_public_api.html
 - **original_file:** api-snowflake-end-points.md
 - **images:** []
-
-## Snowflake End Points
 
 Summary
 
@@ -11236,8 +11132,6 @@ curl --X GET
 - **source_path:** SSVCLNQ/api-v3/user_entraid_groups_end_points.html
 - **original_file:** api-user-groups-entra-id-groups-end-point.md
 - **images:** []
-
-## User Groups and Entra ID Groups End Point
 
 ### Summary
 
@@ -11810,8 +11704,6 @@ Parameters:
 - **original_file:** api-users-end-point.md
 - **images:** []
 
-## Users End Point
-
 Summary
 
 While user CRUD actions are now managed in Apptio's Frontdoor API , Cloudability administrators can still retrieve a list of their users and update users’ default views, and view shares through the Cloudability V3 Users API. To use this endpoint you must have the UserManagementFeatureFullAccess permission.
@@ -12057,8 +11949,6 @@ EOF
 - **source_path:** SSVCLNQ/api-v3/utilization_reports_end_point.html
 - **original_file:** api-utilization-reports-end-point.md
 - **images:** []
-
-## Utilization Reports End Point
 
 The utilization reports endpoints are used to analyze utilization patterns for AWS EC2 instances. Utilization Analytics uses data from AWS Cloudwatch which presents instance-level details such as Average CPU utilization (percent), Bandwidth, and Disk I/O. Utilization analytics are great for visualizing overall elasticity and whether your instances require rightsizing or need to be turned off.
 
@@ -12631,8 +12521,6 @@ curl ‘https://api.cloudability.com/v3/reporting/util/run?dimensions=launch_dat
 - **original_file:** api-vendor-credentials-end-point-aws.md
 - **images:** []
 
-## Vendor Credentials End Point (AWS)
-
 Summary
 
 This end point is used to manage credentials within Cloudability that support the integration and ingestion of data from public cloud vendors. This includes tasks such as initial setup, listing out current credentials and deleting deprecated credentials.
@@ -12979,8 +12867,6 @@ The only unique thing about each CloudFormation template is the externalID itsel
 - **original_file:** api-vendor-credentials-end-point-oci.md
 - **images:** []
 
-## Vendor Credentials End Point (OCI)
-
 Summary
 
 This end point is used to manage credentials within Cloudability that support the integration and ingestion of data from public cloud vendors. This includes tasks such as initial setup, listing out current credentials and deleting deprecated credentials.
@@ -13201,8 +13087,6 @@ curl --X POST
 - **source_path:** SSVCLNQ/api-v3/azure-vendor-credential-end-points.html
 - **original_file:** api-vendor-credentials-end-points-azure.md
 - **images:** []
-
-## Vendor Credentials End Points (Azure)
 
 Summary
 
@@ -13760,8 +13644,6 @@ curl -X DELETE 'https://api.cloudability.com/v3/vendors/azure/accounts/[account-
 - **original_file:** api-vendor-credentials-end-points-gcp.md
 - **images:** []
 
-## Vendor Credentials End Points (GCP)
-
 Summary
 
 This end point is used to manage GCP within Cloudability that support the creation, updation and deletion of GCP credentials.
@@ -14092,8 +13974,6 @@ curl -X DELETE 'https://api.cloudability.com/v3/vendors/gcp/accounts/[account-id
 - **original_file:** api-vendor-credentials-end-points.md
 - **images:** []
 
-## Vendor Credentials End Points (IBM)
-
 Summary
 
 This end point is used to manage credentials within Cloudability that support the integration and ingestion of data from public cloud vendors. This includes tasks such as initial setup, listing out current credentials and deleting deprecated credentials. This end point does not support filtering and sorting.
@@ -14341,8 +14221,6 @@ Example Request
 - **source_path:** SSVCLNQ/api-v3/views_end_point.html
 - **original_file:** api-views-end-point.md
 - **images:** []
-
-## Views End Point
 
 Summary
 

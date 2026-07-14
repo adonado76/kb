@@ -22,8 +22,6 @@ last_updated: "2026-07-13"
   - 03-media/apptio-cloudability-standard/scorecards_3.jpg
   - 03-media/apptio-cloudability-standard/scorecards_4.jpg
 
-## Scorecards dashboard in Cloudability
-
 Scorecards help you understand how well you are running your cloud by benchmarking your usage relative to your peers. Peers are companies that use cloud resources in a similar manner to you. In addition, Scorecards makes it easy to compare different business units within your organization so that you can identify teams that are leading the charge to adopt cloud-native practices.
 
 Scoring metrics

@@ -18,8 +18,6 @@ last_updated: "2026-07-13"
 - **original_file:** optimize-cloud-cost-optimization-in-cloudability.md
 - **images:** []
 
-## Cloud Cost Optimization in Cloudability
-
 Summary
 
 Cloudability helps organizations take control of their cloud spend by introducing foundational FinOps concepts that drive smarter financial decisions. This section provides an overview of the two primary optimization concepts, workload and rate optimization. Specifically, it introduces the mental model behind rightsizing and commitment-based discounts, which allow teams to lower unit costs while maintaining flexibility and performance.
@@ -35,8 +33,6 @@ Cloudability offers the tools and insights needed to manage commitments effectiv
 - **source_path:** SSVCLNQ/product/intro_cloudability_support_commitments.html
 - **original_file:** cloudability-commitment-support-information-architecture.md
 - **images:** []
-
-## Commitment Support Information Architecture
 
 ### Purpose
 
@@ -71,8 +67,6 @@ Tips to use Cloudability Commitments
 - **source_path:** SSVCLNQ/product/commitment-types-cldy.html
 - **original_file:** cloudability-commitment-types-in.md
 - **images:** []
-
-## Commitment Types in Cloudability
 
 The following commitments types are supported in Cloudability across the three major cloud vendors. The following tables display the details.
 
@@ -126,8 +120,6 @@ To request support for an additional type, please add or upvote an idea on our c
 - **source_path:** SSVCLNQ/product/commitment_management_across_providers.html
 - **original_file:** ccoic-how-commitment-management-differs-across-cloud-service-providers.md
 - **images:** []
-
-## How Commitment Management Differs Across Cloud Service Providers
 
 ### Purpose
 
@@ -303,8 +295,6 @@ Next, we will begin to dive into how Cloudability helps optimize your cloud spen
 - **original_file:** cloudability-introduction-rate-optimization.md
 - **images:** []
 
-## Introduction to Rate Optimization
-
 ### Purpose
 
 The purpose of this document is to introduce the second primary cloud cost optimization concept, Rate Optimization.
@@ -371,8 +361,6 @@ Cloudability's commitment to our customers, is to provide visibility, generate r
 - **original_file:** functionality-supplementary-credentialing-help-commitment.md
 - **images:**
   - 03-media/apptio-cloudability-standard/details.jpg
-
-## Supplementary Credentialing Help for Commitment Functionality
 
 You must have administrator rights in Cloudability to view or enable credentials. If you don't have administrator rights, contact your organization’s primary Cloudability administrator for assistance.
 

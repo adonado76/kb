@@ -18,8 +18,6 @@ last_updated: "2026-07-13"
 - **original_file:** support-custom-discounts-enterprise-discount-programs-edp.md
 - **images:** []
 
-## Custom Discounts and Enterprise Discount Programs (EDP)
-
 Cloudability supports custom discounts and Enterprise Discount Programs (EDP) from Cloud Service Providers (CSP) such as AWS, Azure, GCP, and OCI. These custom discounts and pricing adjustments are reflected in several capabilities, including reporting and cost analysis, rightsizing, commitments, and workload planning.
 
 Cloudability has two Cost Metrics for reporting considering custom pricing:
@@ -49,8 +47,6 @@ Workload Planning supports custom pricing by default. For organizations without 
 - **source_path:** SSVCLNQ/chatbot/edp-request.html
 - **original_file:** edp-configure-enterprise-discount-program-aws.md
 - **images:** []
-
-## Configure Enterprise Discount Program for AWS
 
 When a customer negotiates an Enterprise Discount Program (EDP) with AWS, both contractually agree upon discounts. Cloudability implements the same discounts at the resource level as well as in real time. AWS only shows these discounts at the end of the month.
 
@@ -85,8 +81,6 @@ The Apptio support team can also investigate specific slowdowns in your environm
 - **original_file:** support-optimize-cloudability-performance.md
 - **images:** []
 
-## Optimize Cloudability Performance
-
 For system down issues, navigate to the Outage section in this document
 
 Dashboard & Reports Best Practices
@@ -118,8 +112,6 @@ The Apptio support team can also investigate specific slowdowns in your environm
 - **original_file:** support-request-refetch-reprocess-in-cloudability.md
 - **images:** []
 
-## Request Refetch and Reprocess in Cloudability
-
 Cloudability offers the ability to request a Refetch or Reprocess to update your data and metrics, if you want to update your historical cloud data or refresh your business metrics, mappings, tags, or account groups.
 
 - Refetch is used to update your historical cloud data from cloud service providers into Cloudability. Note: For N and N-1 months, Cloudability does not trigger a refetch as these months are automatically run by the BAU jobs. If data already loaded into Cloudability is later corrected by the CSPs and a refetch is triggered to import the updated information, the system may not be able to retrieve the corresponding AWS account-level tags, Azure subscription-level tags, or Azure resource group tags if the account has already been decommissioned from the CSP.
@@ -147,8 +139,6 @@ The IBM support team can also investigate specific slowdowns in your environment
 - **source_path:** SSVCLNQ/chatbot/technical_support_contact_info.html
 - **original_file:** support-technical.md
 - **images:** []
-
-## Technical Support
 
 If you need technical support you can go to IBM Support to open and view support cases.
 

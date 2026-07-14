@@ -18,8 +18,6 @@ last_updated: "2026-07-13"
 - **original_file:** governance-create-manage-policies.md
 - **images:** []
 
-## Create and Manage Policies
-
 Governance allows teams to enforce FinOps best practices through governance policies:
 
 ### Types of Policies
@@ -71,8 +69,6 @@ Navigate to the “Policies” page, select “Cost Guardrails”. You can defin
 - **images:**
   - 03-media/apptio-cloudability-standard/Workflow_Terraform.png
   - 03-media/apptio-cloudability-standard/Terraform2.png
-
-## Governance - Getting Started
 
 ### What you can do with Cloudability Governance
 
@@ -144,8 +140,6 @@ Troubleshooting
 - **original_file:** governance-pull-requests-approval-workflow.md
 - **images:** []
 
-## Pull Requests - Approval Workflow
-
 Governance integrates with GitHub to manage PR approvals. As a reminder, PRs that don’t comply with the “Gated” enforcement level are blocked but they can be unblocked by users with the “Cloudability Governance PR Approver” role.
 
 GitHub Configuration
@@ -166,8 +160,6 @@ GitHub repository owner needs to create a branch protection rule which requires 
 - **original_file:** governance-resource-recommendations.md
 - **images:** []
 
-## Resource Recommendations
-
 Governance provides recommendations for new EC2 and RDS resources being deployed when a similar configuration (matching CPU and Memory requirements) is available at a lower cost. Recommendations are posted as comments on the pull request (PR).
 
 If Governance does not identify a more cost-effective resource, no recommendation will be posted.
@@ -183,8 +175,6 @@ Example: Upgrade RDS instance from db.m5.8xlarge to db.m6g.8xlarge to save costs
 - **source_path:** SSVCLNQ/admin/governance-setup-cldy-governance.html
 - **original_file:** governance-setup-cloudability.md
 - **images:** []
-
-## Setup Cloudability Governance
 
 ### Before You Begin
 
@@ -220,8 +210,6 @@ Once completed, Governance will identify their “deployments” (units managed 
 - **original_file:** governance-configure-github-actions-terraform-community.md
 - **images:** []
 
-## Configure GitHub Actions for Terraform Community
-
 For users leveraging Terraform Community, Cloudability Governance GitHub Action is triggered as part of the CI/CD workflow for pull requests. This integration enables Cloudability Governance to provide cost-related insights directly within the PR via comments and GitHub check runs.
 
 Please refer to this page to get the latest information/updates: https://GitHub.com/IBM/ibm-cloudability-governance/blob/main/README.md
@@ -252,8 +240,6 @@ The example uses aws-actions/configure-aws-credentials@v4.1.0 GitHub action to f
 - **images:**
   - 03-media/apptio-cloudability-standard/gov6.png
 
-## Deployment Configurations
-
 For example: A team owns a ServiceA and deploys it in several environments like (beta, staging, production) then they can configure deployments in Governance for ServiceA-beta, ServiceA-staging, ServiceA-production.
 
 - A GitHub Action is invoked from CI/CD workflows, or
@@ -280,8 +266,6 @@ Below are the associated fields for each of your deployments (retrieved automati
 - **source_path:** SSVCLNQ/admin/governance-github-enterprise-installation.html
 - **original_file:** governance-github-enterprise-server-prem-app-installation.md
 - **images:** []
-
-## GitHub Enterprise Server (on-prem) App Installation
 
 This guide explains how to register a GitHub App within Cloudability for use with GitHub Enterprise Server (GHES). This process allows you to connect and manage your GHES repositories within the Cloudability Governance workflow.
 
@@ -316,8 +300,6 @@ This guide explains how to register a GitHub App within Cloudability for use wit
   - 03-media/apptio-cloudability-standard/Gov3.png
   - 03-media/apptio-cloudability-standard/Gov4.png
 
-## GitHub.com (Cloud) App Installation
-
 A GitHub app is used to set/update check run status in the pull request. Customers need to install IBM Cloudability GitHub app in their GitHub organizations by accessing the installation link from Governance configuration page. To install the app, the user who performs these operations needs to have admin permissions for the GitHub org or for the repositories in the org.
 
 Below is the first landing page for Governance. The first action that needs to be taken is to install IBM Cloudability GitHub App in customer’s GitHub org.
@@ -341,8 +323,6 @@ Once access is granted, the page redirects back to the Cloudability Governance p
 - **original_file:** governance-hcp-terraformterraform-enterprise.md
 - **images:**
   - 03-media/apptio-cloudability-standard/Gov5.png
-
-## HCP Terraform/Terraform Enterprise
 
 ### Overview
 
@@ -405,8 +385,6 @@ data "aws_caller_identity" "staging" {
 - **original_file:** governance-preferences-configuration.md
 - **images:** []
 
-## Preferences Configuration
-
 Overview
 
 In order to fetch account specific pricing, Cloudability Governance currently looks for provider account information as follows:
@@ -434,8 +412,6 @@ TF Community customers (through GitHub action) - Provider subscription informati
 - **source_path:** SSVCLNQ/admin/governance-troubleshooting.html
 - **original_file:** governance-troubleshooting.md
 - **images:** []
-
-## Troubleshooting
 
 Before troubleshooting, ensure the following are completed:
 
@@ -465,8 +441,6 @@ Before troubleshooting, ensure the following are completed:
 - **source_path:** SSVCLNQ/admin/governance-usage-and-configuration-based-cost-estimation.html
 - **original_file:** governance-usage-configuration-based-cost-estimation.md
 - **images:** []
-
-## Usage and Configuration-Based Cost Estimation
 
 Cloudability Governance can estimate costs directly from your Terraform configuration. In addition to configuration-based estimates, you can optionally provide usage-based input parameters for specific resources. These inputs help generate more accurate and tailored cost projections based on your anticipated consumption. For services that require usage data — such as AWS Lambda, SQS, and others — a default usage value will be used when no custom input is provided. If you supply your own expected usage values, they will always override the defaults.
 

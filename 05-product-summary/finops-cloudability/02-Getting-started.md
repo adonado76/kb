@@ -28,8 +28,6 @@ last_updated: "2026-07-13"
   - 03-media/apptio-cloudability-standard/icon-min.jpg
   - 03-media/apptio-cloudability-standard/icon-logout.jpg
 
-## Find your way around Cloudability
-
 ### Cloudability Toolbar
 
 Allows quick access to manage profile, access, preferences, and much more.
@@ -75,8 +73,6 @@ Left menu or navigation in Cloudability allows you to access various capabilitie
 - **original_file:** started-first-steps-cloudability-users.md
 - **images:** []
 
-## First steps for Cloudability users
-
 ### Overview
 
 IBM Cloudability optimizes cloud resources and translates bills and tags into insights to provide real-time clarity and accountability for consumption. Ask your administrator to create the relevant Cloudability roles for you. As a first time user, here are the steps to configure your Cloudability that will set you up for success.
@@ -105,8 +101,6 @@ Find your way around with Cloudability
 - **images:**
   - 03-media/apptio-cloudability-standard/apex4.jpg
   - 03-media/apptio-cloudability-standard/how-to-access-cldy.png
-
-## How to access Cloudability
 
 ### Overview
 
@@ -144,8 +138,6 @@ The Apex design makes it easy for users to navigate their products and find the 
 - **original_file:** started-what-you-can-do-cloudability-standard.md
 - **images:**
   - 03-media/apptio-cloudability-standard/dashboard-new.jpg
-
-## What you can do with Cloudability Standard
 
 ### Introduction
 

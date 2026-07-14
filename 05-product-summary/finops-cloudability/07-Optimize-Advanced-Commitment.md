@@ -18,8 +18,6 @@ last_updated: "2026-07-13"
 - **original_file:** optimize-guide-advanced-commitment-functionality.md
 - **images:** []
 
-## Guide to Advanced Commitment Functionality
-
 Summary
 
 Cloudability Commitments advanced features that provide deeper insights into cloud cost optimization. It introduces powerful modals—such as the Coverage Modal and Net Savings Modal—that help users understand how key performance indicators (KPIs) like coverage and net savings are calculated, interpreted, and used to guide strategic decisions. These tools offer transparency into what cloud spend is optimized through commitments, what remains uncovered, and how unused commitments impact overall savings.
@@ -47,8 +45,6 @@ With integrated reporting links and detailed breakdowns, users can move from hig
 - **source_path:** SSVCLNQ/product/coverage_modal.html
 - **original_file:** functionality-coverage-modal.md
 - **images:** []
-
-## Coverage Modal
 
 ### Purpose
 
@@ -144,8 +140,6 @@ Debuting with GCP, we have introduced deep linking into the values shown on the 
 - **original_file:** functionality-net-savings-modal.md
 - **images:** []
 
-## Net Savings Modal
-
 ### Purpose
 
 Net Savings is the most important KPI. It is ultimately what is used to clearly communicate out performance and justify past and future commitment purchases, as such, we want to bring transparency and added detail to how this KPI is calculated. This modal attempts to satisfy this desire.
@@ -199,8 +193,6 @@ Know that you can track expected savings by year via this modal.
 - **images:**
   - 03-media/apptio-cloudability-standard/migration-date-gcp-console.png
 
-## Supplemental Guide to GCP's Spend CUD Program
-
 Instructions to backfill data for customers who voluntarily migrated to the new Spend CUD Program before February 1st, 2026
 
 Customers need us to refetch GCP data dating back to the month of their migration. There are three cohorts:
@@ -224,8 +216,6 @@ If you do not know if the refetch took place on your behalf, please reach out to
 - **source_path:** SSVCLNQ/product/understanding_commitments_using_cloudability_native_reporting.html
 - **original_file:** functionality-understanding-commitments-using-cloudability-native-reporting.md
 - **images:** []
-
-## Understanding Commitments Using Cloudability Native Reporting
 
 Savings Plans (SP) is the new discount instrument launched by AWS. This topic explains how the savings plans are different from traditional discounting with reserved instances (RI) and also gives in depth knowledge into billing implications. You can use the Lease Type dimension, along with other regular dimensions and metrics about your SP usage.
 

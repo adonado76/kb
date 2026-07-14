@@ -18,8 +18,6 @@ last_updated: "2026-07-13"
 - **original_file:** insights-resource-inventory.md
 - **images:** []
 
-## Resource Inventory
-
 Resource Inventory enables creating a list of cloud resources from multiple accounts with various dimensions and metrics. By unifying billing, utilization, and descriptive meta data you are able to achieve a more comprehensive inventory view for your resources.
 
 ### Key Use Cases for Resource Inventory
@@ -41,8 +39,6 @@ By providing a unified view of your inventory, complete with detailed utilizatio
 - **source_path:** SSVCLNQ/product/aws-resource-inventory.html
 - **original_file:** inventory-aws-resource.md
 - **images:** []
-
-## AWS Resource Inventory
 
 AWS Resource Inventory feature for Cloudability enables you to produce an authoritative list of AWS cloud resources that existed and were billed during a specific reporting period. You have the flexibility to build this list from resources spanning multiple accounts and choose from different measures (dimensions and metrics) to surface the details relevant to them. This information - available for each cloud resource - unifies billing, utilization, and descriptive meta data to give you a more comprehensive inventory view.
 
@@ -162,8 +158,6 @@ Resource Inventory uses Resource ID as the unique identifier to display the reso
 - **original_file:** inventory-azure-resource.md
 - **images:** []
 
-## Azure Resource Inventory
-
 Azure Resource Inventory feature for Cloudability enables you to produce an authoritative list of Azure cloud resources that existed and were billed during a specific reporting period. You have the flexibility to build this list from resources spanning multiple accounts and choose from different measures (dimensions and metrics) to surface the details relevant to them. This information - available for each cloud resource - unifies billing, utilization, and descriptive meta data to give you a more comprehensive inventory view.
 
 ### Getting started
@@ -262,8 +256,6 @@ KPI Definitions
 - **original_file:** inventory-gcp-resource.md
 - **images:** []
 
-## GCP Resource Inventory
-
 GCP Resource Inventory feature for Cloudability enables you to produce an authoritative list of GCP cloud resources that existed and were billed during a specific reporting period. You have the flexibility to build this list from resources spanning multiple accounts and choose from different measures (dimensions and metrics) to surface the details relevant to them. This information - available for each cloud resource - unifies billing, utilization, and descriptive meta data to give you a more comprehensive inventory view.
 
 ### Getting started
@@ -354,8 +346,6 @@ For some resources, you may find that some measures, such as Launch Date , State
 - **original_file:** inventory-oci-resource.md
 - **images:** []
 
-## OCI Resource Inventory
-
 OCI Resource Inventory feature for Cloudability enables you to produce an authoritative list of OCI cloud resources that existed and were billed during a specific reporting period. You have the flexibility to build this list from resources spanning multiple accounts and choose from different measures (dimensions and metrics) to surface the details relevant to them. At present, this information is only available for Virtual Machine resource - unifies billing, utilization, and descriptive meta data to give you a more comprehensive inventory view.
 
 ### Getting started
@@ -441,8 +431,6 @@ For some resources, you may find that some measures, such as Launch Date , State
 - **source_path:** SSVCLNQ/product/resource-inventory-faqs.html
 - **original_file:** inventory-resource-faqs.md
 - **images:** []
-
-## Resource Inventory FAQs
 
 ### Why can't I select the most recent 3 days in the Resource Inventory Date Range picker?
 

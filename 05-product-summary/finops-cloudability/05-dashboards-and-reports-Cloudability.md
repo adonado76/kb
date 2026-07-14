@@ -19,8 +19,6 @@ last_updated: "2026-07-13"
 - **images:**
   - 03-media/apptio-cloudability-standard/cloudability-dashboards.png
 
-## Cloudability Dashboards
-
 Cloudability Dashboards is a simple, self-service tool that can be used to create fully customizable dashboards, using the data available in Cloudability. Users can choose from a variety of Widgets to visualize the information and adjust the visualization options to tailor the Dashboards to individual needs, ensuring that insights are exposed quickly and in the right context.
 
 Dashboards can be shared with other team members to improve collaboration and visibility. Widget annotations can ensure shared understanding of Cloud Cost and Spend, without the need for external collaboration tools. Applying Cloudability Views in a Dashboard can be used to narrow down the scope of each Dashboard to drill down into the details and see the data from a more focused perspective.
@@ -43,8 +41,6 @@ Dashboards can be shared with other team members to improve collaboration and vi
   - 03-media/apptio-cloudability-standard/copy-grey.png
   - 03-media/apptio-cloudability-standard/trash-grey.png
   - 03-media/apptio-cloudability-standard/add-blue.png
-
-## Dashboards' List
 
 When accessing Cloudability users are presented with their Home Dashboard. Other Dashboards can be access by clicking on the “All Dashboards” button after navigating to “My Dashboard” under “Home” section in the left-hand navigation bar.
 
@@ -87,8 +83,6 @@ Manage Dashboards page can be used to create a new Cloudability Dashboard. Click
   - 03-media/apptio-cloudability-standard/interactive-widgets.png
   - 03-media/apptio-cloudability-standard/on-hover-widget.png
   - 03-media/apptio-cloudability-standard/widget-navigation.png
-
-## View and configure Dashboards
 
 Accessing a Dashboard page is a great way to explore your Cloud spend in detail. Dashboards can address a multitude of use cases and can be customized according to your company’s unique requirements.
 
@@ -200,8 +194,6 @@ Clicking on a section of a Widget allows users to navigate to a more detailed Re
   - 03-media/apptio-cloudability-standard/annotate-in-dashboards.png
   - 03-media/apptio-cloudability-standard/annotate-hover.png
 
-## Annotate in Dashboards
-
 To easily communicate spikes in Cost, or label important events on Widgets, users can decide to add “Annotations” that will be visible directly in the Widgets.
 
 Clicking “Annotate” button will open a left-hand side modal that displays all currently configured Annotations and allow users to create new Annotations by clicking on the “Create New” button on the bottom of the Annotations menu. Creating new Annotations requires Edit permission to the Dashboard.
@@ -224,8 +216,6 @@ Hovering over an Annotation will display its Name, associated Date and the Descr
   - 03-media/apptio-cloudability-standard/date-picker.png
   - 03-media/apptio-cloudability-standard/dimension-picker.png
   - 03-media/apptio-cloudability-standard/filters.png
-
-## Create or Edit a Widget in a Dashboard
 
 Widgets are the building blocks for Cloudability Dashboards. Each Widget is configured separately and can serve a different purpose. This page explains the configuration steps and options available to users when creating or editing Widgets in Cloudability Dashboards.
 
@@ -320,8 +310,6 @@ Filters applied on the same Measure will be created using the logical “OR” c
 - **images:**
   - 03-media/apptio-cloudability-standard/chart-widget.png
 
-## Chart Widget
-
 Chart Widget allows Cloudability Users to visualize their data in the form of a Line Chart, Area Chart, Bar Chart or a Column Chart. This Widget type is most useful when what matters the most are the overall trends, spikes or differences between values on the Chart, and not the exact values.
 
 When configuring a Chart Widget, users can choose any Dimension either from the “Cost and Usage” or the “Utilization” data source for the Chart’s X-axis.
@@ -349,8 +337,6 @@ Finally, users are able to display multiple Charts on a single Widget. Click the
 - **images:**
   - 03-media/apptio-cloudability-standard/estimate-widget.png
 
-## Estimate Widget
-
 Cloudability Dashboards have an option to visualize the data from the “Estimate” data source.
 
 Currently, the Estimate Widget can only display the KPI difference between “This Month” and “Last Month” using one of the following Cost metrics:
@@ -374,8 +360,6 @@ Charges that are yet to appear in the billing file will be forcasted for the pur
 - **images:**
   - 03-media/apptio-cloudability-standard/number-widget.png
 
-## Number Widget
-
 The Number Widget can be used in Cloudability Dashboards to see a summary of a single Metric in a Dashboard. This Widget displays a single value of a Metric (KPI) over a given date range.
 
 Any Metric from the “Cost and Usage” or the “Utilization” data source can be used to display the Number Widget.
@@ -392,8 +376,6 @@ Users can also decide to display a small line chart next to the KPI on the Numbe
 - **original_file:** dashboard-pie-widget.md
 - **images:**
   - 03-media/apptio-cloudability-standard/pie-widget.png
-
-## Pie Widget
 
 Pie Widget allows Cloudability Users to visualize their data so that the Metrics can be displayed as a fraction of the whole, allowing to easily understand which Dimensions correspond to the largest part of the Cost.
 
@@ -413,8 +395,6 @@ To improve visibility, Users can narrow down the number of results to the top N 
 - **original_file:** dashboard-rightsizing-widget.md
 - **images:**
   - 03-media/apptio-cloudability-standard/rightsizing-widget.png
-
-## Rightsizing Widget
 
 Cloudability Dashboards have an option to visualize the data from the “Rightsizing” data source.
 
@@ -440,8 +420,6 @@ Rightsizing in Cloudability Dashboards is available for the following products:
 - **images:**
   - 03-media/apptio-cloudability-standard/table-widget.png
 
-## Table Widget
-
 Table Widget allows detailed overview of the data and is used for accurate and in-depth analysis of the Costs. Table Widget can be created using either “Cost and Usage” or “Utilization” data.
 
 Users can choose up to 15 Dimensions and up to 8 Metrics to build the table.
@@ -463,8 +441,6 @@ Table Widgets in Cloudability Dashboards will automatically sum all rows and dis
 - **images:**
   - 03-media/apptio-cloudability-standard/text-widget.png
 
-## Text Widget
-
 Text Widget can be used to provide additional description, comments or explanation to the Dashboard. Most important features include:
 
 - Built-in basic editor options
@@ -481,8 +457,6 @@ Text Widget can be used to provide additional description, comments or explanati
 - **original_file:** dashboards-share-dashboard.md
 - **images:**
   - 03-media/apptio-cloudability-standard/share-a-dashboard.png
-
-## Share a Dashboard
 
 To improve collaboration between multiple users and teams, Cloudability Dashboards support the Dashboard Sharing functionality.
 
@@ -507,8 +481,6 @@ Additionally, users with “Edit” permission to a given Dashboard can choose t
 - **images:**
   - 03-media/apptio-cloudability-standard/cloudability-reports.png
 
-## Cloudability Reports
-
 Cloudability Reports is self-service tool that allows users to access their Cost and Utilization data to answer ad-hoc questions, schedule Reports to send on a given cadence or export the raw data for a given set of Dimensions, Metrics and Filters.
 
 ---
@@ -520,8 +492,6 @@ Cloudability Reports is self-service tool that allows users to access their Cost
 - **source_path:** SSVCLNQ/product/create-or-edit-a-report.html
 - **original_file:** reports-create-edit-report.md
 - **images:** []
-
-## Create or Edit a Report
 
 New Reports can be created by clicking the "New Report" button on the Reports List page. Existing Reports can be edited by accessing the Report and clicking the blue "Edit Report" button. "Edit" permissions are required a modify an existing Report.
 
@@ -565,8 +535,6 @@ When using "equals" or "not equals" match condition, the following inputs are tr
 - **images:**
   - 03-media/apptio-cloudability-standard/copy-a-report-to-a-dashboard.png
 
-## Copy a Report to a Dashboard
-
 Existing Reports can also be saved as new Widgets in existing Dashboards by clicking the "Copy to Dashboard" button in the dot menu:
 
 Then, users can select an existing Dashboard where a Report will be saved and choose which type of widget to add to the Dashboard. Users can save the KPI, Chart or Table in a Dashboard.
@@ -583,8 +551,6 @@ Then, users can select an existing Dashboard where a Report will be saved and ch
   - 03-media/apptio-cloudability-standard/export-menu.png
   - 03-media/apptio-cloudability-standard/export-modal.png
   - 03-media/apptio-cloudability-standard/generate-report.png
-
-## Export a Report
 
 To extract raw data from a Report, users can Export the data to a CSV file by navigating to the "Export" option from the dot menu:
 
@@ -604,8 +570,6 @@ Reports that are being generated can be found in the menu on the top of the page
   - 03-media/apptio-cloudability-standard/share-grey.png
   - 03-media/apptio-cloudability-standard/share-a-report.png
 
-## Share a Report
-
 Users may decide to share a saved Report with other Users in their Organization. Reports can be shared by clicking the "Share" icon on the Report page.
 
 Then, User can decide if the Share link should also include the currently used View, so that the other User will see exactly the same data as currently viewed by the User sharing the Report.
@@ -624,8 +588,6 @@ Next, Users can decide if the Report should be shared with a specific User or th
   - 03-media/apptio-cloudability-standard/envelope-grey.png
   - 03-media/apptio-cloudability-standard/subscribe-to-a-report.png
 
-## Subscribe to a Report
-
 Users can Subscribe to a Report to receive the Report on a given cadence. Report Subscription can be configured by clicking the envelope icon when accessing a Report:
 
 This will open the Subscription configuration menu that allows users to configure the time interval at which the Report will be generated.
@@ -643,8 +605,6 @@ Reports can be delivered daily, weekly or monthly.
 - **images:**
   - 03-media/apptio-cloudability-standard/reports-list.png
   - 03-media/apptio-cloudability-standard/ootb-reports.png
-
-## Reports List
 
 When navigating to "Home" => "Reports" users are presented with a list of all Reports accessible to them. The list of Reports can be further narrowed down to focus only on Reports in a certain category:
 
@@ -746,8 +706,6 @@ Below is the list of out-of-the-box Reports available in Cloudability:
 - **original_file:** reports-cost-usage-data-availability-in-reporting.md
 - **images:** []
 
-## Cost and Usage Data availability in Reporting
-
 Overview
 
 To report on Cloudability cost and usage data, the billing files from the vendor must first be processed through our data pipeline. The process begins with raw cost and usage data ingestion. Once that data is ingested, it goes through a series of data normalization, transformation, aggregation, and decoration steps before being made available to reporting.
@@ -837,8 +795,6 @@ Reports with the previous day as the end date show discrepancies. When the UTC d
 - **images:**
   - 03-media/apptio-cloudability-standard/inv_recon_filters.png
   - 03-media/apptio-cloudability-standard/inv_recon_calendarpicker.png
-
-## Invoice Reconciliation in Cloudability
 
 Invoice Reconciliation refers to the process of validating that the total billed amount on a finalized Cloud Service Provider (CSP) invoice matches the total cost reported in Cloudability. This alignment is verified by generating a focused Cloudability report with a small set of filters. While the workflow itself is straightforward, there are several important considerations and nuances that can affect the accuracy of the reconciliation. This document outlines those key considerations and provides guidance for completing the exercise effectively.
 

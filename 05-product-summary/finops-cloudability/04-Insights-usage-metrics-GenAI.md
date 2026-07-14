@@ -18,8 +18,6 @@ last_updated: "2026-07-13"
 - **original_file:** insights-understand-usage-metrics-genai-services-in-cloudability.md
 - **images:** []
 
-## Understand usage metrics for GenAI services in Cloudability
-
 Generative AI (GenAI) services such as AWS Bedrock , Azure OpenAI , and Google Vertex AI use billing models that differ from traditional compute or storage. Each provider measures usage in different ways - tokens, characters, or compute hours. Cloudability allows you to interpret these costs consistently using existing metrics and dimensions.
 
 ### Key workload types

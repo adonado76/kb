@@ -20,8 +20,6 @@ last_updated: "2026-07-13"
   - 03-media/apptio-cloudability-standard/explore_cost_drivers_1.jpg
   - 03-media/apptio-cloudability-standard/topline-items.jpg
 
-## TrueCost Explorer
-
 TrueCost Explorer helps you to understand the structuring of cloud billing files. It offers a visually intuitive way to explore your billing data and answer questions about cost drivers.
 
 Use Case
@@ -50,8 +48,6 @@ If you want to understand what is driving your costs at an individual resource l
 - **source_path:** SSVCLNQ/chatbot/cost-basis-for-rightsizing-true-cost-explorer.html
 - **original_file:** explorer-cost-basis-rightsizing-true-cost.md
 - **images:** []
-
-## Cost Basis for Rightsizing and True Cost Explorer
 
 True Cost Explorer helps you understand the structuring of cloud billing files. It offers a visually intuitive way to explore your billing data and answer questions about cost drivers. Cost Basis are the Cost Metrics from Reports in Cloudability.
 

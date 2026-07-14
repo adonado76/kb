@@ -19,8 +19,6 @@ last_updated: "2026-07-13"
 - **images:**
   - 03-media/apptio-cloudability-standard/rightsizing-explorer.jpg
 
-## Rightsizing
-
 With Rightsizing, you can define the optimal cloud infrastructure best suited for your current and near-term needs in a way that balances risk and cost to minimize waste.
 
 Using the Rightsizing dashboards, you can see cloud resource utilization over time. You can then view recommended scenarios for each resource to better inform your cloud rightsizing decisions.
@@ -123,8 +121,6 @@ For AWS a custom cost metric must be in place. For Azure and GCP a pricing sheet
   - 03-media/apptio-cloudability-standard/Redshift-Rightsizing.jpg
   - 03-media/apptio-cloudability-standard/Redshift-Rightsizing-Details.jpg
 
-## Amazon Redshift
-
 You can use the Rightsizing dashboard to view resource optimization insights for Amazon Redshift clusters. The dashboard shows utilization metrics and identifies clusters with potential savings opportunities. You can view insights across multiple accounts from a single dashboard.
 
 Rightsizing in Cloudability
@@ -201,8 +197,6 @@ To view details of the utilization dimension and metrics, refer to Glossary of u
 - **images:**
   - 03-media/apptio-cloudability-standard/rightsizing-autoscale-instance-to-asg.jpg
 
-## Autoscale Action for Rightsizing
-
 One challenge in resource optimization is correctly sizing for workloads that exhibit widely fluctuating and spiking workloads. As illustrated by large swings in the utilization metric data (CPU, network, memory, and GPU), this scenario is typically addressed by over-provisioning the resource to accommodate the highest peaks in these workloads, resulting in excess cloud spend.
 
 To better fit compute resources to these highly elastic workloads, we are enhancing the Autoscale recommendation. The Autoscale action recommends converting a single instance to an Auto Scaling Group (ASG). Instead of a single high-capacity instance, the ASG comprises multiple, smaller instances that are spun up and down to meet this elastic workload's demands. If your workload can accommodate scaling across multiple machines, this is a cost-effective option.
@@ -241,8 +235,6 @@ EC2 target tracking dynamic scaling policies are triggered by either CPU utiliza
   - 03-media/apptio-cloudability-standard/ebs-final.jpg
   - 03-media/apptio-cloudability-standard/edit-icon.jpg
   - 03-media/apptio-cloudability-standard/ebs-details-final.jpg
-
-## AWS EBS
 
 You can use the Rightsizing dashboard to view the resource optimization recommendations for Amazon Web Services (AWS) Elastic Block Store (EBS). The dashboard shows both the rightsizing and idle (terminate) recommendations. You can view the recommendations across multiple accounts from a single dashboard.
 
@@ -501,8 +493,6 @@ To view details of the utilization dimension and metrics, refer to Glossary of u
   - 03-media/apptio-cloudability-standard/edit-icon.jpg
   - 03-media/apptio-cloudability-standard/recommendations-aws-autoscaling.jpg
 
-## AWS EC2 Autoscaling Group (ASG)
-
 You can use the Rightsizing dashboard to view the resource optimization recommendations for Amazon Web Services (AWS) Elastic Compute Cloud (EC2) Auto Scaling Groups (ASG). The dashboard shows both the rightsizing and idle (terminate) recommendations. You can view the recommendations across multiple accounts from a single dashboard.
 
 Rightsizing in Cloudability
@@ -659,8 +649,6 @@ Disk metrics are not used for autoscaling recommendations.
 - **images:**
   - 03-media/apptio-cloudability-standard/edit-icon.jpg
 
-## AWS ElasticIP
-
 You can use Cloudability’s recommendations to identify unattached Amazon Web Services (AWS) ElasticIP addresses. The dashboard terminate recommendations for ElasticIP addresses determined to be unattached from an instance and unused. You can view the recommendations across multiple accounts from a single dashboard.
 
 Rightsizing in Cloudability
@@ -770,8 +758,6 @@ The EBS details panel shows the following information:
 - **original_file:** rightsizing-aws-lambda.md
 - **images:** []
 
-## AWS Lambda
-
 Use the Rightsizing dashboard to see resource optimization recommendations for Amazon Web Services (AWS) Lambda. The dashboard shows both the rightsizing and idle (terminate) recommendations. You can view the recommendations across multiple accounts from a single dashboard.
 
 Visit Rightsizing in Cloudability to learn more.
@@ -852,8 +838,6 @@ To view the recommendation details for a particular resource, select the More Op
   - 03-media/apptio-cloudability-standard/aws-rds-dashboard.jpg
   - 03-media/apptio-cloudability-standard/edit-icon.jpg
   - 03-media/apptio-cloudability-standard/rightsizing-aws-rds.jpg
-
-## AWS RDS
 
 You can use the Rightsizing dashboard to view the resource optimization recommendations for Amazon Web Services (AWS) Relational Database Service (RDS). The dashboard shows both the rightsizing and idle (terminate) recommendations. You can view the recommendations across multiple accounts from a single dashboard.
 
@@ -978,8 +962,6 @@ To view details of the utilization dimension and metrics, refer to Glossary of u
   - 03-media/apptio-cloudability-standard/s3-rightsizing-recommendations-grid.jpg
   - 03-media/apptio-cloudability-standard/edit-icon.jpg
   - 03-media/apptio-cloudability-standard/s3-rightsizing-details-pane.jpg
-
-## AWS S3
 
 You can use the Rightsizing dashboard to view the resource optimization recommendations for Amazon Web Services (AWS)Simple Storage Service (S3). The dashboard shows both the rightsizing and idle (terminate) recommendations. You can view the recommendations across multiple accounts from a single dashboard.
 
@@ -1144,8 +1126,6 @@ For more information, refer to https://aws.amazon.com/s3/storage-classes/ .
 - **source_path:** SSVCLNQ/product/rightsizing-for-azure-blob-storage.html
 - **original_file:** rightsizing-azure-blob-storage.md
 - **images:** []
-
-## Azure Blob Storage
 
 You can use the Rightsizing dashboard to view optimization recommendations for Azure Blob Storage. The dashboard shows both rightsizing and idle recommendations, and you can view recommendations across multiple subscriptions from a single dashboard.
 
@@ -1318,8 +1298,6 @@ For more information about enabling Last Access Time, see Move data based on las
   - 03-media/apptio-cloudability-standard/edit-icon.jpg
   - 03-media/apptio-cloudability-standard/azure-compute-2.jpg
 
-## Azure Compute
-
 You can use the Rightsizing dashboard to view the resource optimization recommendations for Microsoft Azure Compute. The dashboard shows both the rightsizing and idle (terminate) recommendations. You can view the recommendations across multiple accounts from a single dashboard.
 
 Rightsizing in Cloudability
@@ -1444,8 +1422,6 @@ To view details of the utilization dimension and metrics, refer to Glossary of u
 - **original_file:** rightsizing-azure-compute-scale-sets.md
 - **images:**
   - 03-media/apptio-cloudability-standard/edit-icon.jpg
-
-## Azure Compute Scale Sets
 
 You can use the Rightsizing dashboard to view the resource optimization recommendations for Microsoft Azure Compute managed via Scale Sets. The dashboard shows rightsizing and idle (terminate) recommendations for both homogenous and heterogenous Scale Sets. You can view the recommendations across multiple accounts from a single dashboard.
 
@@ -1583,8 +1559,6 @@ Rightsizing in Cloudability
   - 03-media/apptio-cloudability-standard/edit-icon.jpg
   - 03-media/apptio-cloudability-standard/azure-disk-2.jpg
 
-## Azure Disk
-
 You can use the Rightsizing dashboard to view the resource optimization recommendations for Azure Disk. The dashboard shows both the rightsizing and idle (terminate) recommendations. You can view the recommendations across multiple accounts from a single dashboard.
 
 Rightsizing in Cloudability
@@ -1695,8 +1669,6 @@ To view details of the utilization dimension and metrics, refer to Glossary of u
   - 03-media/apptio-cloudability-standard/edit-icon.jpg
   - 03-media/apptio-cloudability-standard/azure-sql-2.jpg
 
-## Azure SQL
-
 You can use the Rightsizing dashboard to view the resource optimization recommendations for Azure SQL. The dashboard shows both the rightsizing and idle (terminate) recommendations. You can view the recommendations across multiple accounts from a single dashboard.
 
 Rightsizing in Cloudability
@@ -1798,8 +1770,6 @@ To view details of the utilization dimension and metrics, refer to Glossary of u
 - **source_path:** SSVCLNQ/product/rightsizing-for-gcp-cloud-storage.html
 - **original_file:** rightsizing-gcp-google-cloud-storage-gcs.md
 - **images:** []
-
-## GCP Google Cloud Storage (GCS)
 
 You can use the Rightsizing dashboard to view the resource optimization recommendations for Google Cloud Storage (GCS). The dashboard shows both the rightsizing and idle (terminate) recommendations. You can view the recommendations across multiple accounts from a single dashboard.
 
@@ -1943,8 +1913,6 @@ For more information, refer to https://docs.cloud.google.com/storage/docs/autocl
 - **images:**
   - 03-media/apptio-cloudability-standard/edit-icon.jpg
 
-## GCP Google Compute Engine (GCE)
-
 You can use the Rightsizing dashboard to view the resource optimization recommendations for Google Compute Engine (GCE) virtual machine resources. The dashboard shows both the rightsizing and idle (terminate) recommendations.
 
 Rightsizing in Cloudability
@@ -2068,8 +2036,6 @@ To view details of the utilization dimension and metrics, refer to Glossary of u
   - 03-media/apptio-cloudability-standard/mig-help-image-2.jpg
   - 03-media/apptio-cloudability-standard/edit-icon.jpg
   - 03-media/apptio-cloudability-standard/mig-help-image2.jpg
-
-## GCP Google Compute Engine (GCE) Managed Instance Groups (MIG)
 
 You can use the Rightsizing dashboard to view the resource optimization recommendations for Google Cloud Platform (GCP) Google Compute Engine (GCE) Managed Instance Groups (MIG). The dashboard shows both the rightsizing and idle (terminate) recommendations. You can view the recommendations across multiple accounts from a single dashboard.
 
@@ -2211,8 +2177,6 @@ In addition to the information provided in the GCE details panel, the MIG detail
   - 03-media/apptio-cloudability-standard/edit-icon.jpg
   - 03-media/apptio-cloudability-standard/rightsizing-gcp-gpd-details.jpg
 
-## GCP Google Persistent Disk (GPD)
-
 You can use the Rightsizing dashboard to view the resource optimization recommendations for Google Persistent Disk (GPD) resources. The dashboard shows rightsizing, terminate, and no action recommendations.
 
 Rightsizing in Cloudability
@@ -2325,8 +2289,6 @@ To view details of the utilization dimension and metrics, refer to Glossary of u
   - 03-media/apptio-cloudability-standard/oci-vm-dashboard.jpg
   - 03-media/apptio-cloudability-standard/edit-icon.jpg
 
-## OCI Virtual Machines (VMs)
-
 You can use the Rightsizing dashboard to view the resource optimization recommendations for Oracle Cloud Infrastructure (OCI) Virtual Machine (VM) resources. The dashboard shows both the rightsizing and idle (terminate) recommendations.
 
 Rightsizing in Cloudability
@@ -2434,8 +2396,6 @@ To view details of the utilization dimension and metrics, refer to Glossary of u
   - 03-media/apptio-cloudability-standard/rightsizing-explorer-with-effective-cost.jpg
   - 03-media/apptio-cloudability-standard/download_button.jpg
 
-## Rightsizing Explorer
-
 Rightsizing Explorer dashboard enables you to group, filter and navigate all of your rightsizing recommendations, allowing you to better understand your opportunities and focus your efforts to maximize returns.
 
 The Rightsizing Explorer is in Optimize > Rightsizing > Explorer , and it is the default page for Rightsizing.
@@ -2523,8 +2483,6 @@ We update our rightsizing recommendations daily. You can access recommendations 
   - 03-media/apptio-cloudability-standard/containers-summary-kpis.jpg
   - 03-media/apptio-cloudability-standard/cloudy-vertical-elipsis.jpg
   - 03-media/apptio-cloudability-standard/rightsizing-recommendation-detail.jpg
-
-## Rightsizing for Kubernetes Containers
 
 With Cloudability rightsizing for Kubernetes containers, you can view recommendations for optimizing your Kubernetes container deployments based on the previous 10 or 30 days of resource usage.
 
@@ -2615,8 +2573,6 @@ Each option includes request and limit recommendations for memory and CPU for a 
   - 03-media/apptio-cloudability-standard/preferences-screenshot_VM.jpg
   - 03-media/apptio-cloudability-standard/preferences-screenshot_S3.jpg
 
-## Rightsizing Preferences
-
 Navigate to Settings > Rightsizing Preferences .
 
 Compute (VM) Preference
@@ -2667,8 +2623,6 @@ This preference tab allows you to exclude specific classes for Object Storage fo
   - 03-media/apptio-cloudability-standard/snooze_rs3.jpg
   - 03-media/apptio-cloudability-standard/snooze_rs4.jpg
   - 03-media/apptio-cloudability-standard/snooze_rs5.jpg
-
-## Snoozing Rightsizing Recommendations
 
 If needed, you can snooze rightsizing recommendations for specific resources when it has been determined that no action is to be taken on the resource at this time. This can help enhance efficiency when reviewing and actioning rightsizing recommendations by hiding these recommendations.
 

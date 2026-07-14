@@ -18,8 +18,6 @@ last_updated: "2026-07-13"
 - **original_file:** administration-multi-currency-service-in-cloudability.md
 - **images:** []
 
-## Multi-Currency Service in Cloudability
-
 Multi-Currency Service offers a centralized platform to manage currency exchange tables for your Apptio products. The service simplifies administration and eliminates the need to maintain separate tables for individual products. You can upload the currency exchange tables from a common interface and configure the different Apptio products to use the same tables for currency calculations.
 
 For more information, refer to https://www.ibm.com/docs/en/apptio-platform/multi-currency-service/saas?topic=multi-currency-service .
@@ -132,8 +130,6 @@ List of Currency Codes Supported in Cloudability
   - 03-media/apptio-cloudability-standard/share_and_subscribe_to_reports,_alerts,_and_emails_8.jpg
   - 03-media/apptio-cloudability-standard/share_and_subscribe_to_reports,_alerts,_and_emails_9.jpg
   - 03-media/apptio-cloudability-standard/Default_Cost_Metric_Config.png
-
-## Setting up Time Zone Preferences
 
 1. Click the User icon at the top right and select Manage Profile .
 1. Click the PREFERENCES tab, and define the define default View and Time zone under the View and Timezone section . The timezone will be used as your Cloudability timezone.

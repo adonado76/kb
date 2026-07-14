@@ -18,8 +18,6 @@ last_updated: "2026-07-13"
 - **original_file:** administration-manage-users-user-groups.md
 - **images:** []
 
-## Manage Users and User Groups
-
 In Cloudability, users and user groups help define who can access the platform and what they can see or do. There are three key components:
 
 A User in Cloudability is an individual who has been granted access to the platform. Each user has a unique identity, typically linked to an email address. Users are created and authenticated through FrontDoor , which handles both authentication and authorization. Once provisioned in FrontDoor, the user can be assigned specific Cloudability roles such as MSP Admin, Billing Manager, or Cloudability User/Admin. These roles determine the user's permissions and access levels within the platform.
@@ -53,8 +51,6 @@ Learn more Manage Entra ID Groups
   - 03-media/apptio-cloudability-standard/View-assignment-visibility-for-Entra-ID-Groups.png
   - 03-media/apptio-cloudability-standard/Picture14.png
   - 03-media/apptio-cloudability-standard/Picture15.png
-
-## Manage Entra ID Groups
 
 ### Overview
 
@@ -143,8 +139,6 @@ To assign view's access to an Entra ID Group or multiple Entra ID Groups:
   - 03-media/apptio-cloudability-standard/Picture7.png
   - 03-media/apptio-cloudability-standard/Picture8.png
 
-## Manage User Groups
-
 ### Overview
 
 A User Group in Cloudability is a logical collection of users created to simplify access management and streamline assignment of Views.
@@ -212,8 +206,6 @@ To assign view's access to a User Group or multiple User Groups:
   - 03-media/apptio-cloudability-standard/add_and_manage_users_4.png
   - 03-media/apptio-cloudability-standard/Picture2.png
 
-## Manage Users, User Views and Dashboards
-
 ### Overview
 
 As a Cloudability Admin, you can manage a user’s access to views and dashboards within Cloudability. This includes configuring their default view, setting a default dashboard, and granting access to specific views. Other user management tasks, such as adding or removing roles, are handled through Access Administration .
@@ -248,8 +240,6 @@ To configure the default view, select a value from the New User Default View dro
 - **source_path:** SSVCLNQ/admin/users-and-user-groups-faqs.html
 - **original_file:** groups-users-user-faqs.md
 - **images:** []
-
-## Users and User Groups FAQs
 
 ### Are Entra ID and IDP synonymous?
 
@@ -318,8 +308,6 @@ No, User Groups and Entrap ID Groups are not supported in Apptio BI. Not to ment
 - **source_path:** SSVCLNQ/admin/iam.html
 - **original_file:** administration-roles-permissions-in-cloudability.md
 - **images:** []
-
-## Roles and permissions in Cloudability
 
 Roles give users permission to access specific views and functions within Cloudability.
 
@@ -495,8 +483,6 @@ Supported permissions in Cloudability are shown in the following table:
 - **source_path:** SSVCLNQ/getting-started/first-steps-admin-cldy.html
 - **original_file:** started-first-steps-cloudability-admin.md
 - **images:** []
-
-## First steps for Cloudability admin
 
 ### Overview
 

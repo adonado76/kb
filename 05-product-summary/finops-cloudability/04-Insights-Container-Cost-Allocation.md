@@ -20,8 +20,6 @@ last_updated: "2026-07-13"
   - 03-media/apptio-cloudability-standard/k83_cost_allocation-1.jpg
   - 03-media/apptio-cloudability-standard/k83_cost_allocation-2.jpg
 
-## Container Cost Allocation
-
 You can integrate Kubernetes (k8s) or OpenShift (ROSA) container data into Cloudability to gain visibility into the portion of your cloud spend due to container costs, and to assure it’s appropriately allocated.
 
 View Container cost and usage data
@@ -121,8 +119,6 @@ On AWS accounts, EBS costs are handled differently. On the Containers page, EBS 
 - **original_file:** allocation-agent-observatory-tool.md
 - **images:** []
 
-## Agent Observatory Tool
-
 ### Overview
 
 The Agent Observability Tool provides real-time monitoring of Cloudability metrics agents in a tabular format across all your clusters, enabling you to track agent health, detect issues, and ensure accurate cost reporting.
@@ -164,8 +160,6 @@ The Agent Observability Tool displays the list all monitored clusters for instal
   - 03-media/apptio-cloudability-standard/audit2.jpg
   - 03-media/apptio-cloudability-standard/cldy-idle-cost.jpg
   - 03-media/apptio-cloudability-standard/container-cost-allocation-export.png
-
-## Analyze data for your Kubernetes containers
 
 ### Container Cost Allocation
 
@@ -288,8 +282,6 @@ To learn more about Kubernetes, refer the following topics:
   - 03-media/apptio-cloudability-standard/prov2.png
   - 03-media/apptio-cloudability-standard/adv1.png
   - 03-media/apptio-cloudability-standard/adv2.png
-
-## Cloudability Advanced Containers
 
 Overview
 
@@ -680,8 +672,6 @@ By following this guide, you should be able to successfully deploy and use the C
 - **original_file:** allocation-container-costs-allocated-by-vendor.md
 - **images:** []
 
-## Container Costs Allocated By Vendor
-
 When allocating cost based on utilization, the Container Cost Allocation feature accounts for the following information depending on the vendor.
 
 AWS (EKS/self-managed)
@@ -728,8 +718,6 @@ As the most popular container orchestrator out there, there are many different w
   - 03-media/apptio-cloudability-standard/threshold-based_alerting3.jpg
   - 03-media/apptio-cloudability-standard/threshold-based_alerting4.jpg
   - 03-media/apptio-cloudability-standard/threshold-based_alerting5.jpg
-
-## Container Insights: Threshold-based Alerting Configuration Guide
 
 Overview
 
@@ -796,8 +784,6 @@ p
   - 03-media/apptio-cloudability-standard/container_15.jpg
   - 03-media/apptio-cloudability-standard/container_16.jpg
   - 03-media/apptio-cloudability-standard/container_17.jpg
-
-## Containers Insights: Dashboard and Widget Guide
 
 Overview
 
@@ -897,8 +883,6 @@ This guide covers the essential features and customization options available in 
   - 03-media/apptio-cloudability-standard/container-ua-16.png
   - 03-media/apptio-cloudability-standard/conatiner-ua-19.png
   - 03-media/apptio-cloudability-standard/containers-metrics-agent-provisioning-2.jpg
-
-## Provision Your Container Agent
 
 Legacy Metrics Agent Migration
 
@@ -1198,8 +1182,6 @@ The following image illustrates the Installation.
   - 03-media/apptio-cloudability-standard/shared_rules1.jpg
   - 03-media/apptio-cloudability-standard/namespace.jpg
 
-## Shared Cost Allocation - Container Insights UI
-
 We are introducing a new container cost allocation feature that transforms how shared infrastructure expenses are tracked in Kubernetes environments. This feature enables customers to annotate and allocate shared infrastructure costs, such as system proxies, monitoring tools, and other operational resources, to specific application owners or cost centers.
 
 Previously, these shared infrastructure costs were indistinguishably reported as standard workload expenses. Now, organizations can precisely tag and distribute these operational costs, providing application teams and financial managers with a more transparent, granular view of their true total infrastructure expenditure.
@@ -1262,8 +1244,6 @@ To ensure a smooth experience, please note the following:
 - **source_path:** SSVCLNQ/product/instance-type-weighting-container-cost.html
 - **original_file:** allocation-vm-family-based-weightings.md
 - **images:** []
-
-## VM family-based weightings
 
 What is Resource Weighting?
 

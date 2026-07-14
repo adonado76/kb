@@ -22,8 +22,6 @@ last_updated: "2026-07-13"
   - 03-media/apptio-cloudability-standard/anomaly-detection-new3.png
   - 03-media/apptio-cloudability-standard/Anomlay_ThirdParty_Jira_SNOW.png
 
-## Anomaly Detection
-
 Anomaly detection in Cloudability helps organizations identify unusual or unexpected patterns in cost spending. This cloud-agnostic feature provides a comprehensive analysis across all services to detect cost anomalies, enabling users to mitigate sudden billing spikes through timely alerts. Users can monitor anomalies directly within Cloudability or receive notifications via email and Pager Duty.
 
 Key capabilities

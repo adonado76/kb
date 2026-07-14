@@ -31,8 +31,6 @@ last_updated: "2026-07-13"
   - 03-media/apptio-cloudability-standard/container-ua-15.png
   - 03-media/apptio-cloudability-standard/container-ua-16.png
 
-## Kubernetes Cluster Provisioning
-
 In order to gather the data we need to perform container cost allocation, you will need to deploy the IBM FinOps Agent , the next-generation data collection agent for Cloudability Containers. In this document you may find references related to a migration scenario from the legacy Cloudability metrics agent, and can safely disregard if you are provisioning for the first time.
 
 Provision the IBM FinOps Agent for Cloudability
@@ -226,8 +224,6 @@ During setup, the guide configures both required emitters: the Container Insight
 - **source_path:** SSVCLNQ/product/k8s-metrics-agent.html
 - **original_file:** provisioning-common-kubernetes-metrics-agent-error-messages.md
 - **images:** []
-
-## Common Kubernetes Metrics Agent - Error Messages
 
 Overview
 

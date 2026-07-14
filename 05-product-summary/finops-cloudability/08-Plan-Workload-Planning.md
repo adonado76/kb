@@ -22,8 +22,6 @@ last_updated: "2026-07-13"
   - 03-media/apptio-cloudability-standard/modify-delete.jpg
   - 03-media/apptio-cloudability-standard/edit-icon.jpg
 
-## Get Recommendations for Workload Planning
-
 Workload Planning helps you optimize your workload architecture and improve your financial planning accuracy across cloud vendors.
 
 You can:
@@ -172,8 +170,6 @@ You can always go back to the previous steps from the Summary or Analysis tabs t
 - **source_path:** SSVCLNQ/product/workload-planning-preferences.html
 - **original_file:** planning-workload-preferences.md
 - **images:** []
-
-## Workload Planning Preferences
 
 Workload Planning Preferences allow FinOps teams to centrally define, and restrict options in Workload Planning . Any update is optional, and not required to use Workload Planning .
 

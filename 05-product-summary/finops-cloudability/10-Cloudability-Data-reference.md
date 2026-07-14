@@ -18,8 +18,6 @@ last_updated: "2026-07-13"
 - **original_file:** reference-comparing-data-between-report-ui-csv-exports.md
 - **images:** []
 
-## Comparing Data Between Report UI and CSV Exports
-
 When you export your reports in Cloudability , you may observe:
 
 - The unit of measurements for some metrics do not match between report UI and exported CSV data.
@@ -91,8 +89,6 @@ Refer to this table to understand the mapping of those column headers that diffe
 - **source_path:** SSVCLNQ/product/glossary-of-cost-dimensions-and-metrics.html
 - **original_file:** reference-glossary-cost-dimensions-metrics.md
 - **images:** []
-
-## Glossary of Cost Dimensions and Metrics
 
 Cloudability's reporting tools allow you to analyze your cost and usage data to figure out exactly where your money is going. The dimensions and metrics available in your reports are identified below.
 
@@ -194,8 +190,6 @@ This is not available unless Custom Pricing is enabled.
 - **source_path:** SSVCLNQ/product/glossary-of-utilization-dimensions-and-metrics.html
 - **original_file:** reference-glossary-utilization-dimensions-metrics.md
 - **images:** []
-
-## Glossary of utilization dimensions and metrics
 
 Cloudability's reporting tools allow you to slice and dice your utilization data so you can figure out exactly how your infrastructure is being used. Divided into two sections, the dimensions and metrics that are available in your reports are identified below.
 
@@ -307,8 +301,6 @@ Utilization metrics
   - 03-media/apptio-cloudability-standard/making_the_most_image06.jpg
   - 03-media/apptio-cloudability-standard/making_the_most__image00.jpg
   - 03-media/apptio-cloudability-standard/making_the_most_image01.jpg
-
-## Making the most of popular dimensions and metrics within Cloudability
 
 There are a vast number of dimensions and metrics available in Cloudability reporting. We've listed some of the most popular and useful below. For a full list, check out our Glossary of Dimensions and Metrics .
 

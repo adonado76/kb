@@ -24,8 +24,6 @@ last_updated: "2026-07-13"
   - 03-media/apptio-cloudability-standard/manage-view.jpg
   - 03-media/apptio-cloudability-standard/specified-dimensions.png
 
-## Create and Manage Views
-
 ### Overview
 
 View in Cloudability is a powerful data filtering tool to organize and control how cloud cost and usage data is presented and shared among Cloudability users for your organization. They act as application-wide filters that help you focus on the data that matters most.
@@ -197,8 +195,6 @@ A user can expect following behavior when Admin deletes a View or removes a View
 - **original_file:** views-organize-using-hierarchical.md
 - **images:** []
 
-## Organize Views using Hierarchical Views
-
 ### Overview
 
 What are Hierarchical Views?
@@ -276,8 +272,6 @@ To delete a hierarchical view, follow the steps below:
 - **source_path:** SSVCLNQ/admin/views-feature-compatibility.html
 - **original_file:** views-feature-compatibility.md
 - **images:** []
-
-## Views Feature Compatibility
 
 While Views provide you with powerful capabilities to organize and control how cloud cost and usage data is shared among Cloudability users, their support currently varies across different Cloudability features. Some features offer full Views support, while others have partial support or specific limitations.
 

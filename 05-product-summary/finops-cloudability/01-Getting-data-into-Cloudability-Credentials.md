@@ -31,8 +31,6 @@ last_updated: "2026-07-13"
   - 03-media/apptio-cloudability-standard/vc_icon6.jpg
   - 03-media/apptio-cloudability-standard/vc_icon7.jpg
 
-## Vendor Credentials
-
 Overview:
 
 Vendor Credentials page in Cloudability helps its Admin users view and connect to various data sources available. This page also allows admins to view, update, or delete individual accounts under data sources. Admins can search and filter the accounts, and also view the permission level on every individual account.
@@ -89,8 +87,6 @@ Frequently Asked Questions
   - 03-media/apptio-cloudability-standard/reverify-cloudability-icon.png
   - 03-media/apptio-cloudability-standard/archivecredential.png
   - 03-media/apptio-cloudability-standard/deleting__a_credential_19_34_am_png.jpg
-
-## Manage vendor credentials in Cloudability
 
 Overview
 
@@ -178,8 +174,6 @@ Frequently Asked Questions
   - 03-media/apptio-cloudability-standard/CLDYBanner.jpeg
   - 03-media/apptio-cloudability-standard/PremiumBanner.jpeg
   - 03-media/apptio-cloudability-standard/Rightsizng_vendorcreds_banner.png
-
-## Vendor Credentials Email Alerts and Banners
 
 Cloudability supports enabling email alerts on the Vendor Credentials page. These email alerts will trigger an email with the summary of the account status.
 

@@ -19,8 +19,6 @@ last_updated: "2026-07-13"
 - **images:**
   - 03-media/apptio-cloudability-standard/focus.jpg
 
-## Connect Custom Data (FOCUS Ingress)
-
 The FinOps Open Cost and Usage Specification ( FOCUS) is a community-driven effort to develop a standard schema for cloud, SaaS, and other billing data. The primary goal of the FOCUS specification is to make it easier to understand, report on, and manage cloud costs. The FOCUS specification is intended to be adaptable across a variety of cloud service providers and SaaS product sources and defines columns (dimensions and metrics), column-specific requirements, and attributes (spec-wide requirements).
 
 You can bring any cost and usage data from additional data sources as long as it has been formatted into the FOCUS schema and adheres to the columns that are required, as defined by the specification.
@@ -139,8 +137,6 @@ For more information, refer to Connect Google Cloud.
   - 03-media/apptio-cloudability-standard/Databrick-Runtime.png
   - 03-media/apptio-cloudability-standard/clip_image001_-1832790195.png
   - 03-media/apptio-cloudability-standard/clip_image002_-821243953.png
-
-## Connect Databricks
 
 You can connect your Databricks account to Cloudability to enable the ingestion of cost and usage data. This integration is intended to be used only for Databricks on AWS and Databricks on GCP. If you are using Azure Databricks, you will have sufficient data granularity in your Azure billing data.
 
@@ -286,8 +282,6 @@ Databricks APIs allow us to fetch the data for past 13 months, customers can cho
   - 03-media/apptio-cloudability-standard/vc_ss10.jpg
   - 03-media/apptio-cloudability-standard/datadog-integration-azure.jpg
 
-## Connect Datadog - Utilization Data
-
 If you use Datadog to monitor your resources, you can take advantage of Cloudability 's Datadog integration to help you reduce wasted spend by optimizing your resource usage.
 
 Cloudability fully supports Datadog multiple organizational accounts .
@@ -368,8 +362,6 @@ Within 24 hours after the Datadog Azure integration has been completed, you will
 - **original_file:** data-connect-datadog-cost-usage.md
 - **images:** []
 
-## Connect Datadog - Cost and Usage Data
-
 Summary of the Integration
 
 Datadog allows us to go back and pull cost data for the past 15 months. If the invoice is finalized, then you will see costs attributed to the first of the month. If the invoice has not been finalized, you will see daily costs associated to the products and services you have purchased. This means that generally, you will see daily data for the current month and the last month, until the date that the invoice has been finalized.
@@ -433,8 +425,6 @@ Create new keys in Datadog
   - 03-media/apptio-cloudability-standard/setup_overview_guide_gcp-error-ok.jpg
   - 03-media/apptio-cloudability-standard/GCP14_Script.jpg
   - 03-media/apptio-cloudability-standard/GCP15_EditCredst.png
-
-## Connect Google Cloud
 
 Overview
 
@@ -775,8 +765,6 @@ Prerequisites:
 - **original_file:** cloud-gcp-credentialing-using-bulk-actions.md
 - **images:** []
 
-## GCP Credentialing using Bulk Actions
-
 Overview
 
 Bulk Actions on Vendor Credentials screen allows admins to quickly complete the advance credentialing process within Cloudability.
@@ -820,8 +808,6 @@ This would trigger the bulk verify process and the bulk actions button would be 
 - **original_file:** cloud-gcp-tags-labels.md
 - **images:**
   - 03-media/apptio-cloudability-standard/gcp-tags.png
-
-## GCP Tags and Labels
 
 - GCP Labels These are part of the GCP Billing data extract and no extra permissions are required within Cloudability for enabling these .Cloudability support below labels Resource labels Project labels System labels
 
@@ -897,8 +883,6 @@ New Filter and Analysis Options:
 - **original_file:** cloud-set-up-gcp-monitoring-agent-rightsizing.md
 - **images:** []
 
-## Set up GCP Monitoring Agent for rightsizing
-
 In order for Cloudability to utilize additional utilization metrics such as memory, you will need to configure the GCP Monitoring Agent. Cloudability supports both the Ops Agent and the Legacy Monitoring Agent. The following instructions detail ways on how to configure each agent:
 
 1. Prerequisites To install the agent, ensure that all conditions are met. Installing the Ops Agent on individual VMs Installing the Legacy Cloud Monitoring agent on individual VMs
@@ -917,8 +901,6 @@ In order for Cloudability to utilize additional utilization metrics such as memo
   - 03-media/apptio-cloudability-standard/commitment-portfolio-3.jpg
   - 03-media/apptio-cloudability-standard/vc_ss6.jpg
   - 03-media/apptio-cloudability-standard/vc_ss7.jpg
-
-## Setting up Commitment Portfolio for GCP
 
 The Commitment Portfolio for GCP Spend-based commitments requires two additional permissions to populate beyond basic credentialing.
 
@@ -958,8 +940,6 @@ As part of the credentialing process, the next step is to create a new role unde
   - 03-media/apptio-cloudability-standard/gcp-standard-billing-1.jpg
   - 03-media/apptio-cloudability-standard/gcp-standard-billing-2.jpg
 
-## Setting up Custom Pricing Support for GCP
-
 Custom pricing support is now extended to GCP for Cloudability so that contractual discounts and other customer specific pricing is applied to GCP rightsizing recommendations and Workload Planning .
 
 1. Go to the GCP billing account.
@@ -977,8 +957,6 @@ Custom pricing support is now extended to GCP for Cloudability so that contractu
 - **source_path:** SSVCLNQ/product/apptio_help_center_ibm_cloud.html
 - **original_file:** cloudability-connect-cloud.md
 - **images:** []
-
-## Connect IBM Cloud
 
 It takes 4 to 24 hours before your initial cost and usage data appears in Cloudability. This depends on how long it takes IBM Cloud to generate your first billing reports.
 
@@ -1022,8 +1000,6 @@ Two ways to connect
   - 03-media/apptio-cloudability-standard/ibm24.jpg
   - 03-media/apptio-cloudability-standard/ibm25.jpg
   - 03-media/apptio-cloudability-standard/ibm26.jpg
-
-## Setup IBM Cloud Credentials using Cloudability Method
 
 ### Summary
 
@@ -1155,8 +1131,6 @@ Step 7: Verify Credentials in Cloudability
 - **original_file:** cc-setup-cloud-credentials-using-deployable-architecture-da-app.md
 - **images:** []
 
-## Setup IBM Cloud Credentials using Deployable Architecture (DA) App
-
 The Deployable Architecture (DA) App , also known as IBM Cloudability Enablement , provides an alternative and streamlined way to connect your IBM Cloud account to Cloudability. This app simplifies the setup process and is the recommended method for faster credentialing. The DA App is available in the IBM Cloud Public Catalog . To learn more about its architecture and how to configure and deploy it, see the Cloudability Enablement DA App documentation .
 
 Using this method to credential your IBM Cloud account in Cloudability is completely optional.
@@ -1172,8 +1146,6 @@ To get help and support for IBM Cloudability Enablement using DA App, visit: Get
 - **source_path:** SSVCLNQ/admin/connect-jira-cloud.html
 - **original_file:** cloudability-connect-jira-cloud.md
 - **images:** []
-
-## Connect Jira Cloud
 
 This article explains how to set up Jira Cloud in Cloudability.
 
@@ -1212,8 +1184,6 @@ Check the status under Settings > Vendor Credentials .
 - **original_file:** cloudability-connect-microsoft-azure.md
 - **images:**
   - 03-media/apptio-cloudability-standard/azure-turbonomic-integration.jpg
-
-## Connect Microsoft Azure
 
 To configure the Cloudability credentials to access Azure cost management data by exporting a CSV file from the Azure Portal. The CSV file captures cost and usage data and saves it to Azure storage. The user is then provided the Cloudability access to that storage to read the data.
 
@@ -1274,8 +1244,6 @@ There are additional Turbonomic permissions that gets added to basic (Billing Da
 - **original_file:** azure-tags.md
 - **images:** []
 
-## Azure Tags
-
 Cloudability supports the below mentioned types of tags for Azure
 
 - Resource level tags These are part of the Azure Export files and no extra permissions are required within Cloudability for enabling these Tags format - cldy:Azure:ResourceTag:<resource tag key>
@@ -1311,8 +1279,6 @@ To enable the collection and processing of resource group tags, follow the steps
   - 03-media/apptio-cloudability-standard/blobid9.jpg
   - 03-media/apptio-cloudability-standard/clip_image001_-1832790195.png
   - 03-media/apptio-cloudability-standard/clip_image002_-821243953.png
-
-## Connecting with Azure EA - Cost Management Exports
 
 Overview
 
@@ -1452,8 +1418,6 @@ Click here to Set up Azure Rightsizing and Reserved Instance Planning for creden
   - 03-media/apptio-cloudability-standard/clip_image002_-821243953.png
   - 03-media/apptio-cloudability-standard/CLDY-Vendor-Creds-Azure-Verified.png
 
-## Connecting with Azure EA – Cost Details API
-
 Overview
 
 This guide walks you through the process of securely connecting your Azure EA environment to IBM Cloudability via Azure Cost Details APIs.
@@ -1538,8 +1502,6 @@ Frequently Asked Question’s
   - 03-media/apptio-cloudability-standard/blobid9.jpg
   - 03-media/apptio-cloudability-standard/clip_image001_-1832790195.png
   - 03-media/apptio-cloudability-standard/clip_image002_-821243953.png
-
-## Connecting with Azure MCA - Cost Management Exports
 
 Overview
 
@@ -1680,8 +1642,6 @@ Click here to Set up Azure Rightsizing and Reserved Instance Planning for creden
   - 03-media/apptio-cloudability-standard/clip_image002_-821243953.png
   - 03-media/apptio-cloudability-standard/CLDY-Vendor-Creds-Azure-Verified.png
 
-## Connecting with Azure MCA – Cost Details API
-
 Overview
 
 This guide walks you through the process of securely connecting your Azure MCA environment to IBM Cloudability via Azure Cost Details APIs.
@@ -1767,8 +1727,6 @@ Frequently Asked Questions
   - 03-media/apptio-cloudability-standard/azure-rightsizing-credentials.jpg
   - 03-media/apptio-cloudability-standard/azure_rightsizing16.jpg
 
-## Set up Advanced Credentials, Azure Rightsizing and Reserved Instance Planning
-
 Azure Subscription level credentialing unlocks the following features within Cloudability :
 
 Optimization - through Rightsizing, and Reserved Instances (RIs)
@@ -1853,8 +1811,6 @@ Click here to Set up Azure Memory Metrics Collection
 - **images:**
   - 03-media/apptio-cloudability-standard/azure_monitoring.jpg
 
-## Set up Azure Memory Metrics Collection
-
 *Azure Monitor Agent collects monitoring data from Azure virtual machines and pushes it to Azure Monitor.*
 
 ### About this task
@@ -1888,8 +1844,6 @@ For more information about Azure Monitor metrics, see Supported metrics with Azu
   - 03-media/apptio-cloudability-standard/Picture21.png
   - 03-media/apptio-cloudability-standard/Picture22.png
   - 03-media/apptio-cloudability-standard/Picture23.png
-
-## Connect Microsoft Entra ID
 
 Microsoft Entra ID (earlier known as Azure Active Directory) is a cloud-based Identity and Access Management (IAM) service which acts as an Identity Provider (IdP). It authenticates and verifies the identities of users, devices, and services for secure access to applications and resources.
 
@@ -1929,8 +1883,6 @@ Detailed Steps
   - 03-media/apptio-cloudability-standard/MongoDB-Permissions.jpeg
   - 03-media/apptio-cloudability-standard/MongoDB-API.jpeg
   - 03-media/apptio-cloudability-standard/MongoDB-CLDY.jpeg
-
-## Connect MongoDB
 
 Overview
 
@@ -2011,8 +1963,6 @@ Frequently Asked Questions
   - 03-media/apptio-cloudability-standard/cloudability-newrelic-credentails-list.jpg
   - 03-media/apptio-cloudability-standard/cloudability-newrelic-rightsizing-list.jpg
   - 03-media/apptio-cloudability-standard/cloudability-newrelic-datasource-filter.jpg
-
-## Connect New Relic
 
 New Relic is a popular application performance management (APM) platform. This integration enables Apptio Cloudability customers to leverage New Relic as their preferred utilization data provider, resulting in improved rightsizing recommendations for Amazon EC2, GCP GCE, and Azure Compute virtual machines. Support for multiple accounts is also included with this integration.
 
@@ -2108,8 +2058,6 @@ For additional information on connecting Google Cloud Platform services to New R
   - 03-media/apptio-cloudability-standard/OCI-generate-api-key.png
   - 03-media/apptio-cloudability-standard/generating__api_oci_3.jpg
   - 03-media/apptio-cloudability-standard/oracle-cloud-adding-credentials-child-tenancies.jpg
-
-## Connect Oracle Cloud
 
 To ensure full compatibility and support, please follow the connection steps as described. Custom configurations are not supported. If you have questions, reach out to IBM Support .
 
@@ -2286,8 +2234,6 @@ You can find below the list of permissions displayed in OCI credential details. 
 - **original_file:** cloud-federating-user-oci-credentialing.md
 - **images:** []
 
-## Federating a User for OCI Credentialing
-
 Summary
 
 This page outlines the step-by-step process to handle a federated user in an identity provider for OCI, specifically focusing on the creation and configuration of users and groups in the Oracle Identity Cloud Service (“IDCS”).
@@ -2350,8 +2296,6 @@ Provide the required details, including API keys and other relevant information,
 - **original_file:** cloudability-connect-pagerduty.md
 - **images:** []
 
-## Connect Pagerduty
-
 The following information will help you connect your Pagerduty Services to Cloudability.
 
 Steps for integration
@@ -2388,8 +2332,6 @@ Therefore, integration keys only allow sending alerts to a service.
 - **original_file:** cloudability-connect-snowflake.md
 - **images:**
   - 03-media/apptio-cloudability-standard/snowflake_1.jpg
-
-## Connect Snowflake
 
 You can connect your Snowflake account to Cloudability to enable the ingestion of Snowflake granular cost data for warehouses along with Snowflake warehouse and account level tags.
 
@@ -2496,8 +2438,6 @@ Without these, tag data cannot be ingested.
   - 03-media/apptio-cloudability-standard/ServiceNow-Creds.jpeg
   - 03-media/apptio-cloudability-standard/vc_ss8.jpg
 
-## Connect to ServiceNow
-
 Overview
 
 This guide walks you through the process of connecting your ServiceNow account to IBM Cloudability. Once connected, you’ll gain access to using ServiceNow within Cloudability.
@@ -2585,8 +2525,6 @@ In case the domain has changed , please add a new credential by following all th
   - 03-media/apptio-cloudability-standard/new-statement-group.png
   - 03-media/apptio-cloudability-standard/new-statement-condition.png
   - 03-media/apptio-cloudability-standard/publish-servicenow-business-dimension.png
-
-## Connect to ServiceNow CMDB
 
 ### Overview
 
@@ -2743,8 +2681,6 @@ When the effective date becomes current the status will change to “Published�
   - 03-media/apptio-cloudability-standard/turbonomics_usermanagement.jpg
   - 03-media/apptio-cloudability-standard/turbonomics_usermanagement2.jpg
 
-## Connect Turbonomic and Cloudability
-
 This integration enables Apptio Cloudability customers to leverage Turbonomic insights within Cloudability.
 
 Before you start
@@ -2780,8 +2716,6 @@ Integration Steps
   - 03-media/apptio-cloudability-standard/clip_image001_1499665667.png
   - 03-media/apptio-cloudability-standard/clip_image002_-1577046812.png
   - 03-media/apptio-cloudability-standard/AWSp.png
-
-## Connecting with AWS - Customer Integration Guide
 
 Overview
 
@@ -2900,8 +2834,6 @@ AWS FAQ
 - **original_file:** cacig-aws-obtaining-memory-metrics-ec2-instances-windows-linux.md
 - **images:**
   - 03-media/apptio-cloudability-standard/AWS-cloudwatch.jpg
-
-## AWS - Obtaining Memory Metrics for EC2 Instances - Windows & Linux
 
 The Cloudability Rightsizing Engine evaluates the underlying resource utilization for each EC2 instance and recommends instance types that are well matched to each utilization profile. The end goal is to keep your costs down while being mindful of operational risks.
 
@@ -3134,8 +3066,6 @@ Install and run the Datadog agent
 - **original_file:** guide-aws-credentialing-using-bulk-actions.md
 - **images:** []
 
-## AWS Credentialing using Bulk Actions
-
 Bulk Actions on Vendor Credentials screen allows admins to quickly complete the advance credentialing process within Cloudability.
 
 1. Save multiple non credentialed accounts quickly
@@ -3193,8 +3123,6 @@ This would trigger the bulk verify process and the bulk actions button would be 
   - 03-media/apptio-cloudability-standard/AWS-linked2.png
   - 03-media/apptio-cloudability-standard/clip_image002_1795777736.png
   - 03-media/apptio-cloudability-standard/clip_image003_-445731613.png
-
-## AWS Linked Account Credentialing
 
 After configuring your consolidated account for data ingestion, Cloudability will display linked accounts under the Consolidated account in a few hours, but they don't contain any AWS API data yet.
 
@@ -3301,8 +3229,6 @@ Manual Verification via UI:
   - 03-media/apptio-cloudability-standard/tag8.png
   - 03-media/apptio-cloudability-standard/tag9.png
 
-## AWS Tags
-
 Cloudability supports the below tags for AWS:
 
 - Resource level tags These are part of the AWS CUR files and no extra permissions are required within Cloudability for enabling these
@@ -3343,8 +3269,6 @@ Option 1 - Re-credential your AWS master payer account(s) for which you want to 
 - **original_file:** guide-frequently-asked-questions-connecting-aws.md
 - **images:** []
 
-## Frequently Asked Questions for Connecting with AWS
-
 - I don’t see any cost data after completing the account credentialing steps, what should be done? Verify the correct billing files are in your S3 bucket Navigate to your S3 bucket shown on the AWS Billing and Cost Management page , found under Cost and Usage Analysis – Data Exports. When selected, you should see the prefix you created previously, you can click into it and browse into the billing exports Make sure you see files similar to the following: <BillingReportName>.csv.gz <BillingReportName>-Manifest.json If you don’t see files like these, then you need to ensure your Cost and Usage report is enabled for resource IDs and tags. For more information, see Configure consolidated account credentials .
 
 - I recently turned on the AWS Cost and Usage report and credentialed in Cloudability. How long will it take to see the Cost and Usage data? It may take up to 24 hours for your first Cost and Usage report to generate in AWS. For more information, please refer: https://www.ibm.com/docs/en/cloudability-commercial/cloudability-premium/saas?topic=ts-cloudability-cloudability-cost-usage-data-availability-in-reporting
@@ -3377,8 +3301,6 @@ Option 1 - Re-credential your AWS master payer account(s) for which you want to 
 - **source_path:** SSVCLNQ/chatbot/chatbot-sso.html
 - **original_file:** started-how-request-new-updated-ssocertificate.md
 - **images:** []
-
-## How to Request a New Or Updated SSO/Certificate
 
 How to Request a New SSO Install
 
