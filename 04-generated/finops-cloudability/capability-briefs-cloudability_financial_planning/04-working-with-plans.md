@@ -4,7 +4,7 @@ practice: finops
 language: en
 doc_type: capability_brief
 products_covered:
-  - apptio-financial-planning
+  - cloudability-financial-planning
 status: draft
 generated_from:
   - kb/02-product-docs/apptio-financial-planning/en/plans-introduction.md
