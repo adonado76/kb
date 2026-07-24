@@ -35,6 +35,7 @@ generated_from:
   - kb/02-product-docs/apptio-tbm-studio/en/visualizations-heatmaps.md
   - kb/02-product-docs/apptio-tbm-studio/en/visualizations-bubble-charts.md
 last_updated: "2026-07-07"
+last_agent_update: "2026-07-23"
 ---
 # IBM Apptio Report Studio (New) — Components & Visualizations — Cómo Apptio TBM Studio Aborda Esta Capacidad
 
@@ -56,7 +57,7 @@ Con los conceptos base del New Report Studio ya cubiertos, este capítulo docume
 
 **HTML** — texto formateado (encabezados, párrafos, listas), hipervínculos internos/externos, e imágenes o iconos estáticos.
 
-**Group** — agrupa múltiples componentes (selección múltiple con Shift + clic, luego Ctrl/Cmd+G) para mantener contenido relacionado unido, moverlos juntos, o simplificar layouts complejos — con opción de "framed group" con propiedades de formato propias.
+**Group** — agrupa múltiples componentes para poder seleccionarlos, moverlos y gestionarlos como una sola unidad. Se crea seleccionando los componentes (Shift + clic para selección múltiple) y luego usando el ícono **Group** de la barra de herramientas o el atajo **Ctrl+G** (Windows) / **⌘+G** (macOS); para deshacerlo, el ícono **Ungroup** o **Ctrl+Shift+G** / **⌘+Shift+G**, quedando los componentes individuales en sus posiciones actuales del canvas. **La distinción que realmente importa es framed vs. unframed, y no es cosmética: define el alcance (scope) de las interacciones del reporte.** Todo grupo nuevo nace **unframed** — sirve para organizar, seleccionar y mover componentes sin alterar el comportamiento de las interacciones, y los componentes interactivos que contenga (slicers, column pickers) **siguen afectando a los componentes de fuera del grupo como si no estuvieran agrupados**. Al activar el toggle **Framed** (seleccionar el grupo en el panel **Layers** → panel **Format** → encender **Framed**), el grupo pasa a definir un ámbito propio: sus slicers y column pickers afectan **únicamente a los componentes dentro de ese mismo framed group**. Desactivar el toggle le quita el ámbito. Es el mecanismo con el que se logra que distintas secciones de un mismo reporte respondan de forma independiente a las interacciones del usuario.
 
 **Tabs** — divide un reporte grande o complejo en secciones lógicas, con estilo global configurable (color de barra y fondo de pestaña) y, por pestaña individual, **reglas de visibilidad** propias (documentadas en su propio artículo — probablemente condicionadas por rol o filtro).
 
@@ -77,6 +78,8 @@ Con los conceptos base del New Report Studio ya cubiertos, este capítulo docume
 ## Por qué importa en una conversación con el cliente
 
 El catálogo completo de componentes y visualizaciones es el mejor recurso para una sesión de diseño de reporte con un cliente: en lugar de describir capacidades en abstracto, se puede recorrer visualmente cada componente y visualización disponible, ayudando al cliente a especificar exactamente qué necesita en su primer conjunto de reportes.
+
+Los **framed groups** merecen mención explícita en cualquier sesión de diseño donde el cliente pida un reporte con varias secciones que se filtren de forma independiente — es la respuesta directa a "quiero dos bloques en la misma página, cada uno con su propio slicer, sin que uno afecte al otro". Sin framed groups la petición parece requerir reportes separados; con ellos es una propiedad de configuración de un grupo.
 
 Las dimensiones virtuales ("ghost") del Column Picker son un detalle técnico que vale la pena mencionar a cualquier arquitecto de reportes del cliente preocupado por la complejidad de configurar drill-through sobre columnas opcionales — resuelve un problema real de configuración que de otra forma requeriría trabajo adicional.
 
